@@ -1,0 +1,10 @@
+{
+  "criteria": {
+    "requirement:": {
+      "trigger": "minecraft:player_killed_entity"
+    }
+  },
+  "rewards": {
+    "function": "src:generic/input/kill"
+  }
+}

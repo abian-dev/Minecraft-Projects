@@ -1,0 +1,69 @@
+## Resets everything
+# message
+tellraw @a ["",{"text":"restarting src...","color":"red"}]
+
+# teams
+team remove ally
+team remove enemy
+
+# input
+scoreboard objectives remove in.rmb.holdTime
+scoreboard objectives remove in.rmb.on
+scoreboard objectives remove in.rmb.off
+
+scoreboard objectives remove in.jump.on
+scoreboard objectives remove in.jump.off
+
+# cd
+scoreboard objectives remove quickswap.cd
+scoreboard objectives remove weapon.cd
+scoreboard objectives remove weapon.cd2
+scoreboard objectives remove armor.cd
+scoreboard objectives remove armor.cd2
+
+# effect
+scoreboard objectives remove effect.burning.duration
+scoreboard objectives remove effect.frozen.duration
+scoreboard objectives remove effect.stun.duration
+scoreboard objectives remove effect.lockedOn.duration
+
+# criterion
+scoreboard objectives remove criterion.death
+scoreboard objectives remove criterion.dmgdealt
+scoreboard objectives remove criterion.drop
+scoreboard objectives remove criterion.leave
+
+# spawning
+scoreboard objectives remove spawning.cd
+scoreboard objectives remove spawning.cdMax
+
+scoreboard objectives remove spawning.entity
+scoreboard objectives remove spawning.entityMax
+
+scoreboard objectives remove spawning.spawner.id
+
+# system
+scoreboard objectives remove system.deathTimer
+scoreboard objectives remove system.global
+scoreboard objectives remove system.ui
+scoreboard objectives remove system.ui.id
+
+# extra
+scoreboard objectives remove selecteditem.slot.curr
+scoreboard objectives remove selecteditem.slot.prev
+
+scoreboard objectives remove user.id
+
+scoreboard objectives remove ability.kills
+
+# mobs
+scoreboard objectives remove mob.motion.x
+scoreboard objectives remove mob.motion.y
+scoreboard objectives remove mob.motion.z
+
+scoreboard objectives remove mob.motion.dx
+scoreboard objectives remove mob.motion.dy
+scoreboard objectives remove mob.motion.dz
+
+# generic
+function src:generic/restart

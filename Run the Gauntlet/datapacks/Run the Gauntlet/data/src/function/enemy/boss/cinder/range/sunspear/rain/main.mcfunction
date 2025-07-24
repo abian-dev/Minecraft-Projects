@@ -1,0 +1,2 @@
+## Running at rain sunspear
+function labyrinth:generic/functions/slowcast/start {"speed":"10","slowcaster":"labyrinth.cinder.sunspearRain","hitEnd":"function labyrinth:mobs/bosses/cinder/range/sunspear/rain/explode","hitBlock":"function labyrinth:mobs/bosses/cinder/range/sunspear/rain/explode","hitEntity":"function labyrinth:mobs/bosses/cinder/range/sunspear/throw/explode","vfx":"function labyrinth:mobs/bosses/cinder/range/sunspear/vfx_spear_moving"}

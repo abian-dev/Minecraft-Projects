@@ -1,0 +1,2 @@
+## Summons health supply
+summon armor_stand ~ ~ ~ {Pose:{Head:[0f,0f,0f]},Invisible:1b,Small:1b,DisabledSlots:4144959,Tags:["supply","supply.health"],equipment:{chest:{id:diamond_chestplate,unbreakable:{}}}}

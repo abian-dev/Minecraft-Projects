@@ -1,0 +1,8 @@
+## Executed at frag every tick
+# vfx
+particle dust{color:[1.0,0.5,0.0],scale:1.0} ~ ~0.3 ~ 0.2 0.2 0.2 0 10 force
+particle flame ~ ~0.3 ~ 0 0 0 0 1 force
+
+# time until detonation
+scoreboard players add @s generic.math 1
+execute if score @s generic.math matches 30.. run function src:armor/praetor/frag/explode

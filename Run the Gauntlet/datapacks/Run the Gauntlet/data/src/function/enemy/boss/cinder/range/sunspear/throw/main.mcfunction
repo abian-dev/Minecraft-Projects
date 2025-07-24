@@ -1,0 +1,2 @@
+## Running at thrown sunspear
+function labyrinth:generic/functions/slowcast/start {"speed":"10","slowcaster":"labyrinth.cinder.sunspearThrow","hitEnd":"function none","hitBlock":"function labyrinth:mobs/bosses/cinder/range/sunspear/throw/explode","hitEntity":"function labyrinth:mobs/bosses/cinder/range/sunspear/throw/explode","vfx":"function labyrinth:mobs/bosses/cinder/range/sunspear/vfx_spear_moving"}

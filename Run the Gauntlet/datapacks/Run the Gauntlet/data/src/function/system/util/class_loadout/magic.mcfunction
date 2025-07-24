@@ -1,0 +1,1 @@
+## Gives starting loadout for magic
