@@ -3,14 +3,19 @@
 
 # Minecraft Projects — Clean Save Repository
 ## Description
-This repository serves as a version control for my Minecraft Projects. Each world save is a hyper-clean snapshot that includes only:
-* Overworld builds
-* Relevant datapacks
+This repository serves as a version control for my Minecraft Projects, including:
+* Hyper-clean **world saves** with only builds and relevant datapacks
+* Isolated **3D Model saves**
 
 ## How to Use
+### For Worlds:
 1. **Download** any world folder from this repository.
 2. **Place it** inside your Minecraft `saves` directory.
 3. **Launch** Minecraft and select the world.
+
+### For 3D Models:
+* These saves are used to create and preview custom item models
+* A **resource pack** must be set up for them to appear correctly
 
 ## Contributors
 <table>
