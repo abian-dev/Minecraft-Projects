@@ -1,5 +1,5 @@
 [![Downloads](https://img.shields.io/github/downloads/abian-dev/Minecraft-Projects/total)](https://github.com/abian-dev/Minecraft-Projects/releases)
-[![Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors)
+[![Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square)](#contributors)
 
 # Minecraft Projects — Clean Save Repository
 ## Description
