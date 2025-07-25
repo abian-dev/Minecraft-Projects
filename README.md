@@ -23,8 +23,16 @@ This repository serves as a version control for my Minecraft Projects, including
     <td align="center">
       <a href="https://github.com/abian-dev">
         <img src="https://avatars.githubusercontent.com/u/210317798?v=4" width="100" alt="abian-dev" /><br />
-        <sub><b>Abian</b></sub>
-      </a><br />
+        <sub><b>Abian</b></sub><br />
+        <sub>Contributor to SSB<br />Made RTG & 3D Models</sub>
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://github.com/LaiE89">
+        <img src="https://avatars.githubusercontent.com/u/97263413?v=4" width="100" alt="LaiE89" /><br />
+        <sub><b>LaiE89</b></sub><br />
+        <sub>Contributor to SSB<br /><br /></sub> <!-- Padding added -->
+      </a>
     </td>
   </tr>
 </table>
