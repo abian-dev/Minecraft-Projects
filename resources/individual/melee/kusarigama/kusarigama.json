@@ -1,9 +1,10 @@
 {
+	"format_version": "1.21.6",
 	"credit": "Made with Blockbench",
 	"texture_size": [32, 32],
 	"textures": {
-		"0": "weapons/kusarigama",
-		"particle": "weapons/kusarigama"
+		"0": "kusarigama",
+		"particle": "kusarigama"
 	},
 	"elements": [
 		{
