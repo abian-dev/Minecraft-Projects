@@ -1,0 +1,19 @@
+{
+  "model": {
+    "type": "select",
+    "property": "custom_model_data",
+    "fallback": {
+      "type": "model",
+      "model": "item/spyglass"
+    },
+    "cases": [
+      {
+        "when": "ranged.precisionbolt",
+        "model": {
+          "type": "model",
+          "model": "item/ranged/precision_bolt"
+        }
+      }
+    ]
+  }
+}

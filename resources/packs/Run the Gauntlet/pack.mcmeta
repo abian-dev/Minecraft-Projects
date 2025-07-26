@@ -1,0 +1,9 @@
+{
+  "pack": {
+    "pack_format": 64,
+    "description": [
+      { "text": "Made by ", "color": "gray" },
+      { "text": "Abian", "color": "green" }
+    ]
+  }
+}
