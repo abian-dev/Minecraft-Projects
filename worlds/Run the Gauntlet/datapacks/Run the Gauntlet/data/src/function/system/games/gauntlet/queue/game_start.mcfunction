@@ -17,10 +17,6 @@ scoreboard players reset @a[tag=system.arena.inside] system.deathTimer
 scoreboard players set %arena.wave system.global 1
 execute store result storage spawning wave.num int 1 run scoreboard players get %arena.wave system.global
 
-# ensure no lasting entities
-kill @e[type=!player,predicate=src:location/gauntlet]
-kill @e[type=!player,predicate=src:location/gauntlet]
-
 # fx
 time set night
 schedule clear src:system/games/gauntlet/queue/countdown

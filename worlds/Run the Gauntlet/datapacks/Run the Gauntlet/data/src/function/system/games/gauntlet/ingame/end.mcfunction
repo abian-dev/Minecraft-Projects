@@ -1,4 +1,7 @@
 ## When game ends
+forceload add -117 0 117 -139
+forceload add 117 139 -117 0
+
 # kill all entities
 kill @e[type=!player,predicate=src:location/gauntlet]
 kill @e[type=!player,predicate=src:location/gauntlet]
@@ -9,3 +12,4 @@ execute if score %arena.playersAlive system.global matches 1.. as @a[tag=system.
 
 # reset
 function src:system/games/gauntlet/reset_global
+forceload remove all

@@ -1,0 +1,37 @@
+spawn example call: function src:spawning/summon/entity {"entity":"zombie","id":"1"}
+
+(basic survival)	
+# TIER 0: OVERWORLD
+* zombie
+* skeleton
+BOSS:
+
+(dark medieval)
+# TIER 1: DARK SOULS
+* knight
+* archer
+BOSS: SOUL OF CINDER
+
+(horror)
+# TIER 2: EVIL DEAD
+* deadite
+* jeff
+* possessed
+BOSS: PYRAMID HEAD
+
+(hell)
+# TIER 3: HELL
+* apostle
+* hell knight
+* revenant
+BOSS:
+
+(lovecraftian)
+TIER 4: ABYSS
+*
+BOSS:
+
+(surreal madness)
+TIER 5: SUPER HELL
+* 
+BOSS:

@@ -15,16 +15,16 @@ execute unless score @s in.jump.on matches ..0 run scoreboard players remove @s 
 execute unless score @s in.jump.off matches ..0 run scoreboard players remove @s in.jump.off 1
 execute if score @s in.jump.on matches 1 run scoreboard players set @s in.jump.off 1
 
+# ui
+function src:system/ui/player/main
+execute if items entity @s weapon.* *[custom_data={leave.gauntlet:1b}] if score @s in.rmb.on matches 1.. run function src:system/games/gauntlet/queue/session/leave
+
 # cooldowns
 execute unless score @s armor.cd matches ..0 run scoreboard players remove @s armor.cd 1
 execute unless score @s armor.cd2 matches ..0 run scoreboard players remove @s armor.cd2 1
 execute unless score @s weapon.cd matches ..0 run scoreboard players remove @s weapon.cd 1
 execute unless score @s weapon.cd2 matches ..0 run scoreboard players remove @s weapon.cd2 1
 execute unless score @s quickswap.cd matches ..0 run scoreboard players remove @s quickswap.cd 1
-
-# ui
-function src:system/ui/player/main
-execute if items entity @s weapon.* *[custom_data={leave.gauntlet:1b}] if score @s in.rmb.on matches 1.. run function src:system/games/gauntlet/queue/session/leave
 
 ## The following executes only if the entity is not stunned
 execute if score @s effect.stun.duration matches 1.. run return fail

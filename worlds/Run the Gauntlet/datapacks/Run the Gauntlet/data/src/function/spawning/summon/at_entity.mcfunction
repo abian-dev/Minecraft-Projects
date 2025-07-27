@@ -1,8 +1,7 @@
 ## Executes at spawned entity
 # merge specific data
-$function src:spawning/summon/id/$(id)
+$function src:enemy/id/$(id)
 data merge entity @s {drop_chances:{feet:0.000,legs:0.000,chest:0.000,head:0.000,body:0.000,mainhand:0.000,offhand:0.000,saddle:0.000}}
-data merge entity @s {PersistenceRequired:1b}
 
 # join team
 team join enemy

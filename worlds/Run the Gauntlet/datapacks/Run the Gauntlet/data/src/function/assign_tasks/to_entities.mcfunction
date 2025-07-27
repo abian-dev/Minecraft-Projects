@@ -8,3 +8,8 @@ execute if score @s effect.lockedOn.duration matches 1.. run function src:status
 
 ## The following executes only if the entity is not stunned
 execute if score @s effect.stun.duration matches 1.. run return fail
+
+# common enemy moves
+execute if entity @s[tag=enemy.dash] run return run function src:enemy/util/dash/play
+execute if entity @s[tag=enemy.leap] run return run function src:enemy/util/leap/play
+execute if entity @s[tag=enemy.spin] run return run function src:enemy/util/spin/play

@@ -1,3 +1,2 @@
 ## Initializes launch end marker
 tp @s ~ ~ ~ facing entity @p
-execute rotated as @s run function labyrinth:generic/functions/raycast/start {"length":"100","hitEnd":"function labyrinth:mobs/bosses/cinder/range/leaping_slash/end_marker","hitBlock":"function labyrinth:mobs/bosses/cinder/range/leaping_slash/end_marker","hitEntity":"function labyrinth:mobs/bosses/cinder/range/leaping_slash/end_marker","vfx":"function none"}
