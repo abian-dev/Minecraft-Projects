@@ -14,6 +14,11 @@ scoreboard objectives remove in.rmb.off
 scoreboard objectives remove in.jump.on
 scoreboard objectives remove in.jump.off
 
+scoreboard objectives remove in.w.on
+scoreboard objectives remove in.a.on
+scoreboard objectives remove in.s.on
+scoreboard objectives remove in.d.on
+
 # cd
 scoreboard objectives remove quickswap.cd
 scoreboard objectives remove weapon.cd
@@ -55,6 +60,7 @@ scoreboard objectives remove selecteditem.slot.prev
 scoreboard objectives remove user.id
 
 scoreboard objectives remove ability.kills
+scoreboard objectives remove ability.uses
 
 # mobs
 scoreboard objectives remove mob.motion.x

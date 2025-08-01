@@ -1,6 +1,6 @@
 ## Executed at entities with burning every second
 scoreboard players remove @s effect.burning.duration 1
-execute if score @s effect.burning.duration matches ..0 run scoreboard players reset @s effect.burning.duration
+execute if score @s effect.burning.duration matches ..0 run return run scoreboard players reset @s effect.burning.duration
 
 # effect
 damage @s 3 src:bypass_player_attack_no_kb by @s

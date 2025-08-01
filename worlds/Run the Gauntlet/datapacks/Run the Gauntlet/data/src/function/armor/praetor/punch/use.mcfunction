@@ -1,7 +1,7 @@
 ## Uses blood punch
 # aoe damage
 tag @s add praetor.punch.user
-execute positioned ^ ^3 ^ as @e[type=!#src:non_entity,distance=..5,tag=!praetor.punch.user,team=!ally] at @s run function src:armor/praetor/punch/hit
+execute positioned ^ ^ ^3 as @e[type=!#src:non_entity,distance=..5,tag=!praetor.punch.user,team=!ally] at @s run function src:armor/praetor/punch/hit
 tag @s remove praetor.punch.user
 
 # fx

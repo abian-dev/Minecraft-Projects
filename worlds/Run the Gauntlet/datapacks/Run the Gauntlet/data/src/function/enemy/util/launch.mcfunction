@@ -1,5 +1,5 @@
-# example call: function src:enemy/util/leap/launch {"sVert":"1.0"}
-## Leap launch function
+# example call: function src:enemy/util/launch {"sVert":"1.0"}
+## Launch to player function
 # get source and target pos
 execute store result score @s mob.motion.x run data get entity @s Pos[0] 1000
 execute store result score @s mob.motion.y run data get entity @s Pos[1] 1000

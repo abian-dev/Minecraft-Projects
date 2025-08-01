@@ -11,6 +11,11 @@ scoreboard objectives add in.rmb.off dummy
 scoreboard objectives add in.jump.on dummy
 scoreboard objectives add in.jump.off dummy
 
+scoreboard objectives add in.w.on dummy
+scoreboard objectives add in.a.on dummy
+scoreboard objectives add in.s.on dummy
+scoreboard objectives add in.d.on dummy
+
 # cd
 scoreboard objectives add quickswap.cd dummy
 scoreboard objectives add weapon.cd dummy
@@ -52,6 +57,7 @@ scoreboard objectives add selecteditem.slot.prev dummy
 scoreboard objectives add user.id dummy
 
 scoreboard objectives add ability.kills dummy
+scoreboard objectives add ability.uses dummy
 
 # mobs
 scoreboard objectives add mob.motion.x dummy

@@ -3,13 +3,23 @@
 execute if score @s criterion.drop matches 1.. as @e[type=item] at @s run function src:system/util/drop_prevent
 execute if score @s criterion.leave matches 1.. run function src:system/util/reset
 
-# right click detection
+# right click
 execute unless score @s in.rmb.on matches ..0 run scoreboard players remove @s in.rmb.on 1
 execute unless score @s in.rmb.off matches ..0 run scoreboard players remove @s in.rmb.off 1
 execute if score @s in.rmb.on matches 1 run scoreboard players set @s in.rmb.off 1
 execute if score @s in.rmb.on matches 0 run scoreboard players reset @s in.rmb.holdTime
 
-# jump detection
+# wasd
+execute unless score @s in.w.on matches ..0 run scoreboard players remove @s in.w.on 1
+execute unless score @s in.a.on matches ..0 run scoreboard players remove @s in.a.on 1
+execute unless score @s in.s.on matches ..0 run scoreboard players remove @s in.s.on 1
+execute unless score @s in.d.on matches ..0 run scoreboard players remove @s in.d.on 1
+execute if predicate src:input/forward run function src:generic/input/forward
+execute if predicate src:input/backward run function src:generic/input/backward
+execute if predicate src:input/left run function src:generic/input/left
+execute if predicate src:input/right run function src:generic/input/right
+
+# jump
 execute if predicate src:input/jump run function src:generic/input/jump
 execute unless score @s in.jump.on matches ..0 run scoreboard players remove @s in.jump.on 1
 execute unless score @s in.jump.off matches ..0 run scoreboard players remove @s in.jump.off 1
@@ -38,6 +48,9 @@ execute if predicate src:mainhand/ballista run function src:weapon/ballista/main
 execute if predicate src:mainhand/precision_bolt run function src:weapon/precision_bolt/main
 execute if predicate src:mainhand/rocket_launcher run function src:weapon/rocket_launcher/main
 execute if predicate src:mainhand/super_shotgun run function src:weapon/super_shotgun/main
+
+execute if predicate src:mainhand/mirage_edge run function src:weapon/mirage_edge/main
+execute if predicate src:mainhand/yamato run function src:weapon/yamato/main
 
 # reset criterion scores
 scoreboard players reset @s criterion.dmgdealt

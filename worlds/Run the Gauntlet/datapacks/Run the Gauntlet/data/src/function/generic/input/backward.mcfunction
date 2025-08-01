@@ -1,0 +1,1 @@
+scoreboard players set @s in.s.on 3
