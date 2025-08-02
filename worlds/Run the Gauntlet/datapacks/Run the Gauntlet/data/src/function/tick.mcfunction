@@ -4,6 +4,7 @@ execute as @a at @s run function src:assign_tasks/to_players
 execute as @e[type=area_effect_cloud] at @s run function src:assign_tasks/to_aecs
 execute as @e[type=armor_stand] at @s run function src:assign_tasks/to_stands
 execute as @e[type=chest_minecart] at @s run function src:assign_tasks/to_carts
+execute as @e[type=item_display] at @s run function src:assign_tasks/to_itemdisplays
 
 # assign scheduled tasks to entities
 schedule function src:assign_tasks/schedule/to_entities 10t append

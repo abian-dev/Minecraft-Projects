@@ -1,0 +1,19 @@
+{
+  "model": {
+    "type": "select",
+    "property": "custom_model_data",
+    "fallback": {
+      "type": "model",
+      "model": "item/iron_sword"
+    },
+    "cases": [
+      {
+        "when": "melee.yamato",
+        "model": {
+          "type": "model",
+          "model": "item/melee/yamato"
+        }
+      }
+    ]
+  }
+}

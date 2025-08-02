@@ -40,6 +40,7 @@ execute unless score @s quickswap.cd matches ..0 run scoreboard players remove @
 execute if score @s effect.stun.duration matches 1.. run return fail
 
 # armor
+execute if predicate src:armorset/berserker run function src:armor/berserker/main
 execute if predicate src:armorset/praetor run function src:armor/praetor/main
 
 # weapons

@@ -1,11 +1,11 @@
 ## Uses blistering blades
 tag @s add mirageedge.blistering.user
-execute rotated ~ 0 positioned ^1.0 ^2.5 ^ run function src:weapon/mirage_edge/blistering/summon
-execute rotated ~ 0 positioned ^1.0 ^2.0 ^ run function src:weapon/mirage_edge/blistering/summon
-execute rotated ~ 0 positioned ^1.0 ^1.5 ^ run function src:weapon/mirage_edge/blistering/summon
 execute rotated ~ 0 positioned ^-1.0 ^2.5 ^ run function src:weapon/mirage_edge/blistering/summon
+execute rotated ~ 0 positioned ^1.0 ^2.5 ^ run function src:weapon/mirage_edge/blistering/summon
 execute rotated ~ 0 positioned ^-1.0 ^2.0 ^ run function src:weapon/mirage_edge/blistering/summon
+execute rotated ~ 0 positioned ^1.0 ^2.0 ^ run function src:weapon/mirage_edge/blistering/summon
 execute rotated ~ 0 positioned ^-1.0 ^1.5 ^ run function src:weapon/mirage_edge/blistering/summon
+execute rotated ~ 0 positioned ^1.0 ^1.5 ^ run function src:weapon/mirage_edge/blistering/summon
 
 # fx
 particle flash ^ ^1 ^1 0 0 0 0 1 force
