@@ -1,5 +1,6 @@
 ## Executed at round trip every tick
 tp @s ~ ~ ~ ~40 ~
+execute positioned ^ ^1.25 ^1.50 run function src:weapon/mirage_edge/round_trip/vfx_sword
 particle dust{color:[0.0,1.0,1.0],scale:1.0} ^ ^1.25 ^-2.00 0 0 0 0 1 force
 particle dust{color:[0.0,1.0,1.0],scale:1.0} ^ ^1.25 ^2.00 0 0 0 0 1 force
 
