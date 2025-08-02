@@ -12,6 +12,7 @@ execute if entity @s[tag=rocketlauncher.rockethoming] run return run function sr
 execute if entity @s[tag=supershotgun.bullet] run return run function src:weapon/super_shotgun/primary/tick
 execute if entity @s[tag=supershotgun.meathook] run return run function src:weapon/super_shotgun/meathook/tick
 
+execute if entity @s[tag=mirageedge.blistering] run return run function src:weapon/mirage_edge/blistering/tick
 execute if entity @s[tag=mirageedge.rain] run return run function src:weapon/mirage_edge/rain/tick
 execute if entity @s[tag=mirageedge.stinger] run return run function src:weapon/mirage_edge/stinger/tick
 execute if entity @s[tag=yamato.jce] run return run function src:weapon/yamato/judgement_cut_end/tick

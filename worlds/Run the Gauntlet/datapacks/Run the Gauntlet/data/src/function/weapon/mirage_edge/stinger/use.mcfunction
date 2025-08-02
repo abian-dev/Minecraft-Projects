@@ -4,7 +4,7 @@ attribute @s gravity modifier add gravity.mirageedge.stinger -1 add_multiplied_t
 function src:weapon/mirage_edge/stinger/range/start
 
 # fx
-execute rotated ~ 90 run function src:generic/vfx/expanding_circle/play {"particle":"soul_fire_flame","speed":"0.00000015"}
+execute rotated ~ 90 run function src:generic/vfx/expanding_circle/play {"particle":"smoke","speed":"0.00000015"}
 playsound entity.ghast.shoot neutral @a[distance=..20] ~ ~ ~ 1 0 1
 
 # reset
