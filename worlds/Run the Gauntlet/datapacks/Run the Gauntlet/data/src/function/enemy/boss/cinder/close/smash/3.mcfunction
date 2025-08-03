@@ -1,2 +1,2 @@
 ## Smash frame 3
-execute rotated ~ 280 positioned ~ ~1 ~ run function labyrinth:generic/functions/raycast_mode/ignore_all/start {"length":"7","hitEnd":"particle flame ~ ~ ~ 0.2 0.2 0.2 0 20","vfx":"function none"}
+execute rotated ~ 280 positioned ~ ~1 ~ run function labyrinth:generic/functions/raycast_mode/ignore_all/start {"length":"7","hitEnd":"particle flame ~ ~ ~ 0.2 0.2 0.2 0 20 force","vfx":"function none"}

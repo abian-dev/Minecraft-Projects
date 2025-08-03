@@ -9,4 +9,4 @@ effect give @s slowness 1 9 true
 effect give @s weakness 1 9 true
 
 # fx
-particle enchanted_hit ~ ~2 ~ 0 0 0 0.5 5
+particle enchanted_hit ~ ~2 ~ 0 0 0 0.5 5 force

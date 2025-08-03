@@ -1,6 +1,6 @@
 ## Shine Ray Step Function
 # vfx
-$particle $(particle) ~ ~ ~
+$particle $(particle) ~ ~ ~ 0 0 0 0 1 force
 
 # recursive call
 scoreboard players remove @s generic.raycast.step 1

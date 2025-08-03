@@ -8,6 +8,6 @@ scoreboard players set @s effect.stun.duration 2
 execute unless entity @s[type=player] if entity @s[nbt={HurtTime:10s}] positioned ~ ~1 ~ run function src:supply/health/launch
 
 # fx
-particle end_rod ~ ~1 ~ 0 0 0 0.1 1
-particle snowflake ~ ~1 ~ 0 0 0 0.1 5
+particle end_rod ~ ~1 ~ 0 0 0 0.1 1 force
+particle snowflake ~ ~1 ~ 0 0 0 0.1 5 force
 playsound entity.player.hurt_freeze neutral @a[distance=..5] ~ ~ ~ 1 0 1

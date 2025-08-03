@@ -1,29 +1,29 @@
 ## Sunspear particles while stationary
 function labyrinth:generic/vfx/radial_forked_lightning/play {"inaccuracy":"20","rootsMin":"1","rootsMax":"2","branchesMin":"3","branchesMax":"5","branchLengthMin":"5","branchLengthMax":"7","particle":"dust{color:[1.0,1.0,0.0],scale:0.5}"}
-particle dust{color:[1.0,1.0,0.0],scale:0.5} ^ ^ ^-2.6 0.1 0.1 0.1 0 1 force @a
-particle dust{color:[1.0,1.0,0.0],scale:0.5} ^ ^ ^-2.4 0.1 0.1 0.1 0 1 force @a
-particle dust{color:[1.0,1.0,0.0],scale:0.5} ^ ^ ^-2.2 0.1 0.1 0.1 0 1 force @a
-particle dust{color:[1.0,1.0,0.0],scale:0.5} ^ ^ ^-2.0 0.1 0.1 0.1 0 1 force @a
-particle dust{color:[1.0,1.0,0.0],scale:0.5} ^ ^ ^-1.8 0.1 0.1 0.1 0 1 force @a
-particle dust{color:[1.0,1.0,0.0],scale:0.5} ^ ^ ^-1.6 0.1 0.1 0.1 0 1 force @a
-particle dust{color:[1.0,1.0,0.0],scale:0.5} ^ ^ ^-1.4 0.1 0.1 0.1 0 1 force @a
-particle dust{color:[1.0,1.0,0.0],scale:0.5} ^ ^ ^-1.2 0.1 0.1 0.1 0 1 force @a
-particle dust{color:[1.0,1.0,0.0],scale:0.5} ^ ^ ^-1.0 0.1 0.1 0.1 0 1 force @a
-particle dust{color:[1.0,1.0,0.0],scale:0.5} ^ ^ ^-0.8 0.1 0.1 0.1 0 1 force @a
-particle dust{color:[1.0,1.0,0.0],scale:0.5} ^ ^ ^-0.6 0.1 0.1 0.1 0 1 force @a
-particle dust{color:[1.0,1.0,0.0],scale:0.5} ^ ^ ^-0.4 0.1 0.1 0.1 0 1 force @a
-particle dust{color:[1.0,1.0,0.0],scale:0.5} ^ ^ ^-0.2 0.1 0.1 0.1 0 1 force @a
-particle dust{color:[1.0,1.0,0.0],scale:0.5} ^ ^ ^0.0 0.1 0.1 0.1 0 1 force @a
-particle dust{color:[1.0,1.0,0.0],scale:0.5} ^ ^ ^0.2 0.1 0.1 0.1 0 1 force @a
-particle dust{color:[1.0,1.0,0.0],scale:0.5} ^ ^ ^0.4 0.1 0.1 0.1 0 1 force @a
-particle dust{color:[1.0,1.0,0.0],scale:0.5} ^ ^ ^0.6 0.1 0.1 0.1 0 1 force @a
-particle dust{color:[1.0,1.0,0.0],scale:0.5} ^ ^ ^0.8 0.1 0.1 0.1 0 1 force @a
-particle dust{color:[1.0,1.0,0.0],scale:0.5} ^ ^ ^1.0 0.1 0.1 0.1 0 1 force @a
-particle dust{color:[1.0,1.0,0.0],scale:0.5} ^ ^ ^1.2 0.1 0.1 0.1 0 1 force @a
-particle dust{color:[1.0,1.0,0.0],scale:0.5} ^ ^ ^1.4 0.1 0.1 0.1 0 1 force @a
-particle dust{color:[1.0,1.0,0.0],scale:0.5} ^ ^ ^1.6 0.1 0.1 0.1 0 1 force @a
-particle dust{color:[1.0,1.0,0.0],scale:0.5} ^ ^ ^1.8 0.1 0.1 0.1 0 1 force @a
-particle dust{color:[1.0,1.0,0.0],scale:0.5} ^ ^ ^2.0 0.1 0.1 0.1 0 1 force @a
-particle dust{color:[1.0,1.0,0.0],scale:0.5} ^ ^ ^2.2 0.1 0.1 0.1 0 1 force @a
-particle dust{color:[1.0,1.0,0.0],scale:0.5} ^ ^ ^2.4 0.1 0.1 0.1 0 1 force @a
-particle dust{color:[1.0,1.0,0.0],scale:0.5} ^ ^ ^2.6 0.1 0.1 0.1 0 1 force @a
+particle dust{color:[1.0,1.0,0.0],scale:0.5} ^ ^ ^-2.6 0.1 0.1 0.1 0 1 force
+particle dust{color:[1.0,1.0,0.0],scale:0.5} ^ ^ ^-2.4 0.1 0.1 0.1 0 1 force
+particle dust{color:[1.0,1.0,0.0],scale:0.5} ^ ^ ^-2.2 0.1 0.1 0.1 0 1 force
+particle dust{color:[1.0,1.0,0.0],scale:0.5} ^ ^ ^-2.0 0.1 0.1 0.1 0 1 force
+particle dust{color:[1.0,1.0,0.0],scale:0.5} ^ ^ ^-1.8 0.1 0.1 0.1 0 1 force
+particle dust{color:[1.0,1.0,0.0],scale:0.5} ^ ^ ^-1.6 0.1 0.1 0.1 0 1 force
+particle dust{color:[1.0,1.0,0.0],scale:0.5} ^ ^ ^-1.4 0.1 0.1 0.1 0 1 force
+particle dust{color:[1.0,1.0,0.0],scale:0.5} ^ ^ ^-1.2 0.1 0.1 0.1 0 1 force
+particle dust{color:[1.0,1.0,0.0],scale:0.5} ^ ^ ^-1.0 0.1 0.1 0.1 0 1 force
+particle dust{color:[1.0,1.0,0.0],scale:0.5} ^ ^ ^-0.8 0.1 0.1 0.1 0 1 force
+particle dust{color:[1.0,1.0,0.0],scale:0.5} ^ ^ ^-0.6 0.1 0.1 0.1 0 1 force
+particle dust{color:[1.0,1.0,0.0],scale:0.5} ^ ^ ^-0.4 0.1 0.1 0.1 0 1 force
+particle dust{color:[1.0,1.0,0.0],scale:0.5} ^ ^ ^-0.2 0.1 0.1 0.1 0 1 force
+particle dust{color:[1.0,1.0,0.0],scale:0.5} ^ ^ ^0.0 0.1 0.1 0.1 0 1 force
+particle dust{color:[1.0,1.0,0.0],scale:0.5} ^ ^ ^0.2 0.1 0.1 0.1 0 1 force
+particle dust{color:[1.0,1.0,0.0],scale:0.5} ^ ^ ^0.4 0.1 0.1 0.1 0 1 force
+particle dust{color:[1.0,1.0,0.0],scale:0.5} ^ ^ ^0.6 0.1 0.1 0.1 0 1 force
+particle dust{color:[1.0,1.0,0.0],scale:0.5} ^ ^ ^0.8 0.1 0.1 0.1 0 1 force
+particle dust{color:[1.0,1.0,0.0],scale:0.5} ^ ^ ^1.0 0.1 0.1 0.1 0 1 force
+particle dust{color:[1.0,1.0,0.0],scale:0.5} ^ ^ ^1.2 0.1 0.1 0.1 0 1 force
+particle dust{color:[1.0,1.0,0.0],scale:0.5} ^ ^ ^1.4 0.1 0.1 0.1 0 1 force
+particle dust{color:[1.0,1.0,0.0],scale:0.5} ^ ^ ^1.6 0.1 0.1 0.1 0 1 force
+particle dust{color:[1.0,1.0,0.0],scale:0.5} ^ ^ ^1.8 0.1 0.1 0.1 0 1 force
+particle dust{color:[1.0,1.0,0.0],scale:0.5} ^ ^ ^2.0 0.1 0.1 0.1 0 1 force
+particle dust{color:[1.0,1.0,0.0],scale:0.5} ^ ^ ^2.2 0.1 0.1 0.1 0 1 force
+particle dust{color:[1.0,1.0,0.0],scale:0.5} ^ ^ ^2.4 0.1 0.1 0.1 0 1 force
+particle dust{color:[1.0,1.0,0.0],scale:0.5} ^ ^ ^2.6 0.1 0.1 0.1 0 1 force

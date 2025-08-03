@@ -1,91 +1,91 @@
 # Blade particles
-particle flame ^ ^ ^5.1 0 0 0 0 1 force @a
-particle dust{color:[0.0,0.0,0.0],scale:0.5} ^0 ^0 ^0.625 0 0 0 0 1 force @a
-particle dust{color:[0.0,0.0,0.0],scale:0.5} ^0 ^0.125 ^0.625 0 0 0 0 1 force @a
-particle dust{color:[0.0,0.0,0.0],scale:0.5} ^0 ^0.25 ^0.625 0 0 0 0 1 force @a
-particle dust{color:[0.0,0.0,0.0],scale:0.5} ^0 ^0.25 ^0.75 0 0 0 0 1 force @a
-particle dust{color:[0.0,0.0,0.0],scale:0.5} ^0 ^0.25 ^0.875 0 0 0 0 1 force @a
-particle dust{color:[0.0,0.0,0.0],scale:0.5} ^0 ^0.25 ^1 0 0 0 0 1 force @a
-particle dust{color:[0.0,0.0,0.0],scale:0.5} ^0 ^0.25 ^1.125 0 0 0 0 1 force @a
-particle dust{color:[0.0,0.0,0.0],scale:0.5} ^0 ^0.25 ^2.25 0 0 0 0 1 force @a
-particle dust{color:[0.0,0.0,0.0],scale:0.5} ^0 ^0.25 ^2.375 0 0 0 0 1 force @a
-particle dust{color:[0.0,0.0,0.0],scale:0.5} ^0 ^0.25 ^2.5 0 0 0 0 1 force @a
-particle dust{color:[0.0,0.0,0.0],scale:0.5} ^0 ^0.25 ^2.625 0 0 0 0 1 force @a
-particle dust{color:[0.0,0.0,0.0],scale:0.5} ^0 ^0.375 ^0.125 0 0 0 0 1 force @a
-particle dust{color:[0.0,0.0,0.0],scale:0.5} ^0 ^0.375 ^0.25 0 0 0 0 1 force @a
-particle dust{color:[0.0,0.0,0.0],scale:0.5} ^0 ^0.375 ^0.375 0 0 0 0 1 force @a
-particle dust{color:[0.0,0.0,0.0],scale:0.5} ^0 ^0.375 ^0.5 0 0 0 0 1 force @a
-particle dust{color:[0.0,0.0,0.0],scale:0.5} ^0 ^0.375 ^0.625 0 0 0 0 1 force @a
-particle dust{color:[0.0,0.0,0.0],scale:0.5} ^0 ^0.375 ^0.75 0 0 0 0 1 force @a
-particle dust{color:[0.0,0.0,0.0],scale:0.5} ^0 ^0.375 ^0.875 0 0 0 0 1 force @a
-particle dust{color:[0.0,0.0,0.0],scale:0.5} ^0 ^0.375 ^1 0 0 0 0 1 force @a
-particle dust{color:[0.0,0.0,0.0],scale:0.5} ^0 ^0.375 ^1.125 0 0 0 0 1 force @a
-particle dust{color:[0.0,0.0,0.0],scale:0.5} ^0 ^0.375 ^1.25 0 0 0 0 1 force @a
-particle dust{color:[0.0,0.0,0.0],scale:0.5} ^0 ^0.375 ^1.5 0 0 0 0 1 force @a
-particle dust{color:[0.0,0.0,0.0],scale:0.5} ^0 ^0.375 ^1.625 0 0 0 0 1 force @a
-particle dust{color:[0.0,0.0,0.0],scale:0.5} ^0 ^0.375 ^1.75 0 0 0 0 1 force @a
-particle dust{color:[0.0,0.0,0.0],scale:0.5} ^0 ^0.375 ^1.875 0 0 0 0 1 force @a
-particle dust{color:[0.0,0.0,0.0],scale:0.5} ^0 ^0.375 ^2 0 0 0 0 1 force @a
-particle dust{color:[0.0,0.0,0.0],scale:0.5} ^0 ^0.375 ^2.25 0 0 0 0 1 force @a
-particle dust{color:[0.0,0.0,0.0],scale:0.5} ^0 ^0.375 ^2.375 0 0 0 0 1 force @a
-particle dust{color:[0.0,0.0,0.0],scale:0.5} ^0 ^0.375 ^2.5 0 0 0 0 1 force @a
-particle dust{color:[0.0,0.0,0.0],scale:0.5} ^0 ^0.375 ^2.625 0 0 0 0 1 force @a
-particle dust{color:[0.0,0.0,0.0],scale:0.5} ^0 ^0.375 ^3 0 0 0 0 1 force @a
-particle dust{color:[0.0,0.0,0.0],scale:0.5} ^0 ^0.375 ^3.125 0 0 0 0 1 force @a
-particle dust{color:[0.0,0.0,0.0],scale:0.5} ^0 ^0.375 ^3.25 0 0 0 0 1 force @a
-particle dust{color:[0.0,0.0,0.0],scale:0.5} ^0 ^0.375 ^3.375 0 0 0 0 1 force @a
-particle dust{color:[0.0,0.0,0.0],scale:0.5} ^0 ^0.375 ^3.625 0 0 0 0 1 force @a
-particle dust{color:[0.0,0.0,0.0],scale:0.5} ^0 ^0.375 ^3.75 0 0 0 0 1 force @a
-particle dust{color:[0.0,0.0,0.0],scale:0.5} ^0 ^0.375 ^3.875 0 0 0 0 1 force @a
-particle dust{color:[0.0,0.0,0.0],scale:0.5} ^0 ^0.375 ^4 0 0 0 0 1 force @a
-particle dust{color:[0.0,0.0,0.0],scale:0.5} ^0 ^0.375 ^4.25 0 0 0 0 1 force @a
-particle dust{color:[0.0,0.0,0.0],scale:0.5} ^0 ^0.375 ^4.375 0 0 0 0 1 force @a
-particle dust{color:[0.0,0.0,0.0],scale:0.5} ^0 ^0.375 ^4.5 0 0 0 0 1 force @a
-particle dust{color:[0.0,0.0,0.0],scale:0.5} ^0 ^0.375 ^4.625 0 0 0 0 1 force @a
-particle dust{color:[0.0,0.0,0.0],scale:0.5} ^0 ^0.5 ^0.625 0 0 0 0 1 force @a
-particle dust{color:[0.0,0.0,0.0],scale:0.5} ^0 ^0.5 ^0.75 0 0 0 0 1 force @a
-particle dust{color:[0.0,0.0,0.0],scale:0.5} ^0 ^0.5 ^1.5 0 0 0 0 1 force @a
-particle dust{color:[0.0,0.0,0.0],scale:0.5} ^0 ^0.5 ^1.625 0 0 0 0 1 force @a
-particle dust{color:[0.0,0.0,0.0],scale:0.5} ^0 ^0.5 ^1.75 0 0 0 0 1 force @a
-particle dust{color:[0.0,0.0,0.0],scale:0.5} ^0 ^0.5 ^1.875 0 0 0 0 1 force @a
-particle dust{color:[0.0,0.0,0.0],scale:0.5} ^0 ^0.625 ^0.625 0 0 0 0 1 force @a
-particle dust{color:[0.0,0.0,0.0],scale:0.5} ^0 ^0.75 ^0.625 0 0 0 0 1 force @a
-particle dust{color:[1.0,0.5,0.0],scale:0.5} ^0 ^0.125 ^0.75 0 0 0 0 1 force @a
-particle dust{color:[1.0,0.5,0.0],scale:0.5} ^0 ^0.125 ^0.875 0 0 0 0 1 force @a
-particle dust{color:[1.0,0.5,0.0],scale:0.5} ^0 ^0.125 ^1 0 0 0 0 1 force @a
-particle dust{color:[1.0,0.5,0.0],scale:0.5} ^0 ^0.125 ^1.125 0 0 0 0 1 force @a
-particle dust{color:[1.0,0.5,0.0],scale:0.5} ^0 ^0.125 ^2.25 0 0 0 0 1 force @a
-particle dust{color:[1.0,0.5,0.0],scale:0.5} ^0 ^0.125 ^2.375 0 0 0 0 1 force @a
-particle dust{color:[1.0,0.5,0.0],scale:0.5} ^0 ^0.125 ^2.5 0 0 0 0 1 force @a
-particle dust{color:[1.0,0.5,0.0],scale:0.5} ^0 ^0.125 ^2.625 0 0 0 0 1 force @a
-particle dust{color:[1.0,0.5,0.0],scale:0.5} ^0 ^0.25 ^1.25 0 0 0 0 1 force @a
-particle dust{color:[1.0,0.5,0.0],scale:0.5} ^0 ^0.25 ^2.125 0 0 0 0 1 force @a
-particle dust{color:[1.0,0.5,0.0],scale:0.5} ^0 ^0.25 ^2.75 0 0 0 0 1 force @a
-particle dust{color:[1.0,0.5,0.0],scale:0.5} ^0 ^0.25 ^3.625 0 0 0 0 1 force @a
-particle dust{color:[1.0,0.5,0.0],scale:0.5} ^0 ^0.25 ^3.75 0 0 0 0 1 force @a
-particle dust{color:[1.0,0.5,0.0],scale:0.5} ^0 ^0.25 ^3.875 0 0 0 0 1 force @a
-particle dust{color:[1.0,0.5,0.0],scale:0.5} ^0 ^0.25 ^4 0 0 0 0 1 force @a
-particle dust{color:[1.0,0.5,0.0],scale:0.5} ^0 ^0.375 ^1.375 0 0 0 0 1 force @a
-particle dust{color:[1.0,0.5,0.0],scale:0.5} ^0 ^0.375 ^2.125 0 0 0 0 1 force @a
-particle dust{color:[1.0,0.5,0.0],scale:0.5} ^0 ^0.375 ^2.75 0 0 0 0 1 force @a
-particle dust{color:[1.0,0.5,0.0],scale:0.5} ^0 ^0.375 ^2.875 0 0 0 0 1 force @a
-particle dust{color:[1.0,0.5,0.0],scale:0.5} ^0 ^0.375 ^3.5 0 0 0 0 1 force @a
-particle dust{color:[1.0,0.5,0.0],scale:0.5} ^0 ^0.375 ^4.125 0 0 0 0 1 force @a
-particle dust{color:[1.0,0.5,0.0],scale:0.5} ^0 ^0.375 ^4.75 0 0 0 0 1 force @a
-particle dust{color:[1.0,0.5,0.0],scale:0.5} ^0 ^0.375 ^4.875 0 0 0 0 1 force @a
-particle dust{color:[1.0,0.5,0.0],scale:0.5} ^0 ^0.375 ^5 0 0 0 0 1 force @a
-particle dust{color:[1.0,0.5,0.0],scale:0.5} ^0 ^0.375 ^5.125 0 0 0 0 1 force @a
-particle dust{color:[1.0,0.5,0.0],scale:0.5} ^0 ^0.5 ^1.375 0 0 0 0 1 force @a
-particle dust{color:[1.0,0.5,0.0],scale:0.5} ^0 ^0.5 ^2 0 0 0 0 1 force @a
-particle dust{color:[1.0,0.5,0.0],scale:0.5} ^0 ^0.5 ^3 0 0 0 0 1 force @a
-particle dust{color:[1.0,0.5,0.0],scale:0.5} ^0 ^0.5 ^3.125 0 0 0 0 1 force @a
-particle dust{color:[1.0,0.5,0.0],scale:0.5} ^0 ^0.5 ^3.25 0 0 0 0 1 force @a
-particle dust{color:[1.0,0.5,0.0],scale:0.5} ^0 ^0.5 ^3.375 0 0 0 0 1 force @a
-particle dust{color:[1.0,0.5,0.0],scale:0.5} ^0 ^0.5 ^4.25 0 0 0 0 1 force @a
-particle dust{color:[1.0,0.5,0.0],scale:0.5} ^0 ^0.5 ^4.375 0 0 0 0 1 force @a
-particle dust{color:[1.0,0.5,0.0],scale:0.5} ^0 ^0.5 ^4.5 0 0 0 0 1 force @a
-particle dust{color:[1.0,0.5,0.0],scale:0.5} ^0 ^0.5 ^4.625 0 0 0 0 1 force @a
-particle dust{color:[1.0,0.5,0.0],scale:0.5} ^0 ^0.625 ^1.5 0 0 0 0 1 force @a
-particle dust{color:[1.0,0.5,0.0],scale:0.5} ^0 ^0.625 ^1.625 0 0 0 0 1 force @a
-particle dust{color:[1.0,0.5,0.0],scale:0.5} ^0 ^0.625 ^1.75 0 0 0 0 1 force @a
-particle dust{color:[1.0,0.5,0.0],scale:0.5} ^0 ^0.625 ^1.875 0 0 0 0 1 force @a
+particle flame ^ ^ ^5.1 0 0 0 0 1 force
+particle dust{color:[0.0,0.0,0.0],scale:0.5} ^0 ^0 ^0.625 0 0 0 0 1 force
+particle dust{color:[0.0,0.0,0.0],scale:0.5} ^0 ^0.125 ^0.625 0 0 0 0 1 force
+particle dust{color:[0.0,0.0,0.0],scale:0.5} ^0 ^0.25 ^0.625 0 0 0 0 1 force
+particle dust{color:[0.0,0.0,0.0],scale:0.5} ^0 ^0.25 ^0.75 0 0 0 0 1 force
+particle dust{color:[0.0,0.0,0.0],scale:0.5} ^0 ^0.25 ^0.875 0 0 0 0 1 force
+particle dust{color:[0.0,0.0,0.0],scale:0.5} ^0 ^0.25 ^1 0 0 0 0 1 force
+particle dust{color:[0.0,0.0,0.0],scale:0.5} ^0 ^0.25 ^1.125 0 0 0 0 1 force
+particle dust{color:[0.0,0.0,0.0],scale:0.5} ^0 ^0.25 ^2.25 0 0 0 0 1 force
+particle dust{color:[0.0,0.0,0.0],scale:0.5} ^0 ^0.25 ^2.375 0 0 0 0 1 force
+particle dust{color:[0.0,0.0,0.0],scale:0.5} ^0 ^0.25 ^2.5 0 0 0 0 1 force
+particle dust{color:[0.0,0.0,0.0],scale:0.5} ^0 ^0.25 ^2.625 0 0 0 0 1 force
+particle dust{color:[0.0,0.0,0.0],scale:0.5} ^0 ^0.375 ^0.125 0 0 0 0 1 force
+particle dust{color:[0.0,0.0,0.0],scale:0.5} ^0 ^0.375 ^0.25 0 0 0 0 1 force
+particle dust{color:[0.0,0.0,0.0],scale:0.5} ^0 ^0.375 ^0.375 0 0 0 0 1 force
+particle dust{color:[0.0,0.0,0.0],scale:0.5} ^0 ^0.375 ^0.5 0 0 0 0 1 force
+particle dust{color:[0.0,0.0,0.0],scale:0.5} ^0 ^0.375 ^0.625 0 0 0 0 1 force
+particle dust{color:[0.0,0.0,0.0],scale:0.5} ^0 ^0.375 ^0.75 0 0 0 0 1 force
+particle dust{color:[0.0,0.0,0.0],scale:0.5} ^0 ^0.375 ^0.875 0 0 0 0 1 force
+particle dust{color:[0.0,0.0,0.0],scale:0.5} ^0 ^0.375 ^1 0 0 0 0 1 force
+particle dust{color:[0.0,0.0,0.0],scale:0.5} ^0 ^0.375 ^1.125 0 0 0 0 1 force
+particle dust{color:[0.0,0.0,0.0],scale:0.5} ^0 ^0.375 ^1.25 0 0 0 0 1 force
+particle dust{color:[0.0,0.0,0.0],scale:0.5} ^0 ^0.375 ^1.5 0 0 0 0 1 force
+particle dust{color:[0.0,0.0,0.0],scale:0.5} ^0 ^0.375 ^1.625 0 0 0 0 1 force
+particle dust{color:[0.0,0.0,0.0],scale:0.5} ^0 ^0.375 ^1.75 0 0 0 0 1 force
+particle dust{color:[0.0,0.0,0.0],scale:0.5} ^0 ^0.375 ^1.875 0 0 0 0 1 force
+particle dust{color:[0.0,0.0,0.0],scale:0.5} ^0 ^0.375 ^2 0 0 0 0 1 force
+particle dust{color:[0.0,0.0,0.0],scale:0.5} ^0 ^0.375 ^2.25 0 0 0 0 1 force
+particle dust{color:[0.0,0.0,0.0],scale:0.5} ^0 ^0.375 ^2.375 0 0 0 0 1 force
+particle dust{color:[0.0,0.0,0.0],scale:0.5} ^0 ^0.375 ^2.5 0 0 0 0 1 force
+particle dust{color:[0.0,0.0,0.0],scale:0.5} ^0 ^0.375 ^2.625 0 0 0 0 1 force
+particle dust{color:[0.0,0.0,0.0],scale:0.5} ^0 ^0.375 ^3 0 0 0 0 1 force
+particle dust{color:[0.0,0.0,0.0],scale:0.5} ^0 ^0.375 ^3.125 0 0 0 0 1 force
+particle dust{color:[0.0,0.0,0.0],scale:0.5} ^0 ^0.375 ^3.25 0 0 0 0 1 force
+particle dust{color:[0.0,0.0,0.0],scale:0.5} ^0 ^0.375 ^3.375 0 0 0 0 1 force
+particle dust{color:[0.0,0.0,0.0],scale:0.5} ^0 ^0.375 ^3.625 0 0 0 0 1 force
+particle dust{color:[0.0,0.0,0.0],scale:0.5} ^0 ^0.375 ^3.75 0 0 0 0 1 force
+particle dust{color:[0.0,0.0,0.0],scale:0.5} ^0 ^0.375 ^3.875 0 0 0 0 1 force
+particle dust{color:[0.0,0.0,0.0],scale:0.5} ^0 ^0.375 ^4 0 0 0 0 1 force
+particle dust{color:[0.0,0.0,0.0],scale:0.5} ^0 ^0.375 ^4.25 0 0 0 0 1 force
+particle dust{color:[0.0,0.0,0.0],scale:0.5} ^0 ^0.375 ^4.375 0 0 0 0 1 force
+particle dust{color:[0.0,0.0,0.0],scale:0.5} ^0 ^0.375 ^4.5 0 0 0 0 1 force
+particle dust{color:[0.0,0.0,0.0],scale:0.5} ^0 ^0.375 ^4.625 0 0 0 0 1 force
+particle dust{color:[0.0,0.0,0.0],scale:0.5} ^0 ^0.5 ^0.625 0 0 0 0 1 force
+particle dust{color:[0.0,0.0,0.0],scale:0.5} ^0 ^0.5 ^0.75 0 0 0 0 1 force
+particle dust{color:[0.0,0.0,0.0],scale:0.5} ^0 ^0.5 ^1.5 0 0 0 0 1 force
+particle dust{color:[0.0,0.0,0.0],scale:0.5} ^0 ^0.5 ^1.625 0 0 0 0 1 force
+particle dust{color:[0.0,0.0,0.0],scale:0.5} ^0 ^0.5 ^1.75 0 0 0 0 1 force
+particle dust{color:[0.0,0.0,0.0],scale:0.5} ^0 ^0.5 ^1.875 0 0 0 0 1 force
+particle dust{color:[0.0,0.0,0.0],scale:0.5} ^0 ^0.625 ^0.625 0 0 0 0 1 force
+particle dust{color:[0.0,0.0,0.0],scale:0.5} ^0 ^0.75 ^0.625 0 0 0 0 1 force
+particle dust{color:[1.0,0.5,0.0],scale:0.5} ^0 ^0.125 ^0.75 0 0 0 0 1 force
+particle dust{color:[1.0,0.5,0.0],scale:0.5} ^0 ^0.125 ^0.875 0 0 0 0 1 force
+particle dust{color:[1.0,0.5,0.0],scale:0.5} ^0 ^0.125 ^1 0 0 0 0 1 force
+particle dust{color:[1.0,0.5,0.0],scale:0.5} ^0 ^0.125 ^1.125 0 0 0 0 1 force
+particle dust{color:[1.0,0.5,0.0],scale:0.5} ^0 ^0.125 ^2.25 0 0 0 0 1 force
+particle dust{color:[1.0,0.5,0.0],scale:0.5} ^0 ^0.125 ^2.375 0 0 0 0 1 force
+particle dust{color:[1.0,0.5,0.0],scale:0.5} ^0 ^0.125 ^2.5 0 0 0 0 1 force
+particle dust{color:[1.0,0.5,0.0],scale:0.5} ^0 ^0.125 ^2.625 0 0 0 0 1 force
+particle dust{color:[1.0,0.5,0.0],scale:0.5} ^0 ^0.25 ^1.25 0 0 0 0 1 force
+particle dust{color:[1.0,0.5,0.0],scale:0.5} ^0 ^0.25 ^2.125 0 0 0 0 1 force
+particle dust{color:[1.0,0.5,0.0],scale:0.5} ^0 ^0.25 ^2.75 0 0 0 0 1 force
+particle dust{color:[1.0,0.5,0.0],scale:0.5} ^0 ^0.25 ^3.625 0 0 0 0 1 force
+particle dust{color:[1.0,0.5,0.0],scale:0.5} ^0 ^0.25 ^3.75 0 0 0 0 1 force
+particle dust{color:[1.0,0.5,0.0],scale:0.5} ^0 ^0.25 ^3.875 0 0 0 0 1 force
+particle dust{color:[1.0,0.5,0.0],scale:0.5} ^0 ^0.25 ^4 0 0 0 0 1 force
+particle dust{color:[1.0,0.5,0.0],scale:0.5} ^0 ^0.375 ^1.375 0 0 0 0 1 force
+particle dust{color:[1.0,0.5,0.0],scale:0.5} ^0 ^0.375 ^2.125 0 0 0 0 1 force
+particle dust{color:[1.0,0.5,0.0],scale:0.5} ^0 ^0.375 ^2.75 0 0 0 0 1 force
+particle dust{color:[1.0,0.5,0.0],scale:0.5} ^0 ^0.375 ^2.875 0 0 0 0 1 force
+particle dust{color:[1.0,0.5,0.0],scale:0.5} ^0 ^0.375 ^3.5 0 0 0 0 1 force
+particle dust{color:[1.0,0.5,0.0],scale:0.5} ^0 ^0.375 ^4.125 0 0 0 0 1 force
+particle dust{color:[1.0,0.5,0.0],scale:0.5} ^0 ^0.375 ^4.75 0 0 0 0 1 force
+particle dust{color:[1.0,0.5,0.0],scale:0.5} ^0 ^0.375 ^4.875 0 0 0 0 1 force
+particle dust{color:[1.0,0.5,0.0],scale:0.5} ^0 ^0.375 ^5 0 0 0 0 1 force
+particle dust{color:[1.0,0.5,0.0],scale:0.5} ^0 ^0.375 ^5.125 0 0 0 0 1 force
+particle dust{color:[1.0,0.5,0.0],scale:0.5} ^0 ^0.5 ^1.375 0 0 0 0 1 force
+particle dust{color:[1.0,0.5,0.0],scale:0.5} ^0 ^0.5 ^2 0 0 0 0 1 force
+particle dust{color:[1.0,0.5,0.0],scale:0.5} ^0 ^0.5 ^3 0 0 0 0 1 force
+particle dust{color:[1.0,0.5,0.0],scale:0.5} ^0 ^0.5 ^3.125 0 0 0 0 1 force
+particle dust{color:[1.0,0.5,0.0],scale:0.5} ^0 ^0.5 ^3.25 0 0 0 0 1 force
+particle dust{color:[1.0,0.5,0.0],scale:0.5} ^0 ^0.5 ^3.375 0 0 0 0 1 force
+particle dust{color:[1.0,0.5,0.0],scale:0.5} ^0 ^0.5 ^4.25 0 0 0 0 1 force
+particle dust{color:[1.0,0.5,0.0],scale:0.5} ^0 ^0.5 ^4.375 0 0 0 0 1 force
+particle dust{color:[1.0,0.5,0.0],scale:0.5} ^0 ^0.5 ^4.5 0 0 0 0 1 force
+particle dust{color:[1.0,0.5,0.0],scale:0.5} ^0 ^0.5 ^4.625 0 0 0 0 1 force
+particle dust{color:[1.0,0.5,0.0],scale:0.5} ^0 ^0.625 ^1.5 0 0 0 0 1 force
+particle dust{color:[1.0,0.5,0.0],scale:0.5} ^0 ^0.625 ^1.625 0 0 0 0 1 force
+particle dust{color:[1.0,0.5,0.0],scale:0.5} ^0 ^0.625 ^1.75 0 0 0 0 1 force
+particle dust{color:[1.0,0.5,0.0],scale:0.5} ^0 ^0.625 ^1.875 0 0 0 0 1 force
