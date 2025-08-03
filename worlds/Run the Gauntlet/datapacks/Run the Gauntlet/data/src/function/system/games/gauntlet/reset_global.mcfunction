@@ -1,4 +1,8 @@
 ## Resets all global gauntlet data
+# kill all entities
+kill @e[type=!player,predicate=src:location/gauntlet]
+kill @e[type=!player,predicate=src:location/gauntlet]
+
 # global scores
 scoreboard objectives setdisplay sidebar
 scoreboard players reset %arena.players
@@ -16,3 +20,6 @@ data remove storage system.arena player
 
 # fx
 time set noon
+
+# clear forced chunks
+forceload remove all

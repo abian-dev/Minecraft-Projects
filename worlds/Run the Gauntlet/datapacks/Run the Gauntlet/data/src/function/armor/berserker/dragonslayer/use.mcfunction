@@ -5,7 +5,7 @@ execute as @e[type=item_display,limit=1,sort=nearest,tag=berserker.dragonslayer]
 
 # effects
 damage @s 5 src:bypass_player_attack_no_kb by @s
-effect give @s saturation 1 0 true
+effect give @s saturation 1 1 true
 
 # fx
 playsound entity.ender_dragon.growl neutral @a[distance=..20] ~ ~ ~ 0.2 2 0.2

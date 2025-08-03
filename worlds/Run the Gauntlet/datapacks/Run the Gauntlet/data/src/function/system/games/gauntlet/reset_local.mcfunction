@@ -2,6 +2,8 @@
 # spawn
 gamemode adventure @s[gamemode=!adventure]
 clear @s
+effect clear @s
+team leave @s
 tp @s 0 70 1000 facing 0 70 1001
 function src:system/ui/give
 
@@ -24,3 +26,9 @@ tag @s remove system.arena.player8
 tag @s remove system.arena.player9
 tag @s remove system.arena.player10
 tag @s remove system.arena.unassigned
+tag @s remove system.arena.spectator
+function src:system/util/reset_tags
+
+# attributes
+attribute @s gravity modifier remove gravity.gauntlet.spectator
+function src:system/util/reset_attributes
