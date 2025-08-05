@@ -16,6 +16,10 @@ scoreboard objectives add in.a.on dummy
 scoreboard objectives add in.s.on dummy
 scoreboard objectives add in.d.on dummy
 
+scoreboard objectives add in.sequence dummy
+scoreboard objectives add in.sequence.cd dummy
+scoreboard objectives add in.sequence.cd2 dummy
+
 # cd
 scoreboard objectives add quickswap.cd dummy
 scoreboard objectives add weapon.cd dummy

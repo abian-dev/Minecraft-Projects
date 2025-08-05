@@ -19,6 +19,10 @@ scoreboard objectives remove in.a.on
 scoreboard objectives remove in.s.on
 scoreboard objectives remove in.d.on
 
+scoreboard objectives remove in.sequence
+scoreboard objectives remove in.sequence.cd
+scoreboard objectives remove in.sequence.cd2
+
 # cd
 scoreboard objectives remove quickswap.cd
 scoreboard objectives remove weapon.cd

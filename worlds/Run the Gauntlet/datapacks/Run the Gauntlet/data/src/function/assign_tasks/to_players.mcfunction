@@ -25,6 +25,12 @@ execute unless score @s in.jump.on matches ..0 run scoreboard players remove @s 
 execute unless score @s in.jump.off matches ..0 run scoreboard players remove @s in.jump.off 1
 execute if score @s in.jump.on matches 1 run scoreboard players set @s in.jump.off 1
 
+# input sequence
+execute unless score @s in.sequence.cd matches ..0 run scoreboard players remove @s in.sequence.cd 1
+execute unless score @s in.sequence.cd2 matches ..0 run scoreboard players remove @s in.sequence.cd2 1
+execute if score @s in.sequence.cd2 matches ..0 run scoreboard players reset @s in.sequence
+execute if predicate src:input/any if score @s in.sequence.cd matches ..0 run function src:generic/input/sequence
+
 # ui
 function src:system/ui/player/main
 execute if items entity @s weapon.* *[custom_data={leave.gauntlet:1b}] if score @s in.rmb.on matches 1.. run function src:system/games/gauntlet/queue/session/leave
