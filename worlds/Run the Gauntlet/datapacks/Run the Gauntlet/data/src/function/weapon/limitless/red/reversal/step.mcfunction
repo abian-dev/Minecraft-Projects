@@ -7,6 +7,7 @@ execute positioned ^ ^ ^0.5 run function src:generic/functions/slowcast/check_bl
 execute if score @s generic.raycast.step matches -1 run return run function src:weapon/limitless/red/reversal/collide
 execute if entity @s[tag=limitless.red.flash] if entity @e[type=!#src:non_entity,distance=..2,tag=!limitless.red.user,team=!ally] run function src:weapon/limitless/red/flash/projectile/collide
 execute unless entity @s[tag=limitless.red.flash] if entity @e[type=!#src:non_entity,distance=..2,tag=!limitless.red.user,team=!ally] run return run function src:weapon/limitless/red/reversal/collide
+execute unless entity @s[tag=limitless.red.flash] if entity @e[type=area_effect_cloud,distance=..4,tag=limitless.blue] run return run function src:weapon/limitless/purple/explode/use {"userFilter":"limitless.red.user","mergedWith":"limitless.blue"}
 
 # recursive call
 scoreboard players remove @s generic.raycast.step 1
