@@ -28,8 +28,8 @@ execute if score @s in.jump.on matches 1 run scoreboard players set @s in.jump.o
 # input sequence
 execute unless score @s in.sequence.cd matches ..0 run scoreboard players remove @s in.sequence.cd 1
 execute unless score @s in.sequence.cd2 matches ..0 run scoreboard players remove @s in.sequence.cd2 1
-execute if score @s in.sequence.cd2 matches ..0 run scoreboard players reset @s in.sequence
-execute if predicate src:input/any if score @s in.sequence.cd matches ..0 run function src:generic/input/sequence
+execute if score @s in.sequence.cd2 matches ..1 run scoreboard players reset @s in.sequence
+execute if predicate src:input/any if score @s in.sequence.cd matches ..0 run function src:generic/input/sequence/recorder/main
 
 # ui
 function src:system/ui/player/main
@@ -58,6 +58,8 @@ execute if predicate src:mainhand/super_shotgun run function src:weapon/super_sh
 
 execute if predicate src:mainhand/mirage_edge run function src:weapon/mirage_edge/main
 execute if predicate src:mainhand/yamato run function src:weapon/yamato/main
+
+execute if predicate src:mainhand/limitless run function src:weapon/limitless/main
 
 # reset criterion scores
 scoreboard players reset @s criterion.dmgdealt

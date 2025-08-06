@@ -20,3 +20,9 @@ execute if entity @s[tag=yamato.jce.dash] run return run function src:weapon/yam
 execute if entity @s[tag=yamato.judgementcut] run return run function src:weapon/yamato/judgement_cut/tick
 execute if entity @s[tag=yamato.rapidslash] run return run function src:weapon/yamato/rapid_slash/tick
 execute if entity @s[tag=yamato.voidslash] run return run function src:weapon/yamato/void_slash/tick
+
+execute if entity @s[tag=limitless.blue] run return run function src:weapon/limitless/blue/lapse/tick
+execute if entity @s[tag=limitless.red] run return run function src:weapon/limitless/red/reversal/tick
+execute if entity @s[tag=limitless.grab] run return run function src:weapon/limitless/grab/tick
+execute if entity @s[tag=limitless.grab.throw] run return run function src:weapon/limitless/grab/throw/tick
+execute if entity @s[tag=limitless.void] run return run function src:weapon/limitless/void/tick

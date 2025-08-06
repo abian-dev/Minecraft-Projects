@@ -1,6 +1,7 @@
 # example call: function src:generic/vfx/domain/play {"accuracy":"300","radius":"1000","speed":"3","particle":"block_marker{block_state:{Name:black_concrete}}"}
 ## Plays Domain Expansion
 # summon
+kill @e[type=area_effect_cloud,tag=vfxDomain]
 $summon area_effect_cloud ~ ~ ~ {Particle:{type:"block",block_state:"minecraft:air"},Radius:0f,WaitTime:0,Tags:["vfx","vfxDomain"],Duration:$(accuracy)}
 tp @e[type=area_effect_cloud,limit=1,sort=nearest,tag=vfxDomain] ~ ~ ~ ~90 -90
 

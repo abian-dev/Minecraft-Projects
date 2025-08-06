@@ -1,0 +1,2 @@
+## Displays sequence of inputs
+$title @s actionbar [{"text":"Inputs:","color":"aqua"}," ",{"text":"$(0)","color":"white"},{"text":"-","color":"gray"},{"text":"$(1)","color":"white"},{"text":"-","color":"gray"},{"text":"$(2)","color":"white"}]
