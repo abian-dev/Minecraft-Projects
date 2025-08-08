@@ -5,7 +5,7 @@ execute positioned ^ ^ ^3 as @e[type=!#src:non_entity,distance=..3,tag=!berserke
 
 # follow user
 scoreboard players operation %berserker.dragonslayer.search user.id = @s user.id
-execute as @a[tag=berserker.dragonslayer.user] at @s if score @s user.id = %berserker.dragonslayer.search user.id as @e[type=item_display,tag=berserker.dragonslayer] run tp @s ~ ~1 ~
+execute as @a[tag=berserker.dragonslayer.user] at @s if score @s user.id = %berserker.dragonslayer.search user.id as @e[type=item_display,tag=berserker.dragonslayer] if score @s user.id = %berserker.dragonslayer.search user.id run tp @s ~ ~1 ~
 scoreboard players reset %berserker.dragonslayer.search
 
 # time until end

@@ -8,3 +8,4 @@ execute if entity @s[tag=praetor.ice] run return run function src:armor/praetor/
 # weapons
 execute if entity @s[tag=mirageedge.roundtrip] run return run function src:weapon/mirage_edge/round_trip/tick
 execute if entity @s[tag=yamato.jce.image] run return run function src:weapon/yamato/judgement_cut_end/image/tick
+execute if entity @s[tag=miracles.holy.page] run return run function src:weapon/miracles/holy/page/tick

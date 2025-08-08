@@ -1,5 +1,6 @@
 ## Executed as merging at purple every tick
 # particles
+execute at @s run tp @s ~ ~ ~ ~20 ~
 execute at @s if entity @s[tag=limitless.purple.blue] run function src:weapon/limitless/purple/vfx/blue
 execute at @s if entity @s[tag=limitless.purple.red] run function src:weapon/limitless/purple/vfx/red
 

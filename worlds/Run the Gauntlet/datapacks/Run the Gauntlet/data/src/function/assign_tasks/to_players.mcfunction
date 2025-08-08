@@ -60,6 +60,7 @@ execute if predicate src:mainhand/mirage_edge run function src:weapon/mirage_edg
 execute if predicate src:mainhand/yamato run function src:weapon/yamato/main
 
 execute if predicate src:mainhand/limitless run function src:weapon/limitless/main
+execute if predicate src:mainhand/miracles run function src:weapon/miracles/main
 
 # reset criterion scores
 scoreboard players reset @s criterion.dmgdealt
