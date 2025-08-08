@@ -1,5 +1,5 @@
 ## Raycast step function
-particle squid_ink ~ ~1 ~ 0 0 0 0.1 1 force
+particle dust{color:[0.0,0.0,0.0],scale:0.5} ~ ~1 ~ 0 0.5 0 0 10 force
 
 # collision check
 execute if score @s generic.raycast.step2 matches 0 run return run tp @s ~ ~ ~

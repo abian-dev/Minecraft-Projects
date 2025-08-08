@@ -2,8 +2,8 @@
 tp @s ~ ~ ~
 
 # fx
-execute rotated as @s run particle squid_ink ^ ^1 ^1 0 0 0 0.3 10 force
-playsound entity.wither.shoot neutral @a[distance=..10] ~ ~ ~ 0.1 0 0.1
+execute rotated ~ 90 run function src:generic/vfx/expanding_circle/play {"particle":"smoke","speed":"0.00000015"}
+playsound entity.breeze.shoot neutral @a[distance=..10] ~ ~ ~ 0.5 0.8 0.5
 
 # reset
 tag @s remove berserker.dash.user

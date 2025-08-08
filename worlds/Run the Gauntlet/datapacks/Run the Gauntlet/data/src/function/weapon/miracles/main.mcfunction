@@ -6,6 +6,8 @@ execute if score @s in.sequence matches 2 if score @s in.rmb.on matches 1.. if s
 execute if score @s in.sequence matches 21 if score @s in.rmb.on matches 1.. if score @s weapon.cd2 matches ..0 run return run function src:weapon/miracles/swords/use
 execute if score @s in.sequence matches 431 if score @s in.rmb.on matches 1.. if score @s weapon.cd2 matches ..0 run return run function src:weapon/miracles/soul/use
 
+execute if score @s in.rmb.on matches 1.. run scoreboard players reset @s in.sequence
+
 # build OR group
 execute if score @s in.rmb.on matches 1.. run scoreboard players add %miracles.hasInput generic.math 1
 execute if score @s in.sequence.cd matches 2 run scoreboard players add %miracles.hasInput generic.math 1

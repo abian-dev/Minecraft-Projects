@@ -2,6 +2,9 @@
 # generic
 execute if entity @s[tag=vfx] run return run function src:generic/vfx/assign_tasks/to_aecs
 
+# armor
+execute if entity @s[tag=clothes.roll] run return run function src:armor/clothes/roll/tick
+
 # weapons
 execute if entity @s[tag=ballista.bullet] run return run function src:weapon/ballista/primary/tick
 execute if entity @s[tag=ballista.destroyer] run return run function src:weapon/ballista/destroyer/tick

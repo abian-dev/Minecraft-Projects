@@ -48,6 +48,7 @@ execute if score @s effect.stun.duration matches 1.. run return fail
 # armor
 execute if predicate src:armorset/berserker run function src:armor/berserker/main
 execute if predicate src:armorset/praetor run function src:armor/praetor/main
+execute if predicate src:armorset/clothes run function src:armor/clothes/main
 
 # weapons
 execute if items entity @s[scores={quickswap.cd=..0}] weapon.mainhand *[custom_data={weapon:1b}] run function src:weapon/quickswap

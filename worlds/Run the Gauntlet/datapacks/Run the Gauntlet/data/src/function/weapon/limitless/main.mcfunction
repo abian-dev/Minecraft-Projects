@@ -10,6 +10,8 @@ execute if score @s in.sequence matches 21 if score @s in.rmb.on matches 1.. if 
 execute if score @s in.sequence matches 111 if score @s in.rmb.on matches 1.. if score @s weapon.cd matches ..0 run return run function src:weapon/limitless/grab/use
 execute if score @s in.sequence matches 134 if score @s in.rmb.on matches 1.. if score @s weapon.cd2 matches ..0 unless entity @e[type=area_effect_cloud,tag=limitless.void] run return run function src:weapon/limitless/void/use
 
+execute if score @s in.rmb.on matches 1.. run scoreboard players reset @s in.sequence
+
 # build OR group
 execute if score @s in.rmb.on matches 1.. run scoreboard players add %limitless.hasInput generic.math 1
 execute if score @s in.sequence.cd matches 2 run scoreboard players add %limitless.hasInput generic.math 1

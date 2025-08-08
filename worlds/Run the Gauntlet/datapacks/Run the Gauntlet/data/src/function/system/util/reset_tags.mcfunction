@@ -13,6 +13,8 @@ tag @s remove praetor.frag.user
 tag @s remove praetor.ice.user
 tag @s remove praetor.punch.user
 
+tag @s remove clothes.roll.user
+
 # weapon
 tag @s remove ballista.pf.user
 tag @s remove ballista.destroyer.user
@@ -34,3 +36,21 @@ tag @s remove yamato.jce.user
 tag @s remove yamato.rapid.user
 tag @s remove yamato.upper.user
 tag @s remove yamato.void.user
+
+tag @s remove limitless.blue.attract.user
+tag @s remove limitless.blue.user
+tag @s remove limitless.grab.user
+tag @s remove limitless.grab.thrown
+tag @s remove limitless.purple.user
+tag @s remove limitless.purple.explode.user
+tag @s remove limitless.red.flash.user
+tag @s remove limitless.red.flash
+tag @s remove limitless.red.flash.isFacingEntity
+tag @s remove limitless.red.user
+tag @s remove limitless.void.user
+
+tag @s remove miracles.holy.user
+tag @s remove miracles.solemn.user
+tag @s remove miracles.soul.user
+tag @s remove miracles.swords.spiral.user
+tag @s remove miracles.swords.throw.user
