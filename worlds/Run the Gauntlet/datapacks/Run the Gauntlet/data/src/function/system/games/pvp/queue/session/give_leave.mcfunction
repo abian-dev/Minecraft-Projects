@@ -1,0 +1,2 @@
+## Gives leave item
+item replace entity @s hotbar.8 with red_bed[food={nutrition:0,saturation:0,can_always_eat:true},consumable={consume_seconds:2147483647},unbreakable={},custom_data={leave.pvp:1b},custom_name=[{"text":"Leave","italic":false,"color":"red"}]] 1

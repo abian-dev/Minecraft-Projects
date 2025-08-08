@@ -34,6 +34,7 @@ execute if predicate src:input/any if score @s in.sequence.cd matches ..0 run fu
 # ui
 function src:system/ui/player/main
 execute if items entity @s weapon.* *[custom_data={leave.gauntlet:1b}] if score @s in.rmb.on matches 1.. run function src:system/games/gauntlet/queue/session/leave
+execute if items entity @s weapon.* *[custom_data={leave.pvp:1b}] if score @s in.rmb.on matches 1.. run function src:system/games/pvp/queue/session/leave
 
 # cooldowns
 execute unless score @s armor.cd matches ..0 run scoreboard players remove @s armor.cd 1

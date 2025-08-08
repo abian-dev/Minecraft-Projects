@@ -11,5 +11,9 @@ schedule function src:assign_tasks/schedule/to_entities 10t append
 schedule function src:assign_tasks/schedule/to_spawners 1s append
 
 # gauntlet game
-execute if score %arena.gameStarted system.global matches 0 run function src:system/games/gauntlet/queue/waiting
-execute if score %arena.gameStarted system.global matches 1 run schedule function src:system/games/gauntlet/ingame/main 5t append
+execute if score %gauntlet.gameStarted system.global matches 0 run function src:system/games/gauntlet/queue/waiting
+execute if score %gauntlet.gameStarted system.global matches 1 run schedule function src:system/games/gauntlet/ingame/main 5t append
+
+# pvp game
+execute if score %pvp.gameStarted system.global matches 0 run function src:system/games/pvp/queue/waiting
+execute if score %pvp.gameStarted system.global matches 1 run function src:system/games/pvp/ingame/main

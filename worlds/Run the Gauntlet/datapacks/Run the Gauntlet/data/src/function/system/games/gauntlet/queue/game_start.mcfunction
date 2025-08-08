@@ -1,24 +1,25 @@
 ## When game starts
 # game started
-scoreboard players set %arena.gameStarted system.global 1
-scoreboard players reset %arena.queueCountdown
-scoreboard players reset %arena.queueCountdownSeconds
+scoreboard players set %gauntlet.gameStarted system.global 1
+scoreboard players reset %gauntlet.queueCountdown
+scoreboard players reset %gauntlet.queueCountdownSeconds
 
 # player data
-clear @a[tag=system.arena.inside]
-tp @a[tag=system.arena.inside] 0 70 0 facing 0 70 1
-execute as @a[tag=system.arena.inside,tag=class.magic] run function src:system/util/class_loadout/magic
-execute as @a[tag=system.arena.inside,tag=class.melee] run function src:system/util/class_loadout/melee
-execute as @a[tag=system.arena.inside,tag=class.ranged] run function src:system/util/class_loadout/ranged
+clear @a[tag=system.gauntlet.inside]
+team join ally @a[tag=system.gauntlet.inside]
+tp @a[tag=system.gauntlet.inside] 0 70 0 facing 0 70 1
+execute as @a[tag=system.gauntlet.inside,tag=class.magic] run function src:system/util/class_loadout/magic
+execute as @a[tag=system.gauntlet.inside,tag=class.melee] run function src:system/util/class_loadout/melee
+execute as @a[tag=system.gauntlet.inside,tag=class.ranged] run function src:system/util/class_loadout/ranged
 
 # reset
-scoreboard players reset @a[tag=system.arena.inside] criterion.death
-scoreboard players reset @a[tag=system.arena.inside] system.deathTimer
-scoreboard players set %arena.wave system.global 1
-execute store result storage spawning wave.num int 1 run scoreboard players get %arena.wave system.global
+scoreboard players reset @a[tag=system.gauntlet.inside] criterion.death
+scoreboard players reset @a[tag=system.gauntlet.inside] system.deathTimer
+scoreboard players set %gauntlet.wave system.global 1
+execute store result storage spawning wave.num int 1 run scoreboard players get %gauntlet.wave system.global
 
 # fx
 time set night
 schedule clear src:system/games/gauntlet/queue/countdown
-# title @a[tag=system.arena.inside] title [{"text":"FIGHT! ","color":"red"}]
-# playsound entity.wither.spawn neutral @a[tag=system.arena.inside] ~ ~ ~ 2 0 1
+# title @a[tag=system.gauntlet.inside] title [{"text":"FIGHT! ","color":"red"}]
+# playsound entity.wither.spawn neutral @a[tag=system.gauntlet.inside] ~ ~ ~ 2 0 1

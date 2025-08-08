@@ -51,6 +51,7 @@ scoreboard objectives add spawning.spawner.id dummy
 # system
 scoreboard objectives add system.deathTimer dummy
 scoreboard objectives add system.global dummy
+scoreboard objectives add system.lives dummy
 scoreboard objectives add system.ui dummy
 scoreboard objectives add system.ui.id dummy
 

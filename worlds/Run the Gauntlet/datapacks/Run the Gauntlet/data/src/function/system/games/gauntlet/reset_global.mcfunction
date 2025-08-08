@@ -5,18 +5,18 @@ kill @e[type=!player,predicate=src:location/gauntlet]
 
 # global scores
 scoreboard objectives setdisplay sidebar
-scoreboard players reset %arena.players
-scoreboard players reset %arena.playersAlive
-scoreboard players reset %arena.enemiesAlive
-scoreboard players reset %arena.gameEndTimer
-scoreboard players reset %arena.gameStarted
-scoreboard players reset %arena.queueCountdown
-scoreboard players reset %arena.queueCountdownSeconds
-scoreboard players reset %arena.wave
+scoreboard players reset %gauntlet.players
+scoreboard players reset %gauntlet.playersAlive
+scoreboard players reset %gauntlet.enemiesAlive
+scoreboard players reset %gauntlet.gameEndTimer
+scoreboard players reset %gauntlet.gameStarted
+scoreboard players reset %gauntlet.queueCountdown
+scoreboard players reset %gauntlet.queueCountdownSeconds
+scoreboard players reset %gauntlet.wave
 
 # storages
 data remove storage spawning wave
-data remove storage system.arena player
+data remove storage system.gauntlet player
 
 # fx
 time set noon

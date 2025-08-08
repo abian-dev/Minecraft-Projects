@@ -54,6 +54,7 @@ scoreboard objectives remove spawning.spawner.id
 # system
 scoreboard objectives remove system.deathTimer
 scoreboard objectives remove system.global
+scoreboard objectives remove system.lives
 scoreboard objectives remove system.ui
 scoreboard objectives remove system.ui.id
 
