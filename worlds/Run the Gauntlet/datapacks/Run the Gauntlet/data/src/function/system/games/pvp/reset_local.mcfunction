@@ -25,6 +25,7 @@ tag @s remove system.pvp.player8
 tag @s remove system.pvp.player9
 tag @s remove system.pvp.player10
 tag @s remove system.pvp.unassigned
+tag @s remove system.pvp.spectator
 function src:system/util/reset_tags
 
 # attributes

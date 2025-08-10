@@ -1,7 +1,7 @@
 # note: this is scheduled
 ## Assign tasks to entities
 # shorter stun duration in pvp
-execute if entity @s[scores={effect.stun.duration=0..},tag=system.pvp.player] run scoreboard players remove @s effect.stun.duration 1
+execute if entity @s[type=player,scores={effect.stun.duration=1..},tag=system.pvp.player] run scoreboard players remove @s effect.stun.duration 1
 
 # status effects
 execute if score @s effect.burning.duration matches 1.. run function src:status_effect/burning

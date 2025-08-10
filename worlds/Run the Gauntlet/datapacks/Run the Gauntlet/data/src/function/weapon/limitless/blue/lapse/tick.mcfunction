@@ -1,7 +1,7 @@
 ## Executed at blue every tick
 # collision
-execute as @e[type=!#src:non_entity,distance=..10,tag=!limitless.blue.user,team=!ally] at @s facing entity @e[type=area_effect_cloud,limit=1,sort=nearest,tag=limitless.blue] feet if block ^ ^ ^0.5 #src:passable positioned ^ ^ ^0.2 run tp @s ~ ~ ~
 execute as @e[type=!#src:non_entity,distance=..3,tag=!limitless.blue.user,team=!ally] at @s run function src:weapon/limitless/blue/lapse/hit
+execute as @e[type=!#src:non_entity,distance=..10,tag=!limitless.blue.user,tag=!system.pvp.player,team=!ally] at @s facing entity @e[type=area_effect_cloud,limit=1,sort=nearest,tag=limitless.blue] feet if block ^ ^ ^0.5 #src:passable positioned ^ ^ ^0.2 run tp @s ~ ~ ~
 
 # phases
 execute unless score @s generic.math matches 60.. run scoreboard players add @s generic.math 1

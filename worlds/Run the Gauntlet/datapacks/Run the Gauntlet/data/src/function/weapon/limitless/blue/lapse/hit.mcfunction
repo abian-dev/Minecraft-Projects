@@ -1,3 +1,3 @@
 ## Hit by blue function
 damage @s 0.2 src:bypass_player_attack_no_kb by @p[tag=limitless.blue.user]
-scoreboard players set @s effect.stun.duration 2
+# scoreboard players set @s effect.stun.duration 2

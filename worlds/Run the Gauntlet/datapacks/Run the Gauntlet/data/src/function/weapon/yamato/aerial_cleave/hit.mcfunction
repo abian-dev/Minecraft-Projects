@@ -1,6 +1,7 @@
 ## Hit by aerial cleave function
 damage @s 10 src:bypass_player_attack_no_kb by @p[tag=yamato.cleave.user]
 scoreboard players set @s effect.stun.duration 2
+function src:assign_tasks/schedule/to_entities
 function src:weapon/yamato/aerial_cleave/dive
 data merge entity @s[type=!player] {Motion:[0.0,0.2,0.0]}
 
