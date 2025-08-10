@@ -1,4 +1,5 @@
 ## Executed at entities with frozen every second
+# duration
 scoreboard players remove @s effect.frozen.duration 1
 execute if score @s effect.frozen.duration matches ..0 run return run scoreboard players reset @s effect.frozen.duration
 
