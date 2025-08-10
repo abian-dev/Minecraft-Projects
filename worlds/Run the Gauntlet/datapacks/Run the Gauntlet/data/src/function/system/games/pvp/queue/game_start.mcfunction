@@ -21,6 +21,9 @@ clear @a[tag=system.pvp.inside]
 execute as @a[tag=system.pvp.inside,tag=class.magic] run function src:system/util/class_loadout/magic
 execute as @a[tag=system.pvp.inside,tag=class.melee] run function src:system/util/class_loadout/melee
 execute as @a[tag=system.pvp.inside,tag=class.ranged] run function src:system/util/class_loadout/ranged
+effect give @a[tag=system.pvp.inside] instant_health 1 9 true
+effect give @a[tag=system.pvp.inside] saturation 1 9 true
+give @a[tag=system.pvp.inside] golden_carrot 64
 
 # fx
 schedule clear src:system/games/pvp/queue/countdown
