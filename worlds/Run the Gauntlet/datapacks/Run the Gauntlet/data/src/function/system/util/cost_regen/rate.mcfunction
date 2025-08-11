@@ -2,7 +2,6 @@
 # default values
 execute unless score @s cost.energyMax matches 200.. run scoreboard players set @s cost.energyMax 200
 execute unless score @s cost.staminaMax matches 200.. run scoreboard players set @s cost.staminaMax 200
-execute unless score @s cost.regen.multiplier matches 1.. run scoreboard players set @s cost.regen.multiplier 1
 scoreboard players set @s cost.regen.rate 2
 
 # variables

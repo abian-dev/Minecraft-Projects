@@ -1,4 +1,11 @@
 ## Adds stat when time is up
+# start from base
+scoreboard players set @s cost.regen.multiplier 1
+
+# apply bonuses
+execute if predicate src:armorset/clothes run scoreboard players add @s cost.regen.multiplier 1
+
+# calculate total amount regenerated
 scoreboard players set %cost.regen.total cost.energy 1
 scoreboard players set %cost.regen.total cost.stamina 1
 
