@@ -5,7 +5,7 @@ execute if score @s effect.burning.duration matches ..0 run return run scoreboar
 
 # effect
 damage @s 3 src:bypass_player_attack_no_kb by @s
-execute unless entity @s[type=player] if entity @s[nbt={HurtTime:10s}] positioned ~ ~1 ~ run function src:supply/armor/launch
+execute if entity @s[nbt={HurtTime:10s}] positioned ~ ~1 ~ run function src:supply/armor/launch
 
 # fx
 particle flame ~ ~1 ~ 0 0 0 0.1 5 force

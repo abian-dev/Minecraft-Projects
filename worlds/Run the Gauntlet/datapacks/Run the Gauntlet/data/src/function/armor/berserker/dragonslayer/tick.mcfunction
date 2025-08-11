@@ -4,8 +4,10 @@ execute positioned ^ ^ ^1 run function src:armor/berserker/dragonslayer/vfx_swor
 execute positioned ^ ^ ^3 as @e[type=!#src:non_entity,distance=..3,tag=!berserker.dragonslayer.user,team=!ally] at @s run function src:armor/berserker/dragonslayer/hit
 
 # follow user
+tag @s add berserker.dragonslayer.curr
 scoreboard players operation %berserker.dragonslayer.search user.id = @s user.id
-execute as @a[tag=berserker.dragonslayer.user] at @s if score @s user.id = %berserker.dragonslayer.search user.id as @e[type=item_display,tag=berserker.dragonslayer] if score @s user.id = %berserker.dragonslayer.search user.id run tp @s ~ ~1 ~
+execute as @a[tag=berserker.dragonslayer.user] at @s if score @s user.id = %berserker.dragonslayer.search user.id as @e[type=item_display,limit=1,sort=nearest,tag=berserker.dragonslayer.curr] run tp @s ~ ~1 ~
+tag @s remove berserker.dragonslayer.curr
 scoreboard players reset %berserker.dragonslayer.search
 
 # time until end

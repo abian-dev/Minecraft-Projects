@@ -20,6 +20,8 @@ execute rotated ~90 ~270 run particle item{item:{id:red_stained_glass}} ~ ~ ~ ^ 
 execute rotated ~90 ~90 run particle item{item:{id:red_stained_glass}} ~ ~ ~ ^ ^ ^1000000 0.0000004 0 force
 
 # follow user
+tag @s add limitless.red.curr
 scoreboard players operation %limitless.red.search user.id = @s user.id
-execute as @a[tag=limitless.red.user] at @s if score @s user.id = %limitless.red.search user.id as @e[type=area_effect_cloud,tag=limitless.red,scores={generic.math=1..}] if score @s user.id = %limitless.red.search user.id positioned ^ ^1.25 ^1.50 run tp @s ~ ~ ~
+execute as @a[tag=limitless.red.user] at @s if score @s user.id = %limitless.red.search user.id as @e[type=area_effect_cloud,limit=1,sort=nearest,tag=limitless.red.curr] positioned ^ ^1.25 ^1.50 run tp @s ~ ~ ~
+tag @s remove limitless.red.curr
 scoreboard players reset %limitless.red.search

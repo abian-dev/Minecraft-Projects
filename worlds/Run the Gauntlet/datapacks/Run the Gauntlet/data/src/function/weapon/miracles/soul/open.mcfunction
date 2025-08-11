@@ -1,9 +1,11 @@
 ## Opens ritual
 # tp to user
+tag @s add miracles.soul.curr
 scoreboard players operation %miracles.soul.search user.id = @s user.id
-execute as @a[tag=miracles.soul.user] at @s if score @s user.id = %miracles.soul.search user.id as @e[type=area_effect_cloud,tag=miracles.soul] if score @s user.id = %miracles.soul.search user.id run tp @s ~ ~ ~ ~ 0
+execute as @a[tag=miracles.soul.user] at @s if score @s user.id = %miracles.soul.search user.id as @e[type=area_effect_cloud,limit=1,sort=nearest,tag=miracles.soul.curr] run tp @s ~ ~ ~ ~ 0
 execute as @a[tag=miracles.soul.user] at @s if score @s user.id = %miracles.soul.search user.id run function src:weapon/miracles/soul/launch/start
 execute at @s as @e[type=area_effect_cloud,tag=miracles.soul.origin] if score @s user.id = %miracles.soul.search user.id run tp @s ~ ~ ~ ~ ~
+tag @s remove miracles.soul.curr
 scoreboard players reset %miracles.soul.search
 
 # fx
