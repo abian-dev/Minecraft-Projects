@@ -1,5 +1,6 @@
 ## Executed at supplies every tick
 # vfx
+execute if entity @s[tag=supply.ammo] run function src:supply/ammo/vfx
 execute if entity @s[tag=supply.armor] run particle dust{color:[0.0,1.0,0.0],scale:1.0} ~ ~ ~ 0 0 0 0 1 force
 execute if entity @s[tag=supply.health] run particle dust{color:[0.0,1.0,1.0],scale:1.0} ~ ~ ~ 0 0 0 0 1 force
 

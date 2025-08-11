@@ -13,4 +13,5 @@ playsound entity.experience_orb.pickup neutral @a[distance=..20] ~ ~ ~ 1 2 1
 
 # reset
 scoreboard players set @s weapon.cd2 40
+scoreboard players remove @s cost.stamina 10
 scoreboard players reset @s ability.uses

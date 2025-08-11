@@ -1,6 +1,7 @@
 ## When dash is used
 tag @s add berserker.dash.user
 scoreboard players set @s armor.cd 10
+scoreboard players remove @s cost.stamina 20
 
 # teleport to facing entity
 execute if predicate src:input/forward run function src:armor/berserker/dash/to_entity/start

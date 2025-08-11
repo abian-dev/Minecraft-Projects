@@ -1,5 +1,6 @@
 ## Uses flash
 tag @s add limitless.red.flash.user
+scoreboard players remove @s cost.energy 10
 
 # teleport to facing entity
 function src:weapon/limitless/red/flash/to_entity/start

@@ -12,3 +12,4 @@ execute if score @s ability.uses matches 3.. run scoreboard players reset @s abi
 
 # reset
 scoreboard players set @s weapon.cd 5
+scoreboard players remove @s cost.stamina 5

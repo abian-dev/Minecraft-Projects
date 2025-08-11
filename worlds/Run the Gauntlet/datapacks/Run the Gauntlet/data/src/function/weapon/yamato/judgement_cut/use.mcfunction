@@ -10,6 +10,7 @@ playsound entity.illusioner.prepare_blindness neutral @a[distance=..20] ~ ~ ~ 1 
 playsound entity.zombie_villager.converted neutral @a[distance=..20] ~ ~ ~ 1 2 1
 
 # reset
+scoreboard players remove @s cost.stamina 10
 scoreboard players set @s in.rmb.holdTime 0
 scoreboard players set @s weapon.cd2 10
 

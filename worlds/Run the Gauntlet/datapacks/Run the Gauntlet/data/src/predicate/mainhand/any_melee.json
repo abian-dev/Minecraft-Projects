@@ -1,0 +1,33 @@
+{
+  "condition": "minecraft:any_of",
+  "terms": [
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "equipment": {
+          "mainhand": {
+            "items": "minecraft:diamond_sword",
+            "components": {
+              "minecraft:custom_name": {"color":"aqua","italic":false,"text":"Mirage Edge"}
+            }
+          }
+        }
+      }
+    },
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "equipment": {
+          "mainhand": {
+            "items": "minecraft:iron_sword",
+            "components": {
+              "minecraft:custom_name": {"color":"blue","italic":false,"text":"Yamato"}
+            }
+          }
+        }
+      }
+    }
+  ]
+}

@@ -43,6 +43,10 @@ execute unless score @s weapon.cd matches ..0 run scoreboard players remove @s w
 execute unless score @s weapon.cd2 matches ..0 run scoreboard players remove @s weapon.cd2 1
 execute unless score @s quickswap.cd matches ..0 run scoreboard players remove @s quickswap.cd 1
 
+# costs
+execute unless score @s cost.regen.rate matches 1.. run function src:system/util/cost_regen/rate
+execute if score @s cost.regen.rate matches 1.. run function src:system/util/cost_regen/timer
+
 ## The following executes only if the entity is not stunned
 execute if score @s effect.stun.duration matches 1.. run return fail
 

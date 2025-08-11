@@ -6,4 +6,5 @@ playsound entity.guardian.attack neutral @a[distance=..20] ~ ~ ~ 2 2 1
 
 # reset
 scoreboard players set @s weapon.cd 20
+scoreboard players remove @s cost.energy 10
 scoreboard players reset @s in.sequence

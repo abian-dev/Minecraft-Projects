@@ -2,7 +2,7 @@
 tag @s add yamato.void.user
 summon area_effect_cloud ~ ~ ~ {Particle:{type:"block",block_state:"minecraft:air"},Radius:0f,WaitTime:0,Tags:["yamato.voidslash"],Duration:20}
 tp @e[type=area_effect_cloud,limit=1,sort=nearest,tag=yamato.voidslash] @s
-scoreboard players set @s effect.stun.duration 2
+scoreboard players set @s effect.stun.duration 3
 function src:assign_tasks/schedule/to_entities
 
 # fx
@@ -11,4 +11,5 @@ playsound block.beacon.deactivate neutral @a[distance=..20] ~ ~ ~ 1 1 1
 
 # reset
 scoreboard players set @s weapon.cd 20
+scoreboard players remove @s cost.stamina 25
 scoreboard players reset @s ability.uses

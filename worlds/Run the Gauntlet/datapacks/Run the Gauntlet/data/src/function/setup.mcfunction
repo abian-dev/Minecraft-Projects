@@ -27,11 +27,24 @@ scoreboard objectives add weapon.cd2 dummy
 scoreboard objectives add armor.cd dummy
 scoreboard objectives add armor.cd2 dummy
 
+# cost
+scoreboard objectives add cost.regen.multiplier dummy
+scoreboard objectives add cost.regen.rate dummy
+scoreboard objectives add cost.ammo.bullet dummy
+scoreboard objectives add cost.ammo.energy dummy
+scoreboard objectives add cost.ammo.rocket dummy
+scoreboard objectives add cost.ammo.shell dummy
+scoreboard objectives add cost.energy dummy
+scoreboard objectives add cost.energyMax dummy
+scoreboard objectives add cost.stamina dummy
+scoreboard objectives add cost.staminaMax dummy
+
 # effect
 scoreboard objectives add effect.burning.duration dummy
 scoreboard objectives add effect.frozen.duration dummy
-scoreboard objectives add effect.stun.duration dummy
+scoreboard objectives add effect.harvest.duration dummy
 scoreboard objectives add effect.lockedOn.duration dummy
+scoreboard objectives add effect.stun.duration dummy
 
 # criterion
 scoreboard objectives add criterion.death deathCount

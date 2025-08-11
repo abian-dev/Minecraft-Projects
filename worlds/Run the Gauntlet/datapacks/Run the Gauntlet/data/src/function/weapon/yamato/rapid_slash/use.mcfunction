@@ -6,4 +6,5 @@ function src:weapon/yamato/rapid_slash/range/start
 
 # reset
 scoreboard players set @s weapon.cd 20
+scoreboard players remove @s cost.stamina 25
 scoreboard players reset @s ability.uses

@@ -10,4 +10,5 @@ playsound entity.player.attack.sweep neutral @a[distance=..20] ~ ~ ~ 1 0 1
 
 # reset
 scoreboard players set @s weapon.cd 10
+scoreboard players remove @s cost.stamina 20
 scoreboard players reset @s ability.uses

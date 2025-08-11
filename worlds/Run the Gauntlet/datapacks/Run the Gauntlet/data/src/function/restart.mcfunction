@@ -30,11 +30,24 @@ scoreboard objectives remove weapon.cd2
 scoreboard objectives remove armor.cd
 scoreboard objectives remove armor.cd2
 
+# cost
+scoreboard objectives remove cost.regen.multiplier
+scoreboard objectives remove cost.regen.rate
+scoreboard objectives remove cost.ammo.bullet
+scoreboard objectives remove cost.ammo.energy
+scoreboard objectives remove cost.ammo.rocket
+scoreboard objectives remove cost.ammo.shell
+scoreboard objectives remove cost.energy
+scoreboard objectives remove cost.energyMax
+scoreboard objectives remove cost.stamina
+scoreboard objectives remove cost.staminaMax
+
 # effect
 scoreboard objectives remove effect.burning.duration
 scoreboard objectives remove effect.frozen.duration
-scoreboard objectives remove effect.stun.duration
+scoreboard objectives remove effect.frozen.duration
 scoreboard objectives remove effect.lockedOn.duration
+scoreboard objectives remove effect.stun.duration
 
 # criterion
 scoreboard objectives remove criterion.death

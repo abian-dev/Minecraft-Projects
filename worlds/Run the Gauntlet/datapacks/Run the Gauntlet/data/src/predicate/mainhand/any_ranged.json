@@ -1,0 +1,61 @@
+{
+  "condition": "minecraft:any_of",
+  "terms": [
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "equipment": {
+          "mainhand": {
+            "items": "minecraft:golden_hoe",
+            "components": {
+              "minecraft:custom_name": {"color":"dark_red","italic":false,"text":"Ballista"}
+            }
+          }
+        }
+      }
+    },
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "equipment": {
+          "mainhand": {
+            "items": "minecraft:spyglass",
+            "components": {
+              "minecraft:custom_name": {"color":"yellow","italic":false,"text":"Precision Bolt"}
+            }
+          }
+        }
+      }
+    },
+        {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "equipment": {
+          "mainhand": {
+            "items": "minecraft:iron_hoe",
+            "components": {
+              "minecraft:custom_name": {"color":"gold","italic":false,"text":"Rocket Launcher"}
+            }
+          }
+        }
+      }
+    },
+        {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "equipment": {
+          "mainhand": {
+            "items": "minecraft:wooden_hoe",
+            "components": {
+              "minecraft:custom_name": {"color":"red","italic":false,"text":"Super Shotgun"}
+            }
+          }
+        }
+      }
+    }
+  ]
+}

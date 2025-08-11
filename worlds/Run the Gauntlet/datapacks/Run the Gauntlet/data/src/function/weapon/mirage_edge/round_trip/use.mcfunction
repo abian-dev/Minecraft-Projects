@@ -11,4 +11,5 @@ tp @s ~ ~ ~ ~2 ~
 
 # reset
 scoreboard players set @s weapon.cd 30
+scoreboard players remove @s cost.stamina 20
 scoreboard players reset @s ability.uses

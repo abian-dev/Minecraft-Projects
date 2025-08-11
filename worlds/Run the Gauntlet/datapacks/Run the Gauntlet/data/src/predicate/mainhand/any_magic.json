@@ -1,0 +1,33 @@
+{
+  "condition": "minecraft:any_of",
+  "terms": [
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "equipment": {
+          "mainhand": {
+            "items": "minecraft:iron_axe",
+            "components": {
+              "minecraft:custom_name": {"color":"aqua","italic":false,"text":"Limitless"}
+            }
+          }
+        }
+      }
+    },
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "equipment": {
+          "mainhand": {
+            "items": "minecraft:golden_axe",
+            "components": {
+              "minecraft:custom_name": {"color":"yellow","italic":false,"text":"Miracles"}
+            }
+          }
+        }
+      }
+    }
+  ]
+}

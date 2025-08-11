@@ -1,7 +1,6 @@
-## Executed at entities with stun every second
-# duration; shorter in pvp
+## Executed at entities with stun
+# duration
 scoreboard players remove @s effect.stun.duration 1
-execute if entity @s[type=player,tag=system.pvp.player] run scoreboard players remove @s effect.stun.duration 1
 
 # effect
 execute unless entity @s[tag=effect.stun] run function src:status_effect/stun/onset

@@ -10,4 +10,5 @@ playsound block.bell.resonate neutral @a[distance=..20] ~ ~ ~ 2 1 1
 
 # reset
 scoreboard players set @s weapon.cd2 150
+scoreboard players remove @s cost.energy 50
 scoreboard players reset @s in.sequence

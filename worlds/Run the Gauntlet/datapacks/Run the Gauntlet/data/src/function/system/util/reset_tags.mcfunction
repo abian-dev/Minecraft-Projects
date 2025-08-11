@@ -1,4 +1,7 @@
 ## Resets all tags (besides game)
+# effects
+tag @s remove effect.stun
+
 # armor
 tag @s remove berserker.hasJumpedOnce
 tag @s remove berserker.releasedInAir
@@ -54,3 +57,6 @@ tag @s remove miracles.solemn.user
 tag @s remove miracles.soul.user
 tag @s remove miracles.swords.spiral.user
 tag @s remove miracles.swords.throw.user
+
+# other
+tag @s remove supply.pickupLocked

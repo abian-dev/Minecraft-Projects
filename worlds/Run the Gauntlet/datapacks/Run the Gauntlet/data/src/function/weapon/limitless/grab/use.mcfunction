@@ -9,4 +9,5 @@ playsound entity.ghast.shoot neutral @a[distance=..20] ~ ~ ~ 1 0 1
 
 # reset
 scoreboard players set @s weapon.cd 20
+scoreboard players remove @s cost.energy 25
 scoreboard players reset @s in.sequence
