@@ -3,7 +3,7 @@
 title @s actionbar [{"text":"Stamina: ","color":"green"},{"score":{"name":"@s","objective":"cost.stamina"},"color":"white"},{"text":"/","color":"gray"},{"score":{"name":"@s","objective":"cost.staminaMax"},"color":"gray"}]
 
 # moveset
-execute if score @s in.rmb.off matches 1 if score @s in.rmb.holdTime matches 15.. if score @s in.w.on matches 1.. if score @s weapon.cd2 matches ..0 if score @s cost.stamina matches 40.. run return run function src:weapon/yamato/judgement_cut_end/use
+execute if score @s in.rmb.off matches 1 if score @s in.rmb.holdTime matches 15.. if score @s in.w.on matches 1.. if score @s weapon.cd2 matches ..0 if score @s cost.stamina matches 60.. run return run function src:weapon/yamato/judgement_cut_end/use
 execute if score @s in.rmb.off matches 1 if score @s in.rmb.holdTime matches 5.. if score @s weapon.cd2 matches ..0 if score @s cost.stamina matches 10.. run return run function src:weapon/yamato/judgement_cut/use
 execute if score @s in.rmb.on matches 1.. if score @s in.s.on matches 1.. if score @s in.w.on matches 1.. if score @s weapon.cd matches ..0 if score @s cost.stamina matches 25.. run return run function src:weapon/yamato/void_slash/use
 

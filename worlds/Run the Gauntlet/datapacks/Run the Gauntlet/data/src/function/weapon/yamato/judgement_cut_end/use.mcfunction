@@ -9,5 +9,5 @@ playsound block.end_portal.spawn neutral @a[distance=..20] ~ ~ ~ 0.5 2 0.5
 
 # reset
 scoreboard players set @s weapon.cd2 100
-scoreboard players remove @s cost.stamina 40
+scoreboard players remove @s cost.stamina 60
 scoreboard players reset @s ability.uses
