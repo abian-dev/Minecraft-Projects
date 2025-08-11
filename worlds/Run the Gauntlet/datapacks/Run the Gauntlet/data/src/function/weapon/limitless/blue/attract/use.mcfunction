@@ -10,5 +10,5 @@ playsound entity.illusioner.prepare_mirror neutral @a[distance=..20] ~ ~ ~ 2 2 1
 
 # reset
 scoreboard players set @s weapon.cd 5
-scoreboard players remove @s cost.energy 10
+scoreboard players remove @s cost.energy 30
 scoreboard players reset @s in.sequence

@@ -6,5 +6,5 @@ playsound block.beacon.power_select neutral @a[distance=..20] ~ ~ ~ 2 1 1
 
 # reset
 scoreboard players set @s weapon.cd 20
-scoreboard players remove @s cost.energy 25
+scoreboard players remove @s cost.energy 35
 scoreboard players reset @s in.sequence

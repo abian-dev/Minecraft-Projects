@@ -1,5 +1,5 @@
 ## Hit by attract function
-damage @s 7 src:bypass_player_attack_no_kb by @p[tag=limitless.blue.attract.user]
+damage @s 5 src:bypass_player_attack_no_kb by @p[tag=limitless.blue.attract.user]
 scoreboard players set @s effect.stun.duration 3
 function src:assign_tasks/schedule/to_entities
 
