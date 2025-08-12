@@ -7,9 +7,6 @@ scoreboard players remove @s cost.stamina 15
 execute if predicate src:input/forward run function src:armor/berserker/dash/to_entity/start
 execute if entity @s[tag=berserker.dash.isFacingEntity] run return run tag @s remove berserker.dash.isFacingEntity
 
-# teleport to ground
-execute if predicate src:input/backward if block ~ ~-0.5 ~ #src:passable run return run function src:armor/berserker/dash/to_ground/start
-
 # find dash direction based on wasd
 execute if predicate src:input/forward if predicate src:input/right rotated ~45 0 run return run function src:armor/berserker/dash/start
 execute if predicate src:input/right if predicate src:input/backward rotated ~135 0 run return run function src:armor/berserker/dash/start
@@ -20,3 +17,9 @@ execute if predicate src:input/forward rotated ~ 0 run return run function src:a
 execute if predicate src:input/right rotated ~90 0 run return run function src:armor/berserker/dash/start
 execute if predicate src:input/backward rotated ~180 0 run return run function src:armor/berserker/dash/start
 execute if predicate src:input/left rotated ~270 0 run return run function src:armor/berserker/dash/start
+
+# teleport to ground
+execute if block ~ ~-0.5 ~ #src:passable run return run function src:armor/berserker/dash/to_ground/start
+
+# default case
+execute rotated ~ 0 run function src:armor/berserker/dash/start

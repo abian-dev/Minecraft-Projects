@@ -2,8 +2,7 @@
 tag @s add yamato.void.user
 summon area_effect_cloud ~ ~ ~ {Particle:{type:"block",block_state:"minecraft:air"},Radius:0f,WaitTime:0,Tags:["yamato.voidslash"],Duration:20}
 tp @e[type=area_effect_cloud,limit=1,sort=nearest,tag=yamato.voidslash] @s
-scoreboard players set @s effect.stun.duration 3
-function src:assign_tasks/schedule/to_entities
+scoreboard players set @s effect.stun.duration 2
 
 # fx
 particle flash ^ ^1 ^1 0 0 0 0 1 force

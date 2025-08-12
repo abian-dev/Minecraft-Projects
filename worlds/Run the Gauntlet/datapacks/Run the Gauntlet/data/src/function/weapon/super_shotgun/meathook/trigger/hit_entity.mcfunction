@@ -4,7 +4,8 @@ execute positioned as @s run playsound block.chain.place neutral @a[distance=..2
 
 # summon meathook
 execute as @e[type=!#src:non_entity,distance=..2,limit=1,sort=nearest,tag=!supershotgun.meathook.user,team=!ally] at @s run function src:weapon/super_shotgun/meathook/trigger/at_entity
-scoreboard players operation @e[type=area_effect_cloud,distance=..2,limit=1,sort=nearest,tag=supershotgun.meathook] user.id = @s user.id
+scoreboard players operation @e[type=area_effect_cloud,distance=..2,limit=1,sort=nearest,tag=supershotgun.meathook.new] user.id = @s user.id
+tag @e[type=area_effect_cloud,distance=..2,limit=1,sort=nearest,tag=supershotgun.meathook.new] remove supershotgun.meathook.new
 
 # reset
 scoreboard players set @s generic.raycast.step 0

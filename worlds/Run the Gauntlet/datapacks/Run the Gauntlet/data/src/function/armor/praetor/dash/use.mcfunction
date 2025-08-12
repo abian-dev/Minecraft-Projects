@@ -12,3 +12,6 @@ execute if predicate src:input/forward rotated ~ 0 run return run function src:a
 execute if predicate src:input/right rotated ~90 0 run return run function src:armor/praetor/dash/start
 execute if predicate src:input/backward rotated ~180 0 run return run function src:armor/praetor/dash/start
 execute if predicate src:input/left rotated ~270 0 run return run function src:armor/praetor/dash/start
+
+# default case
+execute rotated ~ 0 run function src:armor/praetor/dash/start

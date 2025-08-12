@@ -1,7 +1,6 @@
 ## Hit by attract function
 damage @s 5 src:bypass_player_attack_no_kb by @p[tag=limitless.blue.attract.user]
 scoreboard players set @s effect.stun.duration 3
-function src:assign_tasks/schedule/to_entities
 
 # attraction
 scoreboard players set %limitless.blue.attract generic.raycast.step 20

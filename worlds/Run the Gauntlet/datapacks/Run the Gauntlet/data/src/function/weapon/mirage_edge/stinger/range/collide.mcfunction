@@ -1,6 +1,6 @@
 ## When range raycast collides
 # summon dash end marker
-summon area_effect_cloud ~ ~ ~ {Particle:{type:"block",block_state:"minecraft:air"},Radius:0f,WaitTime:0,Tags:["mirageedge.stinger"],Duration:20}
+summon area_effect_cloud ~ ~ ~ {Particle:{type:"block",block_state:"minecraft:air"},Radius:0f,WaitTime:0,Tags:["mirageedge.stinger"],Duration:30}
 scoreboard players operation @e[type=area_effect_cloud,distance=..2,limit=1,sort=nearest,tag=mirageedge.stinger] user.id = @s user.id
 
 # reset

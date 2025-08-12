@@ -1,4 +1,6 @@
 ## Ends rapid slash
-attribute @p[tag=yamato.rapid.user] gravity modifier remove gravity.yamato.rapidslash
-tag @p[tag=yamato.rapid.user] remove yamato.rapid.user
+scoreboard players operation %yamato.rapid.search user.id = @s user.id
+execute as @a[tag=yamato.rapid.user] if score @s user.id = %yamato.rapid.search user.id run attribute @s gravity modifier remove gravity.yamato.rapidslash
+execute as @a[tag=yamato.rapid.user] if score @s user.id = %yamato.rapid.search user.id run tag @s remove yamato.rapid.user
+scoreboard players reset %yamato.rapid.search
 kill @s
