@@ -8,13 +8,22 @@ scoreboard objectives add in.rmb.holdTime dummy
 scoreboard objectives add in.rmb.on dummy
 scoreboard objectives add in.rmb.off dummy
 
+scoreboard objectives add in.jump.holdTime dummy
 scoreboard objectives add in.jump.on dummy
 scoreboard objectives add in.jump.off dummy
+
+scoreboard objectives add in.sneak.holdTime dummy
+scoreboard objectives add in.sneak.on dummy
 
 scoreboard objectives add in.w.on dummy
 scoreboard objectives add in.a.on dummy
 scoreboard objectives add in.s.on dummy
 scoreboard objectives add in.d.on dummy
+
+scoreboard objectives add in.w.holdTime dummy
+scoreboard objectives add in.a.holdTime dummy
+scoreboard objectives add in.s.holdTime dummy
+scoreboard objectives add in.d.holdTime dummy
 
 scoreboard objectives add in.sequence dummy
 scoreboard objectives add in.sequence.cd dummy

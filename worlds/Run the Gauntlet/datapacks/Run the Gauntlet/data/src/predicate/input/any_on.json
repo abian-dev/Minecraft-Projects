@@ -1,0 +1,54 @@
+{
+  "condition": "minecraft:any_of",
+  "terms": [
+    {
+      "condition": "minecraft:any_of",
+      "terms": [
+        {
+          "condition": "minecraft:entity_scores",
+          "entity": "this",
+          "scores": {
+            "in.w.holdTime": 1
+          }
+        },
+        {
+          "condition": "minecraft:entity_scores",
+          "terms": [],
+          "entity": "this",
+          "scores": {
+            "in.s.holdTime": 1
+          }
+        },
+        {
+          "condition": "minecraft:entity_scores",
+          "entity": "this",
+          "predicate": {},
+          "scores": {
+            "in.a.holdTime": 1
+          }
+        },
+        {
+          "condition": "minecraft:entity_scores",
+          "entity": "this",
+          "scores": {
+            "in.d.holdTime": 1
+          }
+        },
+                {
+          "condition": "minecraft:entity_scores",
+          "entity": "this",
+          "scores": {
+            "in.jump.holdTime": 1
+          }
+        },
+                {
+          "condition": "minecraft:entity_scores",
+          "entity": "this",
+          "scores": {
+            "in.sneak.holdTime": 1
+          }
+        }
+      ]
+    }
+  ]
+}

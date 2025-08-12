@@ -11,13 +11,22 @@ scoreboard objectives remove in.rmb.holdTime
 scoreboard objectives remove in.rmb.on
 scoreboard objectives remove in.rmb.off
 
+scoreboard objectives remove in.jump.holdTime
 scoreboard objectives remove in.jump.on
 scoreboard objectives remove in.jump.off
+
+scoreboard objectives remove in.sneak.holdTime
+scoreboard objectives remove in.sneak.on
 
 scoreboard objectives remove in.w.on
 scoreboard objectives remove in.a.on
 scoreboard objectives remove in.s.on
 scoreboard objectives remove in.d.on
+
+scoreboard objectives remove in.w.holdTime
+scoreboard objectives remove in.a.holdTime
+scoreboard objectives remove in.s.holdTime
+scoreboard objectives remove in.d.holdTime
 
 scoreboard objectives remove in.sequence
 scoreboard objectives remove in.sequence.cd
@@ -45,7 +54,7 @@ scoreboard objectives remove cost.staminaMax
 # effect
 scoreboard objectives remove effect.burning.duration
 scoreboard objectives remove effect.frozen.duration
-scoreboard objectives remove effect.frozen.duration
+scoreboard objectives remove effect.harvest.duration
 scoreboard objectives remove effect.lockedOn.duration
 scoreboard objectives remove effect.stun.duration
 

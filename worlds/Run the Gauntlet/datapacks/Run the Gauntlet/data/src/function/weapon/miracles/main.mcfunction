@@ -10,7 +10,7 @@ execute if score @s in.rmb.on matches 1.. run scoreboard players reset @s in.seq
 
 # build OR group
 execute if score @s in.rmb.on matches 1.. run scoreboard players add %miracles.hasInput generic.math 1
-execute if score @s in.sequence.cd matches 2 run scoreboard players add %miracles.hasInput generic.math 1
+execute if score @s in.sequence.cd matches 1 run scoreboard players add %miracles.hasInput generic.math 1
 execute if score @s in.sequence.cd2 matches 1 run scoreboard players add %miracles.hasInput generic.math 1
 execute if score @s weapon.cd matches ..0 run scoreboard players add %miracles.cdReady generic.math 1
 execute if score @s weapon.cd2 matches ..0 run scoreboard players add %miracles.cdReady generic.math 1
