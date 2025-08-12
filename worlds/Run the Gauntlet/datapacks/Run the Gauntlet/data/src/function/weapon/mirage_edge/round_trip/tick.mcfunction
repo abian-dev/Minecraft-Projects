@@ -9,6 +9,6 @@ execute as @e[type=!#src:non_entity,distance=..3,tag=!mirageedge.roundtrip.user,
 execute as @e[type=!#src:non_entity,distance=..10,tag=!mirageedge.roundtrip.user,tag=!system.pvp.player,team=!ally] at @s facing entity @e[type=armor_stand,limit=1,sort=nearest,tag=mirageedge.roundtrip] feet if block ^ ^ ^0.5 #src:passable positioned ^ ^ ^0.1 run tp @s ~ ~ ~
 
 # phases
-execute unless score @s generic.math matches 60.. run scoreboard players add @s generic.math 1
+execute unless score @s generic.math matches 40.. run scoreboard players add @s generic.math 1
 execute if score @s generic.math matches ..10 run function src:weapon/mirage_edge/round_trip/move
-execute if score @s generic.math matches 60.. run function src:weapon/mirage_edge/round_trip/end
+execute if score @s generic.math matches 40.. run function src:weapon/mirage_edge/round_trip/end

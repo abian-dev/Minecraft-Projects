@@ -1,6 +1,6 @@
 ## Executed at user every tick
 # dash
-execute if predicate src:input/sneak if score @s armor.cd matches ..0 if score @s cost.stamina matches 20.. run function src:armor/berserker/dash/use
+execute if predicate src:input/sneak if score @s armor.cd matches ..0 if score @s cost.stamina matches 15.. run function src:armor/berserker/dash/use
 
 # double jump
 execute unless block ~ ~-0.5 ~ #src:passable run function src:armor/berserker/jump/reset

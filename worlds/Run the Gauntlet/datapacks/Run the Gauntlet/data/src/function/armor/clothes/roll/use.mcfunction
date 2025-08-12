@@ -1,8 +1,11 @@
 ## When roll is used
 tag @s add clothes.roll.user
+scoreboard players set @s armor.cd 20
+scoreboard players remove @s cost.stamina 15
+
+# fx
 particle block{block_state:"minecraft:gravel"} ~ ~0.25 ~ 0.5 0.0 0.5 0 40 force
 playsound entity.player.small_fall neutral @a[distance=..20] ~ ~ ~ 1 1 1
-scoreboard players set @s armor.cd 20
 
 # find dash direction based on wasd
 execute if predicate src:input/forward if predicate src:input/right rotated ~45 0 run return run function src:armor/clothes/roll/range/start
