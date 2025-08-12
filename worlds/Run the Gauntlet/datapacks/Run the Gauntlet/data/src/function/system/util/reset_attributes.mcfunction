@@ -17,3 +17,4 @@ attribute @s gravity modifier remove gravity.yamato.rapidslash
 
 attribute @s gravity modifier remove gravity.limitless.grab
 attribute @s gravity modifier remove gravity.miracles.holy
+attribute @s gravity modifier remove gravity.miracles.soul
