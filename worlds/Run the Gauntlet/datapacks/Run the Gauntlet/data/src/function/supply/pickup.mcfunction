@@ -2,6 +2,7 @@
 execute if entity @s[tag=supply.ammo] run function src:supply/ammo/pickup/main
 execute if entity @s[tag=supply.armor] as @p run function src:supply/armor/pickup
 execute if entity @s[tag=supply.health] as @p run function src:supply/health/pickup
+execute if entity @s[tag=supply.resource] as @p run function src:supply/resource/pickup
 
 # reset
 scoreboard players reset %supply.search

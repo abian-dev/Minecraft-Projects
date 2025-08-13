@@ -1,0 +1,27 @@
+{
+  "values":[
+    "#minecraft:arrows",
+    "#minecraft:impact_projectiles",
+
+    "minecraft:item",
+
+    "minecraft:ender_pearl",
+    "minecraft:eye_of_ender",
+    "minecraft:evoker_fangs",
+    "minecraft:fishing_bobber",
+    "minecraft:llama_spit",
+    "minecraft:shulker_bullet",
+
+    "minecraft:experience_bottle",
+    "minecraft:experience_orb",
+    "minecraft:lingering_potion",
+    "minecraft:splash_potion",
+
+    "minecraft:end_crystal",
+    "minecraft:leash_knot",
+    "minecraft:tnt",
+    
+    "minecraft:firework_rocket",
+    "minecraft:lightning_bolt"
+  ]
+}

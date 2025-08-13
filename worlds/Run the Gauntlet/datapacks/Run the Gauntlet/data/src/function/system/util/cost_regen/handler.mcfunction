@@ -3,6 +3,7 @@
 scoreboard players set @s cost.regen.multiplier 1
 
 # apply bonuses
+execute if entity @s[tag=supply.resource.pickedUp] run scoreboard players add @s cost.regen.multiplier 50
 execute if predicate src:armorset/clothes run scoreboard players add @s cost.regen.multiplier 1
 
 # calculate total amount regenerated

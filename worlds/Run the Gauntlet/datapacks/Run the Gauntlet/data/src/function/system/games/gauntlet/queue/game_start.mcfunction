@@ -4,13 +4,18 @@ scoreboard players set %gauntlet.gameStarted system.global 1
 scoreboard players reset %gauntlet.queueCountdown
 scoreboard players reset %gauntlet.queueCountdownSeconds
 
-# player data
-clear @a[tag=system.gauntlet.inside]
+# player gauntlet data
 team join ally @a[tag=system.gauntlet.inside]
 tp @a[tag=system.gauntlet.inside] 0 70 0 facing 0 70 1
+
+# give loadout
+clear @a[tag=system.gauntlet.inside]
 execute as @a[tag=system.gauntlet.inside,tag=class.magic] run function src:system/util/class_loadout/magic
 execute as @a[tag=system.gauntlet.inside,tag=class.melee] run function src:system/util/class_loadout/melee
 execute as @a[tag=system.gauntlet.inside,tag=class.ranged] run function src:system/util/class_loadout/ranged
+effect give @a[tag=system.gauntlet.inside] instant_health 1 9 true
+effect give @a[tag=system.gauntlet.inside] saturation 1 9 true
+give @a[tag=system.gauntlet.inside] golden_carrot 64
 
 # reset
 scoreboard players reset @a[tag=system.gauntlet.inside] criterion.death

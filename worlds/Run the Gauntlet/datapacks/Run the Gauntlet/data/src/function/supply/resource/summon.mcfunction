@@ -1,0 +1,2 @@
+## Summons resource supply
+summon armor_stand ~ ~ ~ {Pose:{Head:[0f,0f,0f]},Invisible:1b,Small:1b,DisabledSlots:4144959,Tags:["supply","supply.resource"],equipment:{chest:{id:golden_chestplate,unbreakable:{}}}}

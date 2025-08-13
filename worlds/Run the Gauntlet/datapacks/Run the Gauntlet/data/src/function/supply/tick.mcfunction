@@ -3,6 +3,7 @@
 execute if entity @s[tag=supply.ammo] run function src:supply/ammo/vfx
 execute if entity @s[tag=supply.armor] run particle dust{color:[0.0,1.0,0.0],scale:1.0} ~ ~ ~ 0 0 0 0 1 force
 execute if entity @s[tag=supply.health] run particle dust{color:[0.0,1.0,1.0],scale:1.0} ~ ~ ~ 0 0 0 0 1 force
+execute if entity @s[tag=supply.resource] run particle dust{color:[1.0,1.0,0.0],scale:1.0} ~ ~ ~ 0 0 0 0 1 force
 
 # spin logic
 execute if entity @s[tag=!supply.spin] unless block ~ ~-0.5 ~ #src:passable run tag @s add supply.spin

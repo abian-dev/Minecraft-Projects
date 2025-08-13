@@ -2,10 +2,12 @@ spawn example call: function src:spawning/summon/entity {"entity":"zombie","id":
 
 (basic survival)	
 # TIER 0: OVERWORLD
-* zombie + elite
-* skeleton + elite
+* zombie
+* skeleton
 * creeper
 * phantom
+* elite zombie
+* elite skeleton
 * wither skeleton
 BOSS:
 

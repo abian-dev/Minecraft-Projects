@@ -1,6 +1,7 @@
 ## When dash is used
 playsound entity.illusioner.prepare_mirror neutral @a[distance=..10] ~ ~ ~ 1 2 1
 scoreboard players add @s armor.cd 20
+scoreboard players remove @s cost.stamina 5
 
 # find dash direction based on wasd
 execute if predicate src:input/forward if predicate src:input/right rotated ~45 0 run return run function src:armor/praetor/dash/start
