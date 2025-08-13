@@ -1,9 +1,12 @@
-spawn example call: function src:spawning/summon/entity {"entity":"zombie","id":"1"}
+spawn example call: function src:spawning/summon/entity {"entity":"zombie","id":"1","pos":"~ ~ ~"}
 
 (basic survival)	
 # TIER 0: OVERWORLD
-* zombie
-* skeleton
+* zombie + elite
+* skeleton + elite
+* creeper
+* phantom
+* wither skeleton
 BOSS:
 
 (dark medieval)

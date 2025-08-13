@@ -1,6 +1,12 @@
 ## Starts next wave
+# reset
+kill @e[type=#src:cleanup,predicate=src:location/gauntlet]
+kill @e[type=marker,predicate=src:location/gauntlet,tag=spawning.spawner]
+scoreboard players reset %gauntlet.wave.timer
+
 # end game if all waves completed
-execute if score %gauntlet.wave system.global matches 11.. run function src:system/games/gauntlet/ingame/end
+# (gauntlet.wave = last wave + 1)
+execute if score %gauntlet.wave system.global matches 11.. run return run function src:system/games/gauntlet/ingame/end
 
 # starts current compiled wave
 $function src:spawning/wave/start/$(num)
