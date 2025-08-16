@@ -11,7 +11,7 @@
         "when": "melee.chainsaw",
         "model": {
           "type": "model",
-          "model": "item/melee/dragonslayer"
+          "model": "item/melee/chainsaw"
         }
       },
       {
