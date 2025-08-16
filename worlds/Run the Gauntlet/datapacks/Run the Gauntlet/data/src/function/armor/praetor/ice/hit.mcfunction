@@ -5,4 +5,3 @@ execute rotated ~180 0 positioned ~ ~-0.1 ~ run function src:generic/vfx/player_
 # effects
 damage @s 2 src:bypass_player_attack_no_kb by @p[tag=praetor.ice.user]
 scoreboard players add @s effect.frozen.duration 3
-scoreboard players add @s effect.harvest.duration 3

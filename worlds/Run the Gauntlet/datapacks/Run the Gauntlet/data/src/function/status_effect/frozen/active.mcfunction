@@ -7,7 +7,6 @@ execute if score @s effect.frozen.duration matches ..0 run return run scoreboard
 damage @s 3 src:bypass_player_attack_no_kb by @s
 scoreboard players set @s effect.stun.duration 2
 execute positioned ~ ~1 ~ run function src:supply/health/launch
-execute if entity @s[type=!player] positioned ~ ~1 ~ run function src:supply/resource/launch
 
 # fx
 particle end_rod ~ ~1 ~ 0 0 0 0.1 1 force
