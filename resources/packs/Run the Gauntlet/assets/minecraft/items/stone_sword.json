@@ -8,6 +8,13 @@
     },
     "cases": [
       {
+        "when": "melee.chainsaw",
+        "model": {
+          "type": "model",
+          "model": "item/melee/dragonslayer"
+        }
+      },
+      {
         "when": "melee.dragonslayer",
         "model": {
           "type": "model",
