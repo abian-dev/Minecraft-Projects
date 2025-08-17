@@ -8,6 +8,13 @@
     },
     "cases": [
       {
+        "when": "melee.excalibur",
+        "model": {
+          "type": "model",
+          "model": "item/melee/excalibur"
+        }
+      },
+      {
         "when": "melee.yamato",
         "model": {
           "type": "model",
