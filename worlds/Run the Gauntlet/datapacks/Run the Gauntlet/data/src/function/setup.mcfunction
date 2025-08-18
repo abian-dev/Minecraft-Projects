@@ -44,8 +44,10 @@ scoreboard objectives add cost.ammo.energy dummy
 scoreboard objectives add cost.ammo.rocket dummy
 scoreboard objectives add cost.ammo.shell dummy
 scoreboard objectives add cost.energy dummy
+scoreboard objectives add cost.energyBase dummy
 scoreboard objectives add cost.energyMax dummy
 scoreboard objectives add cost.stamina dummy
+scoreboard objectives add cost.staminaBase dummy
 scoreboard objectives add cost.staminaMax dummy
 
 # effect

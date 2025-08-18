@@ -10,6 +10,7 @@ function src:system/ui/give
 scoreboard players reset @s criterion.death
 scoreboard players reset @s system.deathTimer
 scoreboard players reset @s user.id
+function src:system/util/reset_scores
 
 # game tags
 tag @s remove system.gauntlet.inside

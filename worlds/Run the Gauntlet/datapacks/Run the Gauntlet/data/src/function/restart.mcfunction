@@ -47,8 +47,10 @@ scoreboard objectives remove cost.ammo.energy
 scoreboard objectives remove cost.ammo.rocket
 scoreboard objectives remove cost.ammo.shell
 scoreboard objectives remove cost.energy
+scoreboard objectives remove cost.energyBase
 scoreboard objectives remove cost.energyMax
 scoreboard objectives remove cost.stamina
+scoreboard objectives remove cost.staminaBase
 scoreboard objectives remove cost.staminaMax
 
 # effect
