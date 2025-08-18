@@ -15,6 +15,8 @@ execute if entity @s[tag=rocketlauncher.rockethoming] run return run function sr
 execute if entity @s[tag=supershotgun.bullet] run return run function src:weapon/super_shotgun/primary/tick
 execute if entity @s[tag=supershotgun.meathook] run return run function src:weapon/super_shotgun/meathook/tick
 
+execute if entity @s[tag=excalibur.sword.light.aura] run return run function src:weapon/excalibur/sword/light/tick_aura
+execute if entity @s[tag=excalibur.sword.light.sigil] run return run function src:weapon/excalibur/sword/light/tick_sigil
 execute if entity @s[tag=mirageedge.blistering] run return run function src:weapon/mirage_edge/blistering/tick
 execute if entity @s[tag=mirageedge.rain] run return run function src:weapon/mirage_edge/rain/tick
 execute if entity @s[tag=mirageedge.stinger] run return run function src:weapon/mirage_edge/stinger/tick

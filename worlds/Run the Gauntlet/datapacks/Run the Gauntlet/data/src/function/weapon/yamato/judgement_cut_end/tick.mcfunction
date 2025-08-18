@@ -1,6 +1,6 @@
 ## Executed at jce every tick
 execute unless score @s generic.math matches 90.. run scoreboard players add @s generic.math 1
-execute if score @s generic.math matches 1 run scoreboard players set @e[type=!#src:non_entity,distance=..15,tag=!yamato.jce.user,team=!ally] effect.stun.duration 6
+execute if score @s generic.math matches 1 run scoreboard players set @e[type=!#src:non_entity,distance=..15,tag=!yamato.jce.user,team=!ally] effect.stun.duration 7
 
 # afterimages
 execute if score @s generic.math matches 25 run function src:generic/functions/random_pos/start {"itt":"2","yaw":"180","pitch":"45","distMin":"20","distMax":"30","atPos":"function src:weapon/yamato/judgement_cut_end/image/summon"}

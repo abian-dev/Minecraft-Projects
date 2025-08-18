@@ -5,6 +5,8 @@ execute as @e[type=item_display,limit=1,sort=nearest,tag=excalibur.sword] at @s 
 scoreboard players set @s effect.stun.duration 6
 
 # fx
+effect give @s mining_fatigue 3 9 true
+function src:weapon/excalibur/sword/light/summon_aura
 particle flash ^ ^1 ^1 0 0 0 0 1 force
 playsound block.beacon.activate neutral @a[distance=..40] ~ ~ ~ 2 1 1
 
