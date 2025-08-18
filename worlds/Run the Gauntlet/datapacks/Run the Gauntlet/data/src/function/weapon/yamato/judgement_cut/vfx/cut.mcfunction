@@ -12,10 +12,10 @@ execute store result entity @s Rotation[0] float 0.01 run scoreboard players get
 execute store result entity @s Rotation[1] float 0.01 run scoreboard players get %vfxJudgementCut.y generic.y
 
 # particles
-execute at @s run particle dust{color:[1.0,1.0,1.0],scale:0.7} ^ ^ ^3.00 0 0 0 0 1 force
-execute at @s run particle dust{color:[0.0,0.0,0.0],scale:0.7} ^ ^ ^2.75 0 0 0 0 1 force
-execute at @s run particle dust{color:[0.0,0.5,1.0],scale:0.7} ^ ^ ^2.50 0 0 0 0 1 force
-execute at @s run particle dust{color:[0.0,0.0,0.0],scale:0.7} ^ ^ ^-2.00 0 0 0 0 1 force
+execute at @s run particle dust{color:[1.0,1.0,1.0],scale:0.6} ^ ^ ^3.00 0 0 0 0 1 force
+execute at @s run particle dust{color:[0.0,0.0,0.0],scale:0.6} ^ ^ ^2.75 0 0 0 0 1 force
+execute at @s run particle dust{color:[0.0,0.5,1.0],scale:0.6} ^ ^ ^2.50 0 0 0 0 1 force
+execute at @s run particle dust{color:[0.0,0.0,0.0],scale:0.6} ^ ^ ^-2.00 0 0 0 0 1 force
 
 # recurse until pos is close to point
 scoreboard players reset @s generic.z

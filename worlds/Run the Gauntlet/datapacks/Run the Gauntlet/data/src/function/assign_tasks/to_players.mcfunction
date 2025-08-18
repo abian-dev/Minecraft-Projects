@@ -75,6 +75,7 @@ execute if predicate src:mainhand/rocket_launcher run function src:weapon/rocket
 execute if predicate src:mainhand/super_shotgun run function src:weapon/super_shotgun/main
 
 execute if predicate src:mainhand/chainsaw run function src:weapon/chainsaw/main
+execute if predicate src:mainhand/excalibur run function src:weapon/excalibur/main
 execute if predicate src:mainhand/mirage_edge run function src:weapon/mirage_edge/main
 execute if predicate src:mainhand/yamato run function src:weapon/yamato/main
 

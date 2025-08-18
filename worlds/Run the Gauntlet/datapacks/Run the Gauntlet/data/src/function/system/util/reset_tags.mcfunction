@@ -27,6 +27,8 @@ tag @s remove rocketlauncher.lockon.user
 tag @s remove supershotgun.pf.user
 tag @s remove supershotgun.meathook.user
 
+tag @s remove chainsaw.rip.user
+
 tag @s remove mirageedge.blistering.user
 tag @s remove mirageedge.rain.user
 tag @s remove mirageedge.roundtrip.user
@@ -50,6 +52,7 @@ tag @s remove limitless.red.flash.user
 tag @s remove limitless.red.flash
 tag @s remove limitless.red.flash.isFacingEntity
 tag @s remove limitless.red.user
+tag @s remove limitless.void.trapped
 tag @s remove limitless.void.user
 
 tag @s remove miracles.holy.user

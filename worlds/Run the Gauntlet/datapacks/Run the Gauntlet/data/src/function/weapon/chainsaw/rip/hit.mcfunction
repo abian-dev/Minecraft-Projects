@@ -1,6 +1,6 @@
 ## Hit by chainsaw rip function
 # effects
-damage @s 1 src:bypass_player_attack_no_kb by @p[tag=chainsaw.rip.user]
+damage @s 0.7 src:bypass_player_attack_no_kb by @p[tag=chainsaw.rip.user]
 execute positioned ~ ~1 ~ run function src:supply/ammo/launch
 scoreboard players set @s effect.harvest.duration 5
 scoreboard players set @s effect.stun.duration 2
