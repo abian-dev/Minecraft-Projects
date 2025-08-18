@@ -3,6 +3,9 @@ function src:armor/clothes/give
 function src:weapon/limitless/give
 function src:weapon/miracles/give
 
+scoreboard players set @s cost.energy 198
+scoreboard players set @s cost.stamina 198
+
 # base stats
 scoreboard players set @s cost.energyBase 1
 scoreboard players set @s cost.energyMax 200

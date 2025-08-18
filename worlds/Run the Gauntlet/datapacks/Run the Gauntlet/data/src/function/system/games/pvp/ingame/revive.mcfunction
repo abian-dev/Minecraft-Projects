@@ -1,5 +1,6 @@
 ## When player respawns
 # revive
+effect give @s absorption infinite 4 true
 scoreboard players reset @s system.deathTimer
 gamemode adventure @s
 

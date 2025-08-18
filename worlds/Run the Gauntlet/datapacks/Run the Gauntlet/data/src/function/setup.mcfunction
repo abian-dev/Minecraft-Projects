@@ -79,6 +79,10 @@ scoreboard objectives add system.lives dummy
 scoreboard objectives add system.ui dummy
 scoreboard objectives add system.ui.id dummy
 
+# cosmetics
+scoreboard objectives add cosmetics.killFx.id dummy
+scoreboard objectives add cosmetics.killMsg.id dummy
+
 # extra
 scoreboard objectives add selecteditem.slot.curr dummy
 scoreboard objectives add selecteditem.slot.prev dummy

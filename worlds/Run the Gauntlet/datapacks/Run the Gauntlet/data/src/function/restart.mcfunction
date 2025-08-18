@@ -82,6 +82,10 @@ scoreboard objectives remove system.lives
 scoreboard objectives remove system.ui
 scoreboard objectives remove system.ui.id
 
+# cosmetics
+scoreboard objectives remove cosmetics.killFx.id
+scoreboard objectives remove cosmetics.killMsg.id
+
 # extra
 scoreboard objectives remove selecteditem.slot.curr
 scoreboard objectives remove selecteditem.slot.prev
