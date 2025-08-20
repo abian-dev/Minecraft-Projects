@@ -1,0 +1,26 @@
+{
+  "model": {
+    "type": "select",
+    "property": "custom_model_data",
+    "fallback": {
+      "type": "model",
+      "model": "item/diamond_hoe"
+    },
+    "cases": [
+      {
+        "when": "ranged.plasmacutter",
+        "model": {
+          "type": "model",
+          "model": "item/ranged/plasma_cutter"
+        }
+      },
+      {
+        "when": "ranged.plasmarifle",
+        "model": {
+          "type": "model",
+          "model": "item/ranged/plasma_rifle"
+        }
+      }
+    ]
+  }
+}

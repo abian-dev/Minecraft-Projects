@@ -1,0 +1,33 @@
+{
+  "model": {
+    "type": "select",
+    "property": "custom_model_data",
+    "fallback": {
+      "type": "model",
+      "model": "item/stone_hoe"
+    },
+    "cases": [
+      {
+        "when": "ranged.pistol",
+        "model": {
+          "type": "model",
+          "model": "item/ranged/pistol"
+        }
+      },
+      {
+        "when": "ranged.shotgun",
+        "model": {
+          "type": "model",
+          "model": "item/ranged/shotgun"
+        }
+      },
+      {
+        "when": "ranged.sniper",
+        "model": {
+          "type": "model",
+          "model": "item/ranged/sniper"
+        }
+      }
+    ]
+  }
+}

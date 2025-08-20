@@ -801,12 +801,12 @@
 		},
 		"firstperson_righthand": {
 			"rotation": [-4, 1, 0],
-			"translation": [-2, 6, -8],
+			"translation": [-1, 6, -8],
 			"scale": [2, 2, 2]
 		},
 		"firstperson_lefthand": {
 			"rotation": [-4, 1, 0],
-			"translation": [-2, 6, -8],
+			"translation": [-1, 6, -8],
 			"scale": [2, 2, 2]
 		},
 		"ground": {

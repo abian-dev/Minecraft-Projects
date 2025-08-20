@@ -3,6 +3,7 @@
 	"credit": "Made with Blockbench",
 	"textures": {
 		"0": "item/ranged/precision_bolt",
+		"1": "item/ranged/precision_bolt_lightning",
 		"particle": "item/ranged/precision_bolt"
 	},
 	"elements": [
@@ -705,6 +706,20 @@
 				"up": {"uv": [8.8125, 8.625, 8.75, 8.5], "texture": "#0"},
 				"down": {"uv": [8.8125, 8.75, 8.75, 8.875], "texture": "#0"}
 			}
+		},
+		{
+			"name": "barrel29",
+			"from": [8, 5.025, -14.07587],
+			"to": [8, 6.525, 5.92413],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 5.775, 3.92413]},
+			"faces": {
+				"north": {"uv": [0, 0, 0, 1.5], "texture": "#1"},
+				"east": {"uv": [0, 0, 9.375, 4.5], "texture": "#1"},
+				"south": {"uv": [0, 0, 0, 1.5], "texture": "#1"},
+				"west": {"uv": [0, 4.75, 9.4375, 9.25], "texture": "#1"},
+				"up": {"uv": [0, 7.25, 0, 0], "texture": "#1"},
+				"down": {"uv": [0, 0, 0, 7.25], "texture": "#1"}
+			}
 		}
 	],
 	"display": {
@@ -733,8 +748,9 @@
 			"scale": [1, 0.75, 0.5]
 		},
 		"head": {
-			"translation": [3, 4, -25],
-			"scale": [1.5, 1.5, 1.5]
+			"rotation": [0, 90, 0],
+			"translation": [0, 10, 0],
+			"scale": [1.2, 1.2, 1.2]
 		},
 		"fixed": {
 			"rotation": [0, 90, 0],
@@ -765,7 +781,7 @@
 			"name": "barrel",
 			"origin": [8, 8, 8],
 			"color": 0,
-			"children": [22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49]
+			"children": [22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50]
 		}
 	]
 }
