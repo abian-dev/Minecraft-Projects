@@ -1,0 +1,2 @@
+# note: 50 chars per line
+give @s diamond_hoe[food={nutrition:0,saturation:0,can_always_eat:true},consumable={consume_seconds:2147483647},unbreakable={},custom_model_data={strings:['ranged.plasmacutter']},custom_data={weapon:1b},attribute_modifiers=[{type:attack_damage,amount:0,slot:mainhand,id:"atkdmg.mainhand.weapon.plasmarifle",operation:add_value},{type:attack_speed,amount:20,slot:mainhand,id:"atkspd.mainhand.weapon.plasmarifle",operation:add_value}]] 1
