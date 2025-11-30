@@ -5,5 +5,5 @@ execute rotated as @e[type=area_effect_cloud,limit=1,sort=nearest,tag=limitless.
 scoreboard players reset %limitless.blue.attract
 
 # fx
-particle flash ~ ~ ~ 0 0 0 0 1 force
+particle flash{color:[0.0,0.5,1.0,1.0]} ~ ~ ~ 0 0 0 0 1 force
 playsound entity.generic.explode neutral @a[distance=..20] ~ ~ ~ 1 1 1

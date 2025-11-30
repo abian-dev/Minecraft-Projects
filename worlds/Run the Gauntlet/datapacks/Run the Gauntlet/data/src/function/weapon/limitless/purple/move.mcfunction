@@ -1,7 +1,7 @@
 ## Runs purple movement
 # fx
 function src:generic/vfx/radial_forked_lightning/play {"inaccuracy":"50","rootsMin":"0","rootsMax":"1","branchesMin":"15","branchesMax":"20","branchLengthMin":"5","branchLengthMax":"10","particle":"dust{color:[1.0,0.0,1.0],scale:1.0}"}
-particle flash ~ ~ ~ 0 0 0 0 1 force
+particle flash{color:[1.0,0.0,1.0,1.0]} ~ ~ ~ 0 0 0 0 1 force
 playsound entity.lightning_bolt.impact neutral @a[distance=..40] ~ ~ ~ 1 0 1
 
 # limit travel distance

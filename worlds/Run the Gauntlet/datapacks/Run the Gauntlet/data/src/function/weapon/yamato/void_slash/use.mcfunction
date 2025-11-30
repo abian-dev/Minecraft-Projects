@@ -5,7 +5,7 @@ tp @e[type=area_effect_cloud,limit=1,sort=nearest,tag=yamato.voidslash] @s
 scoreboard players set @s effect.stun.duration 2
 
 # fx
-particle flash ^ ^1 ^1 0 0 0 0 1 force
+particle flash{color:[1.0,1.0,1.0,1.0]} ^ ^1 ^1 0 0 0 0 1 force
 playsound block.beacon.deactivate neutral @a[distance=..20] ~ ~ ~ 1 1 1
 
 # reset

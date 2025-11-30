@@ -5,7 +5,7 @@ function src:weapon/yamato/judgement_cut/targeting/start
 
 # fx
 execute rotated ~ 0 positioned ~ ~1 ~ run function src:generic/vfx/slash_crescent/play {"concavity":"100","thickness":"2","accuracy":"50","yaw":"90","pitch":"340","distance":"2","particle":"dust{color:[0.0,0.8,1.0],scale:0.5}"}
-particle flash ^ ^1 ^1 0 0 0 0 1 force
+particle flash{color:[1.0,1.0,1.0,1.0]} ^ ^1 ^1 0 0 0 0 1 force
 playsound entity.illusioner.prepare_blindness neutral @a[distance=..20] ~ ~ ~ 1 1 1
 playsound entity.zombie_villager.converted neutral @a[distance=..20] ~ ~ ~ 1 2 1
 

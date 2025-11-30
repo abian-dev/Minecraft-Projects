@@ -6,7 +6,7 @@ scoreboard players set @s effect.stun.duration 6
 
 # fx
 effect give @s mining_fatigue 3 9 true
-particle flash ^ ^1 ^1 0 0 0 0 1 force
+particle flash{color:[1.0,1.0,0.0,1.0]} ^ ^1 ^1 0 0 0 0 1 force
 playsound block.beacon.activate neutral @a[distance=..40] ~ ~ ~ 2 1 1
 
 # reset

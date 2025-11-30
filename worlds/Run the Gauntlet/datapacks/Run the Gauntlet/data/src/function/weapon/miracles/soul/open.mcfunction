@@ -10,6 +10,6 @@ scoreboard players reset %miracles.soul.search
 
 # fx
 execute at @s rotated ~ 90 run function src:generic/vfx/expanding_circle/play {"particle":"soul_fire_flame","speed":"0.0000005"}
-execute at @s run function src:generic/vfx/expanding_cylinder/play {"accuracy":"50","speed":"100","limit":"5","height":"3000","particle":"flash"}
+execute at @s run function src:generic/vfx/expanding_cylinder/play {"accuracy":"50","speed":"100","limit":"5","height":"3000","particle":"flash{color:[1.0,1.0,1.0,1.0]}"}
 execute at @s run playsound block.beacon.power_select neutral @a[distance=..20] ~ ~ ~ 1 2 1
 execute at @s run playsound entity.generic.explode neutral @a[distance=..20] ~ ~ ~ 1 0 1

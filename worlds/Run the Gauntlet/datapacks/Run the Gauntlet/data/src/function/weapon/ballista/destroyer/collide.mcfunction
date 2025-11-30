@@ -1,10 +1,10 @@
 ## When destroyer blade collides
 # vfx
-particle flash ^-5.0 ^ ^ 0 0 0 0 1 force
-particle flash ^-2.5 ^ ^ 0 0 0 0 1 force
-particle flash ^0.0 ^ ^ 0 0 0 0 1 force
-particle flash ^2.5 ^ ^ 0 0 0 0 1 force
-particle flash ^5.0 ^ ^ 0 0 0 0 1 force
+particle flash{color:[1.0,0.0,0.0,1.0]} ^-5.0 ^ ^ 0 0 0 0 1 force
+particle flash{color:[1.0,0.0,0.0,1.0]} ^-2.5 ^ ^ 0 0 0 0 1 force
+particle flash{color:[1.0,0.0,0.0,1.0]} ^0.0 ^ ^ 0 0 0 0 1 force
+particle flash{color:[1.0,0.0,0.0,1.0]} ^2.5 ^ ^ 0 0 0 0 1 force
+particle flash{color:[1.0,0.0,0.0,1.0]} ^5.0 ^ ^ 0 0 0 0 1 force
 
 # reset
 tag @s add ballista.destroyer.curr

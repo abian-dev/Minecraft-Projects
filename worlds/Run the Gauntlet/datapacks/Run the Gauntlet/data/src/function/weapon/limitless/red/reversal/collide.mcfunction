@@ -3,7 +3,7 @@ execute as @e[type=!#src:non_entity,distance=..6,tag=!limitless.red.user,team=!a
 
 # fx
 function src:generic/vfx/expanding_sphere/variant1/play {"accuracy":"300","speed":"150","limit":"5","particle":"dust{color:[1.0,0.0,0.0],scale:1.0}"}
-particle flash ~ ~ ~ 0 0 0 0 1 force
+particle flash{color:[1.0,0.0,0.0,1.0]} ~ ~ ~ 0 0 0 0 1 force
 playsound entity.generic.explode neutral @a[distance=..20] ~ ~ ~ 2 0 1
 
 # reset
