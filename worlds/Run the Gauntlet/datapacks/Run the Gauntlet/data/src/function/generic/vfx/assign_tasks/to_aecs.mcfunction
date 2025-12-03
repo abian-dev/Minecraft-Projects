@@ -5,3 +5,4 @@ execute if entity @s[tag=vfxExpandingCylinder] run function src:generic/vfx/expa
 execute if entity @s[tag=vfxExpandingSphere] run function src:generic/vfx/expanding_sphere/variant1/run
 execute if entity @s[tag=vfxRotatingVertical] run function src:generic/vfx/rotating_vertical/general/run
 execute if entity @s[tag=vfxShine] run function src:generic/vfx/rotating_vertical/shine/run
+execute if entity @s[tag=vfxSlashCircle] run function src:generic/vfx/slash_circle/run

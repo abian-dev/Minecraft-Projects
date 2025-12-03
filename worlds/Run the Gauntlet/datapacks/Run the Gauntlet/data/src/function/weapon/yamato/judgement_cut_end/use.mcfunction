@@ -2,6 +2,7 @@
 tag @s add yamato.jce.user
 function src:weapon/yamato/judgement_cut_end/dash/range/start
 function src:weapon/yamato/judgement_cut_end/origin_range/start
+scoreboard players set @s effect.stun.duration 7
 
 # fx
 particle flash{color:[1.0,1.0,1.0,1.0]} ^ ^1 ^1 0 0 0 0 1 force
