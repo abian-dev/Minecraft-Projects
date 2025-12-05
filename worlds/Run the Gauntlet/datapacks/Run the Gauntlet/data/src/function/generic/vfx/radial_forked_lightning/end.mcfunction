@@ -1,6 +1,7 @@
 ## End of Radial Forked Lightning
 # reset
 data remove storage minecraft:vfx radialForkedLightning
+scoreboard players reset %vfxRadialForkedLightning.inaccuracy
 scoreboard players reset %vfxRadialForkedLightning.rootsMin
 scoreboard players reset %vfxRadialForkedLightning.rootsMax
 scoreboard players reset %vfxRadialForkedLightning.branchesMin

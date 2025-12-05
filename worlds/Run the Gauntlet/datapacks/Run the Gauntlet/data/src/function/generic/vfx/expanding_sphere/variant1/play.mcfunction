@@ -1,12 +1,14 @@
 # example call: function src:generic/vfx/expanding_sphere/variant1/play {"accuracy":"200","speed":"200","limit":"5","particle":"flame"}
-## Plays Expanding Sphere - Variant 1
-# summon
-function src:generic/vfx/expanding_sphere/variant1/end
-$summon area_effect_cloud ~ ~ ~ {Particle:{type:"block",block_state:"minecraft:air"},Radius:0f,WaitTime:0,Tags:["vfx","vfxExpandingSphere"],Duration:$(limit)}
-tp @e[type=area_effect_cloud,limit=1,sort=nearest,tag=vfxExpandingSphere] ~ ~ ~ 0 -90
+## The entry-point to execute function
+# creates a new id and uses it to associate this instance with that id
+scoreboard players add %vfx.id generic.id 1
+execute store result storage minecraft:vfx curr.expandingSphere.id int 1 run scoreboard players get %vfx.id generic.id
 
-# initialize
-$scoreboard players set %vfxExpandingSphere.accuracy generic.constant $(accuracy)
-$scoreboard players set %vfxExpandingSphere.speed generic.constant $(speed)
-$scoreboard players set %vfxExpandingSphere.limit generic.constant $(limit)
-$data modify storage minecraft:vfx expandingSphere.particle set value "$(particle)"
+# store parameters
+$data modify storage minecraft:vfx curr.expandingSphere.accuracy set value $(accuracy)
+$data modify storage minecraft:vfx curr.expandingSphere.speed set value $(speed)
+$data modify storage minecraft:vfx curr.expandingSphere.limit set value $(limit)
+$data modify storage minecraft:vfx curr.expandingSphere.particle set value "$(particle)"
+
+# execute
+function src:generic/vfx/expanding_sphere/variant1/execute with storage minecraft:vfx curr.expandingSphere

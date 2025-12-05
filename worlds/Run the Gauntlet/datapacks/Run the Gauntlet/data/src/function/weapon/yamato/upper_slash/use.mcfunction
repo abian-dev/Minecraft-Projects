@@ -5,8 +5,8 @@ tag @s remove yamato.upper.user
 function src:weapon/yamato/upper_slash/launch
 
 # fx
-execute rotated ~ 0 positioned ~ ~1 ~ run function src:generic/vfx/slash_circle/play {"radius":"4","completion":"60","thickness":"1","accuracy":"40","speed":"40","pitch":"90","particle":"dust{color:[0.0,0.8,1.0],scale:1}"}
-execute at @s rotated ~ 0 positioned ~ ~1 ~ run function src:generic/vfx/slash_crescent/play {"concavity":"300","thickness":"6","accuracy":"50","yaw":"90","pitch":"90","distance":"4","particle":"dust{color:[0.0,0.8,1.0],scale:1}"}
+execute at @s rotated ~ 0 positioned ~ ~1 ~ run function src:generic/vfx/slash_circle/play {"radius":"4","completion":"60","thickness":"1","accuracy":"40","acceleration":"0","speed":"20","pitch":"90","particle":"dust{color:[0.0,0.8,1.0],scale:1}"}
+execute rotated ~ 0 positioned ~ ~1 ~ run function src:generic/vfx/slash_circle/play {"radius":"4","completion":"60","thickness":"1","accuracy":"40","acceleration":"0","speed":"20","pitch":"90","particle":"dust{color:[0.0,0.8,1.0],scale:1}"}
 playsound entity.player.attack.sweep neutral @a[distance=..20] ~ ~ ~ 1 0 1
 
 # reset

@@ -2,6 +2,7 @@
 # add scoreboards
 scoreboard objectives add generic.constant dummy
 scoreboard objectives add generic.math dummy
+scoreboard objectives add generic.id dummy
 
 scoreboard objectives add generic.x dummy
 scoreboard objectives add generic.y dummy

@@ -1,8 +1,8 @@
 ## End of Rotating Vertical - Shine
 # reset
-data remove storage minecraft:vfx shine
-scoreboard players reset %vfxShine.speed
-scoreboard players reset %vfxShine.duration
-scoreboard players reset %vfxShine.inaccuracy
-scoreboard players reset %vfxShine.distance
-kill @e[type=area_effect_cloud,tag=vfxShine]
+$data remove storage minecraft:vfx shine.$(id)
+$scoreboard players reset %vfxShine.$(id).speed
+$scoreboard players reset %vfxShine.$(id).duration
+$scoreboard players reset %vfxShine.$(id).inaccuracy
+$scoreboard players reset %vfxShine.$(id).distance
+kill @s

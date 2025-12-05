@@ -1,19 +1,19 @@
 ## End of Domain Expansion
 # reset
-data remove storage minecraft:vfx domain
-scoreboard players reset %vfxDomain.accuracy
-scoreboard players reset %vfxDomain.inaccuracy
-scoreboard players reset %vfxDomain.radius
-scoreboard players reset %vfxDomain.radiusStep
-scoreboard players reset %vfxDomain.newRadiusStep
-scoreboard players reset %vfxDomain.newRadiusStep^2
-scoreboard players reset %vfxDomain.speed
-scoreboard players reset %vfxDomain.circleRadius
-scoreboard players reset %vfxDomain.floorItt
-scoreboard players reset %vfxDomain.10
-scoreboard players reset %vfxDomain.2
-scoreboard players reset %vfxDomain.-1
-scoreboard players reset %vfxDomain.in
-scoreboard players reset %vfxDomain.raphA
-scoreboard players reset %vfxDomain.raphB
+$data remove storage minecraft:vfx domain.$(id)
+$scoreboard players reset %vfxDomain.$(id).accuracy
+$scoreboard players reset %vfxDomain.$(id).inaccuracy
+$scoreboard players reset %vfxDomain.$(id).radius
+$scoreboard players reset %vfxDomain.$(id).radiusStep
+$scoreboard players reset %vfxDomain.$(id).newRadiusStep
+$scoreboard players reset %vfxDomain.$(id).newRadiusStep^2
+$scoreboard players reset %vfxDomain.$(id).speed
+$scoreboard players reset %vfxDomain.$(id).circleRadius
+$scoreboard players reset %vfxDomain.$(id).floorItt
+$scoreboard players reset %vfxDomain.$(id).10
+$scoreboard players reset %vfxDomain.$(id).2
+$scoreboard players reset %vfxDomain.$(id).-1
+$scoreboard players reset %vfxDomain.$(id).in
+$scoreboard players reset %vfxDomain.$(id).raphA
+$scoreboard players reset %vfxDomain.$(id).raphB
 kill @s

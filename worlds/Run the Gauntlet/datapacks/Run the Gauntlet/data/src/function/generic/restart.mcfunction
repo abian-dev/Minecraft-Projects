@@ -15,6 +15,7 @@ data remove storage vfx unlimitedVoid
 # remove scoreboards
 scoreboard objectives remove generic.constant
 scoreboard objectives remove generic.math
+scoreboard objectives remove generic.id
 
 scoreboard objectives remove generic.x
 scoreboard objectives remove generic.y

@@ -5,7 +5,7 @@ tag @s remove yamato.cleave.user
 function src:weapon/yamato/aerial_cleave/dive
 
 # fx
-execute at @s rotated ~ 0 positioned ~ ~1 ~ run function src:generic/vfx/slash_circle/play {"radius":"5","completion":"50","thickness":"1","accuracy":"50","speed":"10","pitch":"270","particle":"dust{color:[0.0,0.8,1.0],scale:1}"}
+execute at @s rotated ~ 0 positioned ~ ~1 ~ run function src:generic/vfx/slash_circle/play {"radius":"5","completion":"50","thickness":"1","accuracy":"50","acceleration":"0","speed":"25","pitch":"270","particle":"dust{color:[0.0,0.8,1.0],scale:1}"}
 playsound item.mace.smash_ground_heavy neutral @a[distance=..20] ~ ~ ~ 1 2 1
 
 # reset
