@@ -9,4 +9,4 @@ execute if block ~ ~-0.5 ~ #src:passable if score @s in.jump.off matches 1 run t
 execute if entity @s[tag=berserker.hasJumpedOnce,tag=berserker.releasedInAir] if predicate src:input/jump if score @s cost.stamina matches 5.. run function src:armor/berserker/jump/use
 
 # dragonslayer
-execute if score @s in.rmb.off matches 1 if score @s armor.cd2 matches ..0 run function src:armor/berserker/dragonslayer/use
+execute if score @s criterion.dmgdealt matches 0.. if score @s armor.cd2 matches ..0 run function src:armor/berserker/dragonslayer/use
