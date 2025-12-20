@@ -8,6 +8,7 @@ function src:weapon/yamato/upper_slash/launch
 execute at @s rotated ~ 0 positioned ~ ~1 ~ run function src:generic/vfx/slash_circle/play {"radius":"4","completion":"60","thickness":"1","accuracy":"40","acceleration":"0","speed":"20","pitch":"90","particle":"dust{color:[0.0,0.8,1.0],scale:1}"}
 execute rotated ~ 0 positioned ~ ~1 ~ run function src:generic/vfx/slash_circle/play {"radius":"4","completion":"60","thickness":"1","accuracy":"40","acceleration":"0","speed":"20","pitch":"90","particle":"dust{color:[0.0,0.8,1.0],scale:1}"}
 playsound entity.player.attack.sweep neutral @a[distance=..20] ~ ~ ~ 1 0 1
+playsound entity.zombie.attack_iron_door neutral @a[distance=..20] ~ ~ ~ 0.5 1.2 0.5
 
 # reset
 scoreboard players set @s weapon.cd 10

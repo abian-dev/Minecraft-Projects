@@ -3,7 +3,7 @@
 execute as @e[type=!#src:non_entity,distance=..15,tag=!yamato.jce.user,team=!ally] at @s run damage @s 20 src:bypass_player_attack by @p[tag=yamato.jce.user]
 
 # fx
-function src:generic/vfx/expanding_sphere/variant1/play {"accuracy":"200","speed":"300","limit":"10","particle":"flash{color:[1.0,1.0,1.0,1.0]}"}
+function src:generic/vfx/expanding_sphere/variant1/play {"accuracy":"200","speed":"300","limit":"8","particle":"flash{color:[1.0,1.0,1.0,1.0]}"}
 playsound block.glass.break neutral @a[distance=..20] ~ ~ ~ 2 0 1
 
 # reset

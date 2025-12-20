@@ -5,7 +5,7 @@ scoreboard players operation @e[type=area_effect_cloud,distance=..2,limit=1,sort
 
 # initialize
 scoreboard players set %yamato.jce.2 generic.constant 2
-scoreboard players set @s generic.raycast.step 30
+scoreboard players set @s generic.raycast.step 40
 
 # run raycast
 execute rotated ~ 0 positioned ~ ~1 ~ run function src:weapon/yamato/judgement_cut_end/dash/range/step

@@ -1,6 +1,7 @@
 ## Executed at judgement cut every tick
 # vfx
-function src:weapon/yamato/judgement_cut/vfx/run
+function src:weapon/yamato/judgement_cut/vfx/slash/run
+function src:weapon/yamato/judgement_cut/vfx/slice/run
 
 # damage
 execute as @e[type=!#src:non_entity,distance=..3,tag=!yamato.judgementcut.user,team=!ally] at @s run function src:weapon/yamato/judgement_cut/hit

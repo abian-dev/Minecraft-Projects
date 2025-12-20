@@ -6,7 +6,7 @@ scoreboard players set %vfxJudgementCut.s generic.constant 100
 scoreboard players set %vfxJudgementCut.m generic.constant 5
 
 # get vector from pos to point
-function src:weapon/yamato/judgement_cut/vfx/get
+function src:weapon/yamato/judgement_cut/vfx/slice/get
 
 # find largest component
 scoreboard players operation %vfxJudgementCut.max generic.z = %vfxJudgementCut.absVx generic.x
@@ -25,4 +25,4 @@ scoreboard players operation %vfxJudgementCut.vx generic.x /= %vfxJudgementCut.m
 scoreboard players operation %vfxJudgementCut.vy generic.y /= %vfxJudgementCut.max generic.z
 
 # cut
-function src:weapon/yamato/judgement_cut/vfx/cut
+function src:weapon/yamato/judgement_cut/vfx/slice/cut

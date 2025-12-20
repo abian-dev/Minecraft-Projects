@@ -12,14 +12,11 @@ execute store result entity @s Rotation[0] float 0.01 run scoreboard players get
 execute store result entity @s Rotation[1] float 0.01 run scoreboard players get %vfxJudgementCut.y generic.y
 
 # particles
-execute at @s run particle dust{color:[1.0,1.0,1.0],scale:0.6} ^ ^ ^3.00 0 0 0 0 1 force
-execute at @s run particle dust{color:[0.0,0.0,0.0],scale:0.6} ^ ^ ^2.75 0 0 0 0 1 force
-execute at @s run particle dust{color:[0.0,0.5,1.0],scale:0.6} ^ ^ ^2.50 0 0 0 0 1 force
-execute at @s run particle dust{color:[0.0,0.0,0.0],scale:0.6} ^ ^ ^-2.00 0 0 0 0 1 force
+execute at @s run particle dust{color:[0.0,0.5,1.0],scale:0.6} ^ ^ ^3 0 0 0 0 1 force
 
 # recurse until pos is close to point
 scoreboard players reset @s generic.z
 scoreboard players operation @s generic.z += @s generic.x
 scoreboard players operation @s generic.z += @s generic.y
-execute if entity @s[scores={generic.z=-290..290}] run function src:weapon/yamato/judgement_cut/vfx/end
-execute unless entity @s[scores={generic.z=-290..290}] at @s run function src:weapon/yamato/judgement_cut/vfx/cut
+execute if entity @s[scores={generic.z=-290..290}] run function src:weapon/yamato/judgement_cut/vfx/slice/end
+execute unless entity @s[scores={generic.z=-290..290}] at @s run function src:weapon/yamato/judgement_cut/vfx/slice/cut
