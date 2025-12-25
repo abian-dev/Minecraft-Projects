@@ -1,6 +1,6 @@
 ## Uses hollow purple
 tag @s add limitless.purple.user
-summon area_effect_cloud ~ ~ ~ {Particle:{type:"block",block_state:"minecraft:air"},Radius:0f,WaitTime:0,Tags:["limitless.purple"],Duration:100}
+summon area_effect_cloud ~ ~ ~ {custom_particle:{type:"block",block_state:"minecraft:air"},Radius:0f,WaitTime:0,Tags:["limitless.purple"],Duration:100}
 execute as @e[type=area_effect_cloud,limit=1,sort=nearest,tag=limitless.purple] at @s run function src:weapon/limitless/purple/init
 scoreboard players set @s effect.stun.duration 4
 

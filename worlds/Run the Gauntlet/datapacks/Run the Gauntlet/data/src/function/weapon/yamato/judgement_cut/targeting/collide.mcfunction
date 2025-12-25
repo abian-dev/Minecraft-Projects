@@ -1,4 +1,4 @@
 ## When targeting raycast collides
 scoreboard players set @s generic.raycast.step 0
-execute unless entity @e[type=!#src:non_entity,distance=..2,limit=1,sort=nearest,tag=!yamato.judgementcut.user,team=!ally] run return run summon area_effect_cloud ~ ~ ~ {Particle:{type:"block",block_state:"minecraft:air"},Radius:0f,WaitTime:0,Tags:["yamato.judgementcut"],Duration:25}
-execute positioned as @e[type=!#src:non_entity,distance=..2,limit=1,sort=nearest,tag=!yamato.judgementcut.user,team=!ally] run return run summon area_effect_cloud ~ ~1 ~ {Particle:{type:"block",block_state:"minecraft:air"},Radius:0f,WaitTime:0,Tags:["yamato.judgementcut"],Duration:25}
+execute unless entity @e[type=!#src:non_entity,distance=..2,limit=1,sort=nearest,tag=!yamato.judgementcut.user,team=!ally] run return run summon area_effect_cloud ~ ~ ~ {custom_particle:{type:"block",block_state:"minecraft:air"},Radius:0f,WaitTime:0,Tags:["yamato.judgementcut"],Duration:25}
+execute positioned as @e[type=!#src:non_entity,distance=..2,limit=1,sort=nearest,tag=!yamato.judgementcut.user,team=!ally] run return run summon area_effect_cloud ~ ~1 ~ {custom_particle:{type:"block",block_state:"minecraft:air"},Radius:0f,WaitTime:0,Tags:["yamato.judgementcut"],Duration:25}

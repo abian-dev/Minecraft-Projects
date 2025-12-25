@@ -1,6 +1,6 @@
 ## Uses unlimited void
 tag @s add limitless.void.user
-execute rotated ~ 0 positioned ^ ^1 ^7 run summon area_effect_cloud ~ ~ ~ {Particle:{type:"block",block_state:"minecraft:air"},Radius:0f,WaitTime:0,Tags:["limitless.void"],Duration:100}
+execute rotated ~ 0 positioned ^ ^1 ^7 run summon area_effect_cloud ~ ~ ~ {custom_particle:{type:"block",block_state:"minecraft:air"},Radius:0f,WaitTime:0,Tags:["limitless.void"],Duration:100}
 
 # fx
 execute rotated ~ 0 positioned ^ ^1 ^-3 run function src:generic/vfx/domain/play {"accuracy":"250","radius":"1000","speed":"5","particle":"block_marker{block_state:{Name:black_concrete}}"}

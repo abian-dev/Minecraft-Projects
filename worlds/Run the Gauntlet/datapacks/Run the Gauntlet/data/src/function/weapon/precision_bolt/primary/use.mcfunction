@@ -1,6 +1,6 @@
 ## When primary fire is used
 tag @s add precisionbolt.pf.user
-summon area_effect_cloud ~ ~ ~ {Particle:{type:"block",block_state:"minecraft:air"},Radius:0f,WaitTime:0,Tags:["projectile","precisionbolt.bullet"],Duration:20}
+summon area_effect_cloud ~ ~ ~ {custom_particle:{type:"block",block_state:"minecraft:air"},Radius:0f,WaitTime:0,Tags:["projectile","precisionbolt.bullet"],Duration:20}
 execute as @e[type=area_effect_cloud,limit=1,sort=nearest,tag=precisionbolt.bullet] at @s run function src:weapon/precision_bolt/primary/init
 scoreboard players set @s weapon.cd 21
 scoreboard players remove @s cost.ammo.bullet 6

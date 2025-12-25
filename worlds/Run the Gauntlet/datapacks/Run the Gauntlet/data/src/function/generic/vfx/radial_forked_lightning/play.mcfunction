@@ -20,6 +20,6 @@ execute store result storage minecraft:vfx radialForkedLightning.branchLengthMax
 $data modify storage minecraft:vfx radialForkedLightning.particle set value "$(particle)"
 
 # summon
-summon area_effect_cloud ~ ~ ~ {Particle:{type:"block",block_state:"minecraft:air"},Radius:0f,WaitTime:0,Tags:["vfx","vfxRadialForkedLightning"],Duration:0}
+summon area_effect_cloud ~ ~ ~ {custom_particle:{type:"block",block_state:"minecraft:air"},Radius:0f,WaitTime:0,Tags:["vfx","vfxRadialForkedLightning"],Duration:0}
 execute as @e[type=area_effect_cloud,limit=1,sort=nearest,tag=vfxRadialForkedLightning] at @s run function src:generic/vfx/radial_forked_lightning/start with storage minecraft:vfx radialForkedLightning
 function src:generic/vfx/radial_forked_lightning/end

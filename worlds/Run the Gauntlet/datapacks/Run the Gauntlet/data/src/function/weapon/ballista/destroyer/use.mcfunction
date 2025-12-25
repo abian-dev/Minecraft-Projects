@@ -1,6 +1,6 @@
 ## When destroyer blade is used
 tag @s add ballista.destroyer.user
-summon area_effect_cloud ~ ~ ~ {Particle:{type:"block",block_state:"minecraft:air"},Radius:0f,WaitTime:0,Tags:["projectile","ballista.destroyer"],Duration:20}
+summon area_effect_cloud ~ ~ ~ {custom_particle:{type:"block",block_state:"minecraft:air"},Radius:0f,WaitTime:0,Tags:["projectile","ballista.destroyer"],Duration:20}
 execute as @e[type=area_effect_cloud,limit=1,sort=nearest,tag=ballista.destroyer] at @s run function src:weapon/ballista/destroyer/init
 scoreboard players set @s weapon.cd 25
 scoreboard players remove @s cost.ammo.energy 15

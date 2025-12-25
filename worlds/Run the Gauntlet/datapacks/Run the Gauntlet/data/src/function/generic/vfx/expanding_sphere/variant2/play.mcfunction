@@ -14,7 +14,7 @@ execute store result storage minecraft:vfx expandingSphere2.speed float 0.000000
 $data modify storage minecraft:vfx expandingSphere2.particle set value "$(particle)"
 
 # summon
-summon area_effect_cloud ~ ~ ~ {Particle:{type:"block",block_state:"minecraft:air"},Radius:0f,WaitTime:0,Tags:["vfx","vfxExpandingSphere2"],Duration:0}
+summon area_effect_cloud ~ ~ ~ {custom_particle:{type:"block",block_state:"minecraft:air"},Radius:0f,WaitTime:0,Tags:["vfx","vfxExpandingSphere2"],Duration:0}
 tp @e[type=area_effect_cloud,limit=1,sort=nearest,tag=vfxExpandingSphere2] ~ ~ ~ 0 -90
 execute as @e[type=area_effect_cloud,limit=1,sort=nearest,tag=vfxExpandingSphere2] at @s run function src:generic/vfx/expanding_sphere/variant2/draw_sphere with storage minecraft:vfx expandingSphere2
 function src:generic/vfx/expanding_sphere/variant2/end

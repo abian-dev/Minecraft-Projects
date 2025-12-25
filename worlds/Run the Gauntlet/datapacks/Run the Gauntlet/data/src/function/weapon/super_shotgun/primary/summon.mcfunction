@@ -1,6 +1,6 @@
 ## Summons bullet
 # summon
-summon area_effect_cloud ~ ~ ~ {Particle:{type:"block",block_state:"minecraft:air"},Radius:0f,WaitTime:0,Tags:["projectile","supershotgun.bullet"],Duration:20}
+summon area_effect_cloud ~ ~ ~ {custom_particle:{type:"block",block_state:"minecraft:air"},Radius:0f,WaitTime:0,Tags:["projectile","supershotgun.bullet"],Duration:20}
 execute as @e[type=area_effect_cloud,limit=1,sort=nearest,tag=supershotgun.bullet] at @s run function src:weapon/super_shotgun/primary/init
 
 # recursion for num bullets

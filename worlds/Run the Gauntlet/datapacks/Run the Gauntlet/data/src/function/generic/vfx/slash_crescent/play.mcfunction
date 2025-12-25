@@ -22,7 +22,7 @@ execute store result storage minecraft:vfx slashCrescent.distance int 1 run scor
 $data modify storage minecraft:vfx slashCrescent.particle set value "$(particle)"
 
 # summon
-summon area_effect_cloud ~ ~ ~ {Particle:{type:"block",block_state:"minecraft:air"},Radius:0f,WaitTime:0,Tags:["vfx","vfxSlashCrescent"],Duration:0}
+summon area_effect_cloud ~ ~ ~ {custom_particle:{type:"block",block_state:"minecraft:air"},Radius:0f,WaitTime:0,Tags:["vfx","vfxSlashCrescent"],Duration:0}
 tp @e[type=area_effect_cloud,limit=1,sort=nearest,tag=vfxSlashCrescent] ~ ~ ~ ~ ~
 execute as @e[type=area_effect_cloud,limit=1,sort=nearest,tag=vfxSlashCrescent] at @s run function src:generic/vfx/slash_crescent/get with storage minecraft:vfx slashCrescent
 function src:generic/vfx/slash_crescent/end

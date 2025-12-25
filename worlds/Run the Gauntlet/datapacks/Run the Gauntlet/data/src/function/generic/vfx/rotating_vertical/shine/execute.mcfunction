@@ -1,7 +1,7 @@
 # example call: function src:generic/vfx/rotating_vertical/shine/play {"speed":"100","duration":"10","inaccuracy":"100","distance":"20","particle":"electric_spark"}
 ## Plays Rotating Vertical - Shine
 # summon
-$summon area_effect_cloud ~ ~ ~ {Particle:{type:"block",block_state:"minecraft:air"},Radius:0f,WaitTime:10,Tags:["vfx","vfxShine"],Duration:$(duration)}
+$summon area_effect_cloud ~ ~ ~ {custom_particle:{type:"block",block_state:"minecraft:air"},Radius:0f,WaitTime:10,Tags:["vfx","vfxShine"],Duration:$(duration)}
 $scoreboard players set @e[type=area_effect_cloud,limit=1,sort=nearest,tag=vfxShine] generic.id $(id)
 tp @e[type=area_effect_cloud,limit=1,sort=nearest,tag=vfxShine] ~ ~ ~ ~90 -90
 

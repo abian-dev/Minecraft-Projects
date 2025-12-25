@@ -1,4 +1,4 @@
 ## Summons afterimage
-# summon area_effect_cloud ~ ~ ~ {Particle:{type:"block",block_state:"minecraft:air"},Radius:0f,WaitTime:0,Tags:["yamato.jce.image"],Duration:30}
+# summon area_effect_cloud ~ ~ ~ {custom_particle:{type:"block",block_state:"minecraft:air"},Radius:0f,WaitTime:0,Tags:["yamato.jce.image"],Duration:30}
 summon armor_stand ~ ~ ~ {Pose:{LeftArm:[315f,0f,0f],RightArm:[45f,0f,0f],LeftLeg:[45f,0f,0f],RightLeg:[315f,0f,0f]},ShowArms:1b,NoBasePlate:1b,DisabledSlots:4144959,NoGravity:1b,Tags:["yamato.jce.image"],equipment:{mainhand:{id:iron_sword,components:{unbreakable:{},custom_model_data:{strings:["melee.yamato"]}}},head:{id:wither_skeleton_skull},chest:{id:leather_chestplate,components:{dyed_color:0,unbreakable:{}}},legs:{id:netherite_leggings,components:{unbreakable:{}}},feet:{id:"leather_boots",components:{dyed_color:0,unbreakable:{}}}}}
 execute as @e[type=armor_stand,limit=1,sort=nearest,tag=yamato.jce.image] run tp @s ~ ~ ~ ~ ~
