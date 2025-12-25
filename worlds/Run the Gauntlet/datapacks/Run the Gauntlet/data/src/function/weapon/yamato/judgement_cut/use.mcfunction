@@ -1,5 +1,6 @@
 ## Uses judgement cut
 tag @s add yamato.judgementcut.user
+tp @s @s
 attribute @s gravity modifier add gravity.yamato.judgementcut -1 add_multiplied_total
 function src:weapon/yamato/judgement_cut/targeting/start
 
