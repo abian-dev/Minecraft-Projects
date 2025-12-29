@@ -1,0 +1,7 @@
+{
+    "function": "minecraft:set_components",
+    "components": {
+      "minecraft:custom_model_data": {"floats":[21]},
+      "minecraft:custom_name": {"color":"dark_aqua","italic":false,"text":"Invisible Air"}
+    }
+}

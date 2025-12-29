@@ -1,0 +1,2 @@
+execute if score %spawning.zone.prison labyrinth.math matches 1 as @a[predicate=labyrinth:zones/boss/cinder] at @s run function labyrinth:spawning/boss/enter {"bossName":"cinder","musicTimeLimit":8320,"posX":50,"posY":20,"posZ":1055}
+execute as @a[tag=LabyrinthEnteredBoss,predicate=!labyrinth:zones/boss/cinder] at @s run function labyrinth:spawning/boss/leave {"bossName":"cinder"}

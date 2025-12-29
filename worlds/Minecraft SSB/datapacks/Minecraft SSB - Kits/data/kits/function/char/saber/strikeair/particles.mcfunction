@@ -1,0 +1,2 @@
+execute if entity @s[tag=SaberExcalibur] positioned ^-0.5 ^1 ^ run function kits:char/saber/slash/excaliburrot
+execute if entity @s[tag=!SaberExcalibur] positioned ^-0.5 ^1 ^ run function kits:char/saber/slash/excaliburrot2

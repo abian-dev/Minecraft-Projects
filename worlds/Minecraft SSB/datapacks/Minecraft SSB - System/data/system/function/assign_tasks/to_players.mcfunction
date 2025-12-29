@@ -1,0 +1,7 @@
+## Assign tasks to players
+# core systems
+function system:utilities/ui/player/main
+function system:utilities/portals/main
+execute if score @s system.criterion.death matches 1.. if entity @s[tag=InLabyrinth] run function system:games/labyrinth/reset_local
+execute if score @s system.criterion.leave matches 1.. run function system:utilities/player_status/reset
+execute if score @s system.criterion.drop matches 1.. as @e[type=item,predicate=kits:generic/kit_item] at @s run function system:utilities/player_status/drop_prevent

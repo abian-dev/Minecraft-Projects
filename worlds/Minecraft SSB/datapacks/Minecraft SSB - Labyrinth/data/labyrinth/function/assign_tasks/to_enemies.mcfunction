@@ -1,0 +1,1 @@
+execute if entity @s[tag=labyrinth.cinder] run function labyrinth:mobs/bosses/cinder/main

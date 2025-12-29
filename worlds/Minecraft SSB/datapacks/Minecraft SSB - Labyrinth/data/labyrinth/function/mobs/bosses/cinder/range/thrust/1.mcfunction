@@ -1,0 +1,4 @@
+## Thrust frame 1
+tp @s ~ ~ ~ facing entity @p
+execute rotated as @s rotated ~ 0 run function labyrinth:generic/functions/raycast/start {"length":"50","hitEnd":"function labyrinth:mobs/bosses/cinder/range/thrust/dash_marker","hitBlock":"function labyrinth:mobs/bosses/cinder/range/thrust/dash_marker","hitEntity":"function labyrinth:mobs/bosses/cinder/range/thrust/dash_marker","vfx":"function none"}
+#execute rotated as @s rotated ~ 0 run function labyrinth:generic/functions/raycast_mode/ignore_entities/start {"length":"50","hitEnd":"function labyrinth:mobs/bosses/cinder/range/thrust/dash_marker","hitBlock":"function labyrinth:mobs/bosses/cinder/range/thrust/dash_marker","vfx":"function none"}

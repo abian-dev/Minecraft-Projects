@@ -1,0 +1,7 @@
+{
+    "function": "minecraft:set_components",
+    "components": {
+      "minecraft:custom_model_data": {"floats":[22]},
+      "minecraft:custom_name": {"color":"gold","italic":false,"text":"Excalibur"}
+    }
+}

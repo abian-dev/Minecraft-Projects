@@ -1,0 +1,2 @@
+$execute unless entity @e[type=area_effect_cloud,tag=ArcueidChains] run scoreboard players add @s kits.ability4CD $(magic)
+execute if score @s kits.ability4CD matches 101.. run scoreboard players set @s kits.ability4CD 100

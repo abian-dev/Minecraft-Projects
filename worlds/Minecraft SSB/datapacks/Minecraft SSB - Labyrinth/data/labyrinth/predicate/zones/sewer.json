@@ -1,0 +1,366 @@
+{
+  "condition": "minecraft:any_of",
+  "terms": [
+    {
+      "condition": "minecraft:location_check",
+      "predicate": {
+        "position": {
+          "x": {
+            "min": 55,
+            "max": 65
+          },
+          "y": {
+            "min": -30,
+            "max": -18
+          },
+          "z": {
+            "min": 1057,
+            "max": 1069
+          }
+        }
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "predicate": {
+        "position": {
+          "x": {
+            "min": 42,
+            "max": 54
+          },
+          "y": {
+            "min": -30,
+            "max": -16
+          },
+          "z": {
+            "min": 1057,
+            "max": 1069
+          }
+        }
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "predicate": {
+        "position": {
+          "x": {
+            "min": 42,
+            "max": 54
+          },
+          "y": {
+            "min": -30,
+            "max": -18
+          },
+          "z": {
+            "min": 1070,
+            "max": 1091
+          }
+        }
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "predicate": {
+        "position": {
+          "x": {
+            "min": 45,
+            "max": 51
+          },
+          "y": {
+            "min": -31,
+            "max": -15
+          },
+          "z": {
+            "min": 1089,
+            "max": 1095
+          }
+        }
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "predicate": {
+        "position": {
+          "x": {
+            "min": 49,
+            "max": 81
+          },
+          "y": {
+            "min": -30,
+            "max": -16
+          },
+          "z": {
+            "min": 1091,
+            "max": 1112
+          }
+        }
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "predicate": {
+        "position": {
+          "x": {
+            "min": 54,
+            "max": 71
+          },
+          "y": {
+            "min": -37,
+            "max": -14
+          },
+          "z": {
+            "min": 1071,
+            "max": 1094
+          }
+        }
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "predicate": {
+        "position": {
+          "x": {
+            "min": 82,
+            "max": 91
+          },
+          "y": {
+            "min": -30,
+            "max": -16
+          },
+          "z": {
+            "min": 1100,
+            "max": 1112
+          }
+        }
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "predicate": {
+        "position": {
+          "x": {
+            "min": 92,
+            "max": 131
+          },
+          "y": {
+            "min": -30,
+            "max": -14
+          },
+          "z": {
+            "min": 1092,
+            "max": 1120
+          }
+        }
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "predicate": {
+        "position": {
+          "x": {
+            "min": 112,
+            "max": 124
+          },
+          "y": {
+            "min": -33,
+            "max": -16
+          },
+          "z": {
+            "min": 1054,
+            "max": 1091
+          }
+        }
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "predicate": {
+        "position": {
+          "x": {
+            "min": 102,
+            "max": 134
+          },
+          "y": {
+            "min": -38,
+            "max": -13
+          },
+          "z": {
+            "min": 1021,
+            "max": 1053
+          }
+        }
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "predicate": {
+        "position": {
+          "x": {
+            "min": 92,
+            "max": 102
+          },
+          "y": {
+            "min": -33,
+            "max": -18
+          },
+          "z": {
+            "min": 1031,
+            "max": 1043
+          }
+        }
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "predicate": {
+        "position": {
+          "x": {
+            "min": 80,
+            "max": 92
+          },
+          "y": {
+            "min": -30,
+            "max": -16
+          },
+          "z": {
+            "min": 1031,
+            "max": 1043
+          }
+        }
+      }
+    },
+        {
+      "condition": "minecraft:location_check",
+      "predicate": {
+        "position": {
+          "x": {
+            "min": 80,
+            "max": 92
+          },
+          "y": {
+            "min": -30,
+            "max": -18
+          },
+          "z": {
+            "min": 1044,
+            "max": 1051
+          }
+        }
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "predicate": {
+        "position": {
+          "x": {
+            "min": 64,
+            "max": 79
+          },
+          "y": {
+            "min": -30,
+            "max": -15
+          },
+          "z": {
+            "min": 1031,
+            "max": 1043
+          }
+        }
+      }
+    },    
+    {
+      "condition": "minecraft:location_check",
+      "predicate": {
+        "position": {
+          "x": {
+            "min": 80,
+            "max": 92
+          },
+          "y": {
+            "min": -30,
+            "max": -18
+          },
+          "z": {
+            "min": 1022,
+            "max": 1030
+          }
+        }
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "predicate": {
+        "position": {
+          "x": {
+            "min": 77,
+            "max": 95
+          },
+          "y": {
+            "min": -37,
+            "max": -17
+          },
+          "z": {
+            "min": 1005,
+            "max": 1021
+          }
+        }
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "predicate": {
+        "position": {
+          "x": {
+            "min": 66,
+            "max": 106
+          },
+          "y": {
+            "min": -30,
+            "max": -14
+          },
+          "z": {
+            "min": 1052,
+            "max": 1074
+          }
+        }
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "predicate": {
+        "position": {
+          "x": {
+            "min": 112,
+            "max": 124
+          },
+          "y": {
+            "min": -33,
+            "max": -18
+          },
+          "z": {
+            "min": 1008,
+            "max": 1020
+          }
+        }
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "predicate": {
+        "position": {
+          "x": {
+            "min": 111,
+            "max": 125
+          },
+          "y": {
+            "min": -31,
+            "max": -13
+          },
+          "z": {
+            "min": 992,
+            "max": 1008
+          }
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+To implement concurrency:
+1. search "%vfx<name>" and append ".$(id)"
+2. search "storage minecraft:labyrinth.vfx <name>" and append ".$(id)"
+3. search "^(?!#)(?=.*\bfunction\b)(?!.*with storage)(.*)$" and replace "$1 with storage minecraft:labyrinth.vfx <name>.$$(id)"
+4. search "^(?![$#])(.*\$\(id\).*)" and replace "$$$1"
+5. add these lines in file "execute":
+ a. $data modify storage minecraft:labyrinth.vfx <name>.$(id).id set value $(id)
+ b. $scoreboard players set <object> labyrinth.generic.id $(id)
+6. add these additional files:
+ a. play
+ b. main
+7. DOUBLE CHECK FOR SPECIFIC CASES

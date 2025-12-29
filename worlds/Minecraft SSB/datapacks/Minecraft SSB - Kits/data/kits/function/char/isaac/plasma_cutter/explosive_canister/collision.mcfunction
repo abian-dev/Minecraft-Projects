@@ -1,0 +1,17 @@
+## If Explosive Collides With Enemy or Plasma Cut Ray
+# Execute at enemies hit by explosion
+execute as @e[distance=..10,tag=!Isaac,tag=!InLabyrinth,type=!#kits:non_entity,tag=!Invincible] at @s run function kits:char/isaac/plasma_cutter/explosive_canister/hit
+
+# Detonates nearby explosives
+tag @e[distance=..10,tag=IsaacObjectExplosive,type=armor_stand] add IsaacObjectExplosiveDetonating
+
+# Particles
+function kits:generic/vfx/expanding_sphere/variant1/play {"accuracy":"200","speed":"200","limit":"5","particle":"flame"}
+particle flame ~ ~0.5 ~ 0 0 0 1 100 force
+particle flash{color:[1.000,1.000,1.000,1.00]} ~ ~0.5 ~ 0 0 0 0 2 force
+
+# Sound
+playsound minecraft:entity.generic.explode neutral @a[distance=..40] ~ ~ ~ 2 0 1
+
+# Kills explosive
+kill @s
