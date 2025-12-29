@@ -1,0 +1,99 @@
+{
+	"credit": "Made with Blockbench",
+	"textures": {
+		"0": "60/blade",
+		"1": "60/handle",
+		"particle": "60/blade"
+	},
+	"elements": [
+		{
+			"from": [7.75, -3.41667, 4.33333],
+			"to": [8.25, 0.58333, 5.33333],
+			"rotation": {"angle": 0, "axis": "x", "origin": [8, 0.45833, 11.875]},
+			"faces": {
+				"north": {"uv": [0, 0, 0.5, 4], "rotation": 180, "texture": "#1"},
+				"east": {"uv": [0, 0, 4, 1], "rotation": 90, "texture": "#1"},
+				"south": {"uv": [0, 0, 0.5, 4], "texture": "#1"},
+				"west": {"uv": [0, 0, 4, 1], "rotation": 270, "texture": "#1"},
+				"up": {"uv": [0, 0, 0.5, 1], "texture": "#1"},
+				"down": {"uv": [0, 0, 0.5, 1], "rotation": 180, "texture": "#1"}
+			}
+		},
+		{
+			"from": [8, 0.58333, 4.33333],
+			"to": [8, 11.58333, 5.33333],
+			"rotation": {"angle": 0, "axis": "x", "origin": [8, 0.45833, 11.875]},
+			"faces": {
+				"north": {"uv": [0, 0, 0, 11], "rotation": 180, "texture": "#0"},
+				"east": {"uv": [0, 0, 11, 1], "rotation": 90, "texture": "#0"},
+				"south": {"uv": [0, 0, 0, 11], "texture": "#0"},
+				"west": {"uv": [0, 0, 11, 1], "rotation": 270, "texture": "#0"},
+				"up": {"uv": [0, 0, 0, 1], "texture": "#0"},
+				"down": {"uv": [0, 0, 0, 1], "rotation": 180, "texture": "#0"}
+			}
+		},
+		{
+			"from": [8, 11.58333, 4.58333],
+			"to": [8, 11.83333, 5.33333],
+			"rotation": {"angle": 0, "axis": "x", "origin": [8, 0.45833, 11.875]},
+			"faces": {
+				"north": {"uv": [0, 0, 0, 0.25], "rotation": 180, "texture": "#0"},
+				"east": {"uv": [0, 0, 0.25, 0.75], "rotation": 90, "texture": "#0"},
+				"south": {"uv": [0, 0, 0, 0.25], "texture": "#0"},
+				"west": {"uv": [0, 0, 0.25, 0.75], "rotation": 270, "texture": "#0"},
+				"up": {"uv": [0, 0, 0, 0.75], "texture": "#0"},
+				"down": {"uv": [0, 0, 0, 0.75], "rotation": 180, "texture": "#0"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"translation": [0, 8.5, 4.5]
+		},
+		"thirdperson_lefthand": {
+			"translation": [0, 8.5, 4.5]
+		},
+		"firstperson_righthand": {
+			"rotation": [0, -5, -69],
+			"translation": [5, 0.25, 0]
+		},
+		"firstperson_lefthand": {
+			"rotation": [0, -5, -69],
+			"translation": [5, 0.25, 0]
+		},
+		"ground": {
+			"translation": [0, 10, 0]
+		},
+		"gui": {
+			"rotation": [90, 40, -90],
+			"translation": [6.5, 0, 0],
+			"scale": [1.25, 1.25, 1.25]
+		},
+		"fixed": {
+			"rotation": [90, 40, -90],
+			"translation": [6.25, 0, 0],
+			"scale": [1.25, 1.25, 1.25]
+		}
+	},
+	"groups": [
+		{
+			"name": "sword",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"children": [
+				{
+					"name": "handle",
+					"origin": [8, 8, 8],
+					"color": 0,
+					"children": [0]
+				},
+				{
+					"name": "blade",
+					"origin": [8, 8, 8],
+					"color": 0,
+					"children": [1, 2]
+				}
+			]
+		}
+	]
+}

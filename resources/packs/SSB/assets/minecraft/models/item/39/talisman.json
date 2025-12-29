@@ -1,0 +1,20 @@
+{
+	"format_version": "1.21.6",
+	"credit": "Made with Blockbench",
+	"parent": "item/generated",
+	"texture_size": [18, 16],
+	"textures": {
+		"layer0": "39/talisman"
+	},
+	"display": {
+		"ground": {
+			"translation": [0, 6.25, 0]
+		},
+		"gui": {
+			"translation": [1, 0, 0]
+		},
+		"fixed": {
+			"translation": [0.5, 0, 0]
+		}
+	}
+}

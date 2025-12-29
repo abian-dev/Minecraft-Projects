@@ -1,0 +1,571 @@
+{
+    "sources": [
+        {
+            "type": "single",
+            "resource": "minecraft:1/dragonslayer"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:10/outeredge"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:10/middle"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:11/spellbook"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:12/clockhand"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:13/arm"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:13/band"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:14/crucible"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:15/shotgun"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:16/bfg"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:17/chains"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:17/nunchuck"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:18/akseventyfour"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:19/pentagram"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:2/trigger"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:2/barrel"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:2/hammer"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:20/avalon"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:21/invisibleair"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:22/excalibur"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:23/water"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:24/sun"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:25/nen"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:26/jax"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:26/defense"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:27/zed"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:27/eyes"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:28/eyes"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:28/skull"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:28/x"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:29/outline"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:3/jackal"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:30/scroll"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:31/battleaxe"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:32/handle"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:32/blade"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:32/darius"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:33/transmutedarm"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:33/blade"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:34/inside"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:34/outline"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:35/outline"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:35/inside"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:35/shine"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:36/kusabimaru"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:37/kusabimaru"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:38/forceedge"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:39/talisman"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:4/chainsaw_blade"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:40/arm"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:40/lightning_animation"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:41/arm"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:41/lightning_animation"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:42/bar"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:42/weight"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:43/dragonkick"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:44/texture"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:44/inside"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:45/eyes"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:46/chains"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:47/plasma_cutter"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:48/plasma_cutter_reload"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:49/texture"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:5/nails"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:50/maskback"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:50/maskeyeline"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:50/eye"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:51/arm"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:51/band"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:51/sleeve"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:52/gauntlet"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:53/infinity_blade"
+        },        {
+            "type": "single",
+            "resource": "minecraft:54/grenadelauncher"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:55/card"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:56/ritual"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:57/outline"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:57/portal"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:58/possession"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:59/airforceglove"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:6/offensive"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:60/blade"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:60/handle"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:61/handle"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:61/handle2"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:61/blade"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:61/blade2"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:62/claymore"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:63/blade"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:63/guard"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:63/handle"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:63/handle2"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:64/falchion"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:65/artoriasgreatsword"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:66/dawnbreaker"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:67/prosthetic"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:69/wii"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:7/defensive"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:70/arrow"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:71/rock"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:71/fire"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:71/rockinterior"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:8/fist"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:8/arm"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:73/white"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:73/atom"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:74/black"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:74/skull"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:75/knife"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:75/red"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:76/blade"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:77/cleaver"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:80/katana"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:81/pod"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:82/ballista"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:83/kusarigama"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:84/paralyze"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:84/paralyze_animation"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:85/rise"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:86/baseball_bat"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:87/pistol"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:88/shotgun"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:89/bone"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:9/lamp"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:90/muramasa"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:90/muramasa_animation"
+        },
+	{
+            "type": "single",
+            "resource": "minecraft:91/bladesofchaos"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:92/metalarm"
+        },
+	{
+            "type": "single",
+            "resource": "minecraft:93/adventurer_sword"
+        },
+	{
+            "type": "single",
+            "resource": "minecraft:94/hackedsword"
+        },
+	{
+            "type": "single",
+            "resource": "minecraft:95/elucidator"
+        },
+	{
+            "type": "single",
+            "resource": "minecraft:96/pokeball"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:97/glove"
+        },
+	{
+            "type": "single",
+            "resource": "minecraft:98/black"
+        },
+	{
+            "type": "single",
+            "resource": "minecraft:98/garda"
+        },
+	{
+            "type": "single",
+            "resource": "minecraft:98/gold"
+        },
+	{
+            "type": "single",
+            "resource": "minecraft:98/silver"
+        },
+	{
+            "type": "single",
+            "resource": "minecraft:98/white"
+        },
+	{
+            "type": "single",
+            "resource": "minecraft:99/firelink_greatsword"
+        },
+	{
+            "type": "single",
+            "resource": "minecraft:100/type-4o_lance"
+        },
+	{
+            "type": "single",
+            "resource": "minecraft:101/type-4o_blade"
+        },
+	{
+            "type": "single",
+            "resource": "minecraft:102/type-4o_sword"
+        },
+	{
+            "type": "single",
+            "resource": "minecraft:103/foxarm"
+        }
+    ]
+}

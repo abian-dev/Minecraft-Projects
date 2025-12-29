@@ -1,0 +1,10 @@
+{
+  "boss.betrayal":{"category":"music","sounds":["boss/betrayal"]},
+  "boss.war":{"category":"music","sounds":["boss/war"]},
+  "boss.cinder":{"category":"music","sounds":["boss/cinder"]},
+  "sekiro.deflect_big":{"category":"sound","sounds":["misc/sekiro/deflect_big"]},
+  "sekiro.deflect_medium":{"category":"sound","sounds":["misc/sekiro/deflect_medium"]},
+  "sekiro.deflect_small":{"category":"sound","sounds":["misc/sekiro/deflect_small"]},
+  "sekiro.deflect_small2":{"category":"sound","sounds":["misc/sekiro/deflect_small2"]},
+  "sekiro.posture_break":{"category":"sound","sounds":["misc/sekiro/posture_break"]}
+}

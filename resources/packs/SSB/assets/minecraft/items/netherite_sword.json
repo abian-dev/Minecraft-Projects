@@ -1,0 +1,33 @@
+{
+    "model": {
+        "type": "range_dispatch",
+        "property": "custom_model_data",
+        "fallback": {
+            "type": "model",
+            "model": "item/netherite_sword"
+        },
+        "entries": [
+            {
+                "threshold": 65,
+                "model": {
+                    "type": "model",
+                    "model": "item/65/artoriasgreatsword"
+                }
+            },
+            {
+                "threshold": 76,
+                "model": {
+                    "type": "model",
+                    "model": "item/76/pyramidheadcleaver"
+                }
+            },
+            {
+                "threshold": 77,
+                "model": {
+                    "type": "model",
+                    "model": "item/77/zoddcleaver"
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,47 @@
+{
+    "model": {
+        "type": "range_dispatch",
+        "property": "custom_model_data",
+        "fallback": {
+            "type": "model",
+            "model": "item/iron_sword"
+        },
+        "entries": [
+            {
+                "threshold": 36,
+                "model": {
+                    "type": "model",
+                    "model": "item/36/kusabimaru"
+                }
+            },
+            {
+                "threshold": 37,
+                "model": {
+                    "type": "model",
+                    "model": "item/37/kusabimaru"
+                }
+            },
+            {
+                "threshold": 61,
+                "model": {
+                    "type": "model",
+                    "model": "item/61/dragonblade"
+                }
+            },
+            {
+                "threshold": 63,
+                "model": {
+                    "type": "model",
+                    "model": "item/63/nichirinblade"
+                }
+            },
+            {
+                "threshold": 64,
+                "model": {
+                    "type": "model",
+                    "model": "item/64/falchion"
+                }
+            }
+        ]
+    }
+}

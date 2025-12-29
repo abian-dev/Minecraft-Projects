@@ -1,0 +1,656 @@
+{
+    "model": {
+        "type": "range_dispatch",
+        "property": "custom_model_data",
+        "fallback": {
+            "type": "model",
+            "model": "item/carrot_on_a_stick"
+        },
+        "entries": [
+            {
+                "threshold": 1,
+                "model": {
+                    "type": "model",
+                    "model": "item/1/dragonslayer"
+                }
+            },
+            {
+                "threshold": 2,
+                "model": {
+                    "type": "model",
+                    "model": "item/2/handcannon"
+                }
+            },
+            {
+                "threshold": 3,
+                "model": {
+                    "type": "model",
+                    "model": "item/3/jackal"
+                }
+            },
+            {
+                "threshold": 4,
+                "model": {
+                    "type": "model",
+                    "model": "item/4/chainsaw"
+                }
+            },
+            {
+                "threshold": 5,
+                "model": {
+                    "type": "model",
+                    "model": "item/5/claws"
+                }
+            },
+            {
+                "threshold": 6,
+                "model": {
+                    "type": "model",
+                    "model": "item/6/offensive"
+                }
+            },
+            {
+                "threshold": 7,
+                "model": {
+                    "type": "model",
+                    "model": "item/7/defensive"
+                }
+            },
+            {
+                "threshold": 8,
+                "model": {
+                    "type": "model",
+                    "model": "item/8/elasticfist"
+                }
+            },
+            {
+                "threshold": 9,
+                "model": {
+                    "type": "model",
+                    "model": "item/9/lamp"
+                }
+            },
+            {
+                "threshold": 10,
+                "model": {
+                    "type": "model",
+                    "model": "item/10/shuriken"
+                }
+            },
+            {
+                "threshold": 11,
+                "model": {
+                    "type": "model",
+                    "model": "item/11/spellbook"
+                }
+            },
+            {
+                "threshold": 12,
+                "model": {
+                    "type": "model",
+                    "model": "item/12/clockhand"
+                }
+            },
+            {
+                "threshold": 13,
+                "model": {
+                    "type": "model",
+                    "model": "item/13/wristband"
+                }
+            },
+            {
+                "threshold": 15,
+                "model": {
+                    "type": "model",
+                    "model": "item/15/shotgun"
+                }
+            },
+            {
+                "threshold": 16,
+                "model": {
+                    "type": "model",
+                    "model": "item/16/bfg"
+                }
+            },
+            {
+                "threshold": 17,
+                "model": {
+                    "type": "model",
+                    "model": "item/17/nunchucks"
+                }
+            },
+            {
+                "threshold": 18,
+                "model": {
+                    "type": "model",
+                    "model": "item/18/ak47"
+                }
+            },
+            {
+                "threshold": 19,
+                "model": {
+                    "type": "model",
+                    "model": "item/19/pentagram"
+                }
+            },
+            {
+                "threshold": 20,
+                "model": {
+                    "type": "model",
+                    "model": "item/20/avalon"
+                }
+            },
+            {
+                "threshold": 21,
+                "model": {
+                    "type": "model",
+                    "model": "item/21/invisibleair"
+                }
+            },
+            {
+                "threshold": 22,
+                "model": {
+                    "type": "model",
+                    "model": "item/22/excalibur"
+                }
+            },
+            {
+                "threshold": 23,
+                "model": {
+                    "type": "model",
+                    "model": "item/23/waterbreathing"
+                }
+            },
+            {
+                "threshold": 24,
+                "model": {
+                    "type": "model",
+                    "model": "item/24/sunbreathing"
+                }
+            },
+            {
+                "threshold": 25,
+                "model": {
+                    "type": "model",
+                    "model": "item/25/nen"
+                }
+            },
+            {
+                "threshold": 26,
+                "model": {
+                    "type": "model",
+                    "model": "item/26/unit"
+                }
+            },
+            {
+                "threshold": 27,
+                "model": {
+                    "type": "model",
+                    "model": "item/27/shadow"
+                }
+            },
+            {
+                "threshold": 28,
+                "model": {
+                    "type": "model",
+                    "model": "item/28/deathmark"
+                }
+            },
+            {
+                "threshold": 29,
+                "model": {
+                    "type": "model",
+                    "model": "item/29/zdrive"
+                }
+            },
+            {
+                "threshold": 30,
+                "model": {
+                    "type": "model",
+                    "model": "item/30/scroll"
+                }
+            },
+            {
+                "threshold": 31,
+                "model": {
+                    "type": "model",
+                    "model": "item/31/battleaxe"
+                }
+            },
+            {
+                "threshold": 32,
+                "model": {
+                    "type": "model",
+                    "model": "item/32/guillotine"
+                }
+            },
+            {
+                "threshold": 33,
+                "model": {
+                    "type": "model",
+                    "model": "item/33/transmutedarm"
+                }
+            },
+            {
+                "threshold": 34,
+                "model": {
+                    "type": "model",
+                    "model": "item/34/lightningbolt"
+                }
+            },
+            {
+                "threshold": 35,
+                "model": {
+                    "type": "model",
+                    "model": "item/35/heart"
+                }
+            },
+            {
+                "threshold": 38,
+                "model": {
+                    "type": "model",
+                    "model": "item/38/forceedge"
+                }
+            },
+            {
+                "threshold": 39,
+                "model": {
+                    "type": "model",
+                    "model": "item/39/talisman"
+                }
+            },
+            {
+                "threshold": 40,
+                "model": {
+                    "type": "model",
+                    "model": "item/40/sorceryfist"
+                }
+            },
+            {
+                "threshold": 41,
+                "model": {
+                    "type": "model",
+                    "model": "item/41/sorceryfist"
+                }
+            },
+            {
+                "threshold": 42,
+                "model": {
+                    "type": "model",
+                    "model": "item/42/dumbbell"
+                }
+            },
+            {
+                "threshold": 43,
+                "model": {
+                    "type": "model",
+                    "model": "item/43/dragonkick"
+                }
+            },
+            {
+                "threshold": 44,
+                "model": {
+                    "type": "model",
+                    "model": "item/44/necroplasmutility"
+                }
+            },
+            {
+                "threshold": 45,
+                "model": {
+                    "type": "model",
+                    "model": "item/45/necroplasmoffensive"
+                }
+            },
+            {
+                "threshold": 46,
+                "model": {
+                    "type": "model",
+                    "model": "item/46/chains"
+                }
+            },
+            {
+                "threshold": 47,
+                "model": {
+                    "type": "model",
+                    "model": "item/47/plasma_cutter"
+                }
+            },
+            {
+                "threshold": 48,
+                "model": {
+                    "type": "model",
+                    "model": "item/48/plasma_cutter_reload"
+                }
+            },
+            {
+                "threshold": 49,
+                "model": {
+                    "type": "model",
+                    "model": "item/49/kagune"
+                }
+            },
+            {
+                "threshold": 50,
+                "model": {
+                    "type": "model",
+                    "model": "item/50/kakujamask"
+                }
+            },
+            {
+                "threshold": 51,
+                "model": {
+                    "type": "model",
+                    "model": "item/51/yakuzasleeve"
+                }
+            },
+            {
+                "threshold": 52,
+                "model": {
+                    "type": "model",
+                    "model": "item/52/gauntlet"
+                }
+            },
+            {
+                "threshold": 53,
+                "model": {
+                    "type": "model",
+                    "model": "item/53/infinity_blade"
+                }
+            },
+            {
+                "threshold": 54,
+                "model": {
+                    "type": "model",
+                    "model": "item/54/grenadelauncher"
+                }
+            },
+            {
+                "threshold": 55,
+                "model": {
+                    "type": "model",
+                    "model": "item/55/yugioh"
+                }
+            },
+            {
+                "threshold": 56,
+                "model": {
+                    "type": "model",
+                    "model": "item/56/ritual"
+                }
+            },
+            {
+                "threshold": 57,
+                "model": {
+                    "type": "model",
+                    "model": "item/57/portal"
+                }
+            },
+            {
+                "threshold": 58,
+                "model": {
+                    "type": "model",
+                    "model": "item/58/possession"
+                }
+            },
+            {
+                "threshold": 59,
+                "model": {
+                    "type": "model",
+                    "model": "item/59/airforceglove"
+                }
+            },
+            {
+                "threshold": 60,
+                "model": {
+                    "type": "model",
+                    "model": "item/60/deflectblade"
+                }
+            },
+            {
+                "threshold": 61,
+                "model": {
+                    "type": "model",
+                    "model": "item/61/dragonblade"
+                }
+            },
+            {
+                "threshold": 62,
+                "model": {
+                    "type": "model",
+                    "model": "item/62/claymore"
+                }
+            },
+            {
+                "threshold": 66,
+                "model": {
+                    "type": "model",
+                    "model": "item/66/dawnbreaker"
+                }
+            },
+            {
+                "threshold": 67,
+                "model": {
+                    "type": "model",
+                    "model": "item/67/prosthetic"
+                }
+            },
+            {
+                "threshold": 69,
+                "model": {
+                    "type": "model",
+                    "model": "item/69/wii"
+                }
+            },
+            {
+                "threshold": 70,
+                "model": {
+                    "type": "model",
+                    "model": "item/70/uppercut"
+                }
+            },
+            {
+                "threshold": 71,
+                "model": {
+                    "type": "model",
+                    "model": "item/71/meteor"
+                }
+            },
+            {
+                "threshold": 72,
+                "model": {
+                    "type": "model",
+                    "model": "item/72/elasticpalm"
+                }
+            },
+            {
+                "threshold": 73,
+                "model": {
+                    "type": "model",
+                    "model": "item/73/particles"
+                }
+            },
+            {
+                "threshold": 74,
+                "model": {
+                    "type": "model",
+                    "model": "item/74/deatheffect"
+                }
+            },
+            {
+                "threshold": 75,
+                "model": {
+                    "type": "model",
+                    "model": "item/75/killmessages"
+                }
+            },
+            {
+                "threshold": 80,
+                "model": {
+                    "type": "model",
+                    "model": "item/80/katana"
+                }
+            },
+            {
+                "threshold": 81,
+                "model": {
+                    "type": "model",
+                    "model": "item/81/pod"
+                }
+            },
+            {
+                "threshold": 82,
+                "model": {
+                    "type": "model",
+                    "model": "item/82/ballista"
+                }
+            },
+            {
+                "threshold": 83,
+                "model": {
+                    "type": "model",
+                    "model": "item/83/kusarigama"
+                }
+            },
+            {
+                "threshold": 84,
+                "model": {
+                    "type": "model",
+                    "model": "item/84/paralyze"
+                }
+            },
+            {
+                "threshold": 85,
+                "model": {
+                    "type": "model",
+                    "model": "item/85/rise"
+                }
+            },
+            {
+                "threshold": 86,
+                "model": {
+                    "type": "model",
+                    "model": "item/86/baseball_bat"
+                }
+            },
+            {
+                "threshold": 87,
+                "model": {
+                    "type": "model",
+                    "model": "item/87/pistol"
+                }
+            },
+            {
+                "threshold": 88,
+                "model": {
+                    "type": "model",
+                    "model": "item/88/shotgun"
+                }
+            },
+            {
+                "threshold": 89,
+                "model": {
+                    "type": "model",
+                    "model": "item/89/bone"
+                }
+            },
+            {
+                "threshold": 90,
+                "model": {
+                    "type": "model",
+                    "model": "item/90/muramasa"
+                }
+            },
+            {
+                "threshold": 91,
+                "model": {
+                    "type": "model",
+                    "model": "item/91/bladesofchaos"
+                }
+            },
+            {
+                "threshold": 92,
+                "model": {
+                    "type": "model",
+                    "model": "item/92/metalarm"
+                }
+            },
+            {
+                "threshold": 93,
+                "model": {
+                    "type": "model",
+                    "model": "item/93/adventurer_sword"
+                }
+            },
+            {
+                "threshold": 94,
+                "model": {
+                    "type": "model",
+                    "model": "item/94/hackedsword"
+                }
+            },
+            {
+                "threshold": 95,
+                "model": {
+                    "type": "model",
+                    "model": "item/95/elucidator"
+                }
+            },
+            {
+                "threshold": 96,
+                "model": {
+                    "type": "model",
+                    "model": "item/96/pokeball"
+                }
+            },
+            {
+                "threshold": 97,
+                "model": {
+                    "type": "model",
+                    "model": "item/97/glove"
+                }
+            },
+            {
+                "threshold": 98,
+                "model": {
+                    "type": "model",
+                    "model": "item/98/yamato"
+                }
+            },
+            {
+                "threshold": 99,
+                "model": {
+                    "type": "model",
+                    "model": "item/99/firelink_greatsword"
+                }
+            },
+            {
+                "threshold": 100,
+                "model": {
+                    "type": "model",
+                    "model": "item/100/type-4o_lance"
+                }
+            },
+            {
+                "threshold": 101,
+                "model": {
+                    "type": "model",
+                    "model": "item/101/type-4o_blade"
+                }
+            },
+            {
+                "threshold": 102,
+                "model": {
+                    "type": "model",
+                    "model": "item/102/type-4o_sword"
+                }
+            },
+            {
+                "threshold": 103,
+                "model": {
+                    "type": "model",
+                    "model": "item/103/foxarm"
+                }
+            }
+        ]
+    }
+}
