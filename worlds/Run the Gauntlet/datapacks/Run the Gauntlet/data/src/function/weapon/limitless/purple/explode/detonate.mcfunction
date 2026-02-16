@@ -4,7 +4,7 @@ execute as @e[type=!#src:non_entity,distance=..10,tag=!limitless.purple.explode.
 
 # fx
 function src:generic/vfx/expanding_sphere/variant1/play {"accuracy":"100","speed":"300","limit":"10","particle":"flash{color:[1.0,0.0,1.0,1.0]}"}
-function src:generic/vfx/radial_forked_lightning/play {"inaccuracy":"100","rootsMin":"5","rootsMax":"10","branchesMin":"15","branchesMax":"20","branchLengthMin":"5","branchLengthMax":"10","particle":"dust{color:[1.0,0.0,1.0],scale:2.0}"}
+function src:generic/vfx/radial_forked_lightning/play {"inaccuracy":"50","rootsMin":"8","rootsMax":"10","branchesMin":"15","branchesMax":"20","branchLengthMin":"10","branchLengthMax":"20","particle":"dust{color:[1.0,0.0,1.0],scale:1.2}"}
 playsound entity.lightning_bolt.impact neutral @a[distance=..20] ~ ~ ~ 2 0 1
 playsound entity.lightning_bolt.thunder neutral @a[distance=..20] ~ ~ ~ 2 2 1
 

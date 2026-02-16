@@ -8,7 +8,7 @@ execute if score @s in.sequence matches 22 if score @s in.rmb.on matches 1.. if 
 
 execute if score @s in.sequence matches 21 if score @s in.rmb.on matches 1.. if score @s weapon.cd matches ..0 if score @s cost.energy matches 40.. run return run function src:weapon/limitless/purple/use
 execute if score @s in.sequence matches 111 if score @s in.rmb.on matches 1.. if score @s weapon.cd matches ..0 if score @s cost.energy matches 35.. run return run function src:weapon/limitless/grab/use
-execute if score @s in.sequence matches 134 if score @s in.rmb.on matches 1.. if score @s weapon.cd2 matches ..0 unless entity @e[type=area_effect_cloud,tag=limitless.void] if score @s cost.energy matches 70.. run return run function src:weapon/limitless/void/use
+execute if score @s in.sequence matches 134 if score @s in.rmb.on matches 1.. if score @s weapon.cd2 matches ..0 if score @s cost.energy matches 70.. run return run function src:weapon/limitless/void/use
 
 execute if score @s in.rmb.on matches 1.. run scoreboard players reset @s in.sequence
 
